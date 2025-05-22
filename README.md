@@ -5,13 +5,11 @@
 <p align=center>
 &nbsp;<a href="" target="_blank"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 &nbsp;
-<a href="https://discord.gg/" target="_blank"><img alt="Join our Discord" src="https://img.shields.io/badge/Discord-Join-blue?logo=discord"/></a>
+<!-- <a href="https://discord.gg/" target="_blank"><img alt="Join our Discord" src="https://img.shields.io/badge/Discord-Join-blue?logo=discord"/></a>
+&nbsp;-->
+<a rel="me" href="https://mastodon.social/@nerdydaytrips"><img alt="Follow on Mastodon" src="https://img.shields.io/badge/Mastodon-Follow-blue?logoColor=white&logo=mastodon"/></a>
 &nbsp;
-<a rel="me" href="https://mastodon.social/"><img alt="Follow on Mastodon" src="https://img.shields.io/badge/Mastodon-Follow-blue?logoColor=white&logo=mastodon"/></a>
-&nbsp;
-<a rel="me" href="https://bsky.app/profile/"><img alt="Follow on BlueSky" src="https://img.shields.io/badge/Bluesky-Follow-blue?logoColor=white&logo=Bluesky"/></a>
-&nbsp;
-<a rel="me" href="https://mastodon.socia/"><img alt="Follow on Twitter" src="https://img.shields.io/badge/Twitter-Follow-blue?logoColor=white&logo=X"/></a>
+<a rel="me" href="https://bsky.app/profile/nerdydaytrips.bsky.social"><img alt="Follow on BlueSky" src="https://img.shields.io/badge/Bluesky-Follow-blue?logoColor=white&logo=Bluesky"/></a>
 </p>
 
 [NerdyDayTrips.org](https://nerdydaytrips.org/) aims to create a global map of places to visit that might appeal to nerdy types. The open source data is crowd-sourced in this repository. The website is regularly built using this data.
@@ -28,7 +26,7 @@ Create a dynamic, sustainable, and accessible map showing places to go, and thin
 
 ## How it works
 
-This repository on GitHub contains a file for each place shown on the map. A GitHub action deploys the main [NerdyDayTrips.org](https://nerdydaytrips.org/) website and the [NerdyDayTrips blog](https://blog.nerdydaytrips.org/) periodically - when there are changes made.
+This repository on GitHub contains a file for each place shown on the map. A GitHub action deploys the main [NerdyDayTrips.org](https://nerdydaytrips.org/) website and the [NerdyDayTrips blog](https://nerdydaytrips.org/blog/) periodically - when there are changes made.
 
 ## Contributing
 
