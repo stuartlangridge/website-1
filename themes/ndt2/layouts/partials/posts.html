@@ -1,0 +1,19 @@
+<h3>Recently added Day Trips</h3>
+<ul id="posts">
+{{- range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    <li class="post-item">
+        <div class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+        <div class="post-summary">
+            {{ if .Params.description }}
+                {{ .Params.description | truncate 80 }}
+            {{ else }}
+                {{ .Summary | truncate 80 }}
+            {{ end }}
+        </div>
+    </li>
+{{- end }}
+</ul>
+

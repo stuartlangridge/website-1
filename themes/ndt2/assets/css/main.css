@@ -1,0 +1,549 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    /* color: #313a3d; */
+    color: #ecf0f1; /* Light text for dark background */
+    background-color: #2c3e50; /* Dark background */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    line-height: 1.6;
+    overflow-y: auto; /* Ensure content is scrollable */
+}
+
+header#banner {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #34495e; /* Slightly lighter dark grey for banner - consistent with index.html */
+    color: #ecf0f1; /* Default light text color for the body */
+    width: 100%; /* Ensure full width */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Add shadow for depth */
+    z-index: 1000; /* Ensure it's above other content */
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Push site name left and nav right */
+    align-items: center; /* Vertically align items in the center */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    position: relative; /* Establish positioning context */
+}
+
+header#banner a {
+    color: #ecf0f1; /* Ensure h1 link color matches banner text color */
+    text-decoration: none;
+}
+
+header#banner a:hover {
+    text-decoration: underline;
+}
+
+header#banner h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increased font size */
+    /* Site name (h1) will be on the left by default */
+}
+
+/* Nav will be on the right due to justify-content: space-between on parent */
+
+header#banner nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* Ensure items align to the right */
+}
+
+header#banner nav ul li {
+    margin-left: 20px;
+    white-space: nowrap; /* Prevent wrapping of menu items */
+}
+
+header#banner nav a {
+    color: #ecf0f1; /* Ensure nav link color matches banner text color */
+    text-decoration: none;
+}
+
+header#banner nav a:hover {
+    text-decoration: underline;
+}
+
+main#content a {
+    /* color: #007dfa; */
+    color: #7cc5f1; /* Light blue for links on dark background */
+    text-decoration: none;
+}
+
+main#content a:hover {
+    text-decoration: underline;
+    /* Consider a slightly brighter color for hover on dark background if needed */
+    /* color: #9ae0ff; */
+}
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 0;
+    line-height: 1.15;
+}
+
+main#content h3 {
+    font-size: 19px;
+    font-size: 1.9rem;
+}
+
+main#content h1 + p,
+main#content h2 + p,
+main#content h3 + p,
+main#content h4 + p,
+main#content h5 + p,
+main#content h6 + p {
+    margin-top: 5px;
+}
+
+main#content p {
+    /* color: #394548; */
+    color: inherit; /* Inherit light text color from body */
+    margin: 16px 0;
+}
+
+main#content hr {
+    height: 1px;
+    border: 0;
+    /* background: #d8d8d8; */
+    background: #4f5b66; /* Darker separator for dark background */
+}
+
+/* index.html styles */
+main#content ul#posts {
+    list-style-type: none;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+main#content ul#posts li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+main#content ul#posts small {
+    font-size: 0.8em;
+    /* color: #767676; */
+    color: #bdc3c7; /* Lighter grey for dark background */
+    margin-left: 10px;
+}
+
+main#content ul#posts li a {
+    text-decoration: none;
+    /* Will inherit color from main#content a (#7cc5f1) */
+}
+
+main#content ul#posts li a:hover {
+    /* color: #369aff; */
+    color: #9ae0ff; /* Lighter blue for hover */
+}
+
+main#content ul#posts li a:hover small {
+    color: inherit;
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
+    line-height: 1.15;
+}
+
+main#content header#post-header div {
+    display: block;
+    font-size: 0.85em;
+    /* color: #767676; */
+    color: #bdc3c7; /* Lighter grey for readability */
+}
+
+main#content #toc {
+    /* border: 1px solid #b1b1b1; */
+    border: 1px solid #4f5b66; /* Darker border for dark background */
+    border-radius: 1px;
+    line-height: 26px;
+    margin: 16px 0;
+    padding: 9px 14px;
+}
+
+main#content #toc h4 {
+    font-size: 1.06em;
+    /* color: #3d3d3d; */
+    color: inherit; /* Inherit light text color */
+    margin: 0;
+}
+
+main#content #toc nav#TableOfContents {
+    margin-top: 4px;
+}
+
+main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
+    margin-left: -40px;
+}
+
+main#content #toc ul, main#content #toc ol {
+    font-size: 0.98em;
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+main#content #toc ul {
+    list-style-type: none;
+}
+
+main#content #toc ol {
+    counter-reset: item;
+}
+
+main#content #toc ol li {
+    display: block;
+}
+
+main#content #toc ol li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure {
+    margin: 16px 0;
+}
+
+main#content figure img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure figcaption {
+    font-size: 0.92em;
+    font-style: italic;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+
+main#content figure figcaption h4 {
+    font-style: normal;
+    display: inline;
+    margin: 0;
+}
+
+main#content figure figcaption p {
+    display: inline;
+    margin: 0;
+    padding-left: 8px;
+}
+
+main#content blockquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px; /* Consider reducing for smaller screens or overall width */
+    padding-left: 15px;
+    /* border-left: 3px solid #ccc; */
+    border-left: 3px solid #556677; /* Darker border for blockquote */
+    /* Text color should be inherited */
+}
+
+main#content code,
+main#content pre {
+    font-family: 'Menlo', monospace;
+}
+
+main#content code {
+    font-size: 0.96em;
+    padding: 0 5px;
+    background-color: #3b4045; /* Dark background for inline code */
+    color: #f0a0a0; /* Light reddish/pink for inline code text */
+}
+
+main#content pre {
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+    font-size: 1.4rem;
+    white-space: pre;
+    margin: 20px 0;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4;
+    background-color: #1e1e1e; /* Very dark background for code blocks */
+    color: #d4d4d4; /* Light grey text for code blocks */
+    border: 1px solid #4f5b66; /* Border for code blocks */
+}
+
+main#content pre code {
+    padding: 0;
+    background-color: transparent; /* Transparent as pre has background */
+    color: inherit; /* Inherit color from pre */
+    font-size: inherit; /* Inherit font-size from pre */
+}
+
+main#content section.footnotes {
+    font-size: 0.9em;
+}
+
+footer#footer {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #949494;
+    margin: 40px 0;
+}
+
+/* Added from index.html */
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2c3e50; /* Dark page background */
+  color: #ecf0f1; /* Default light text color for the body */
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* This might be problematic if body also sets height and overflow */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+}
+
+.sidebar {
+  width: 300px;
+  background: #3b4045; /* Medium dark grey for sidebar */
+  color: #bdc3c7; /* Light text for sidebar */
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.25); /* Adjusted shadow */
+  z-index: 500;
+  max-height: 100%;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-content {
+  padding: 15px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4f5b66; /* Lighter border for dark sidebar */
+  color: #ecf0f1; /* Ensure heading is light */
+}
+
+.sidebar-toggle-btn {
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+  background: #3b4045; /* Match sidebar background */
+  border: 1px solid #4f5b66; /* Match sidebar border */
+  border-right: none;
+  width: 30px;
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.25); /* Adjusted shadow */
+  z-index: 499;
+}
+
+.sidebar-toggle-icon {
+  font-size: 18px;
+  transition: transform 0.3s;
+  color: #ecf0f1; /* Light icon color */
+}
+
+.sidebar-collapsed {
+  transform: translateX(300px);
+}
+
+.sidebar-collapsed .sidebar-toggle-icon {
+  transform: rotate(180deg);
+}
+
+#posts {
+  list-style-type: none;
+  padding: 0;
+}
+
+#posts li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4f5b66; /* Lighter border for dark sidebar */
+}
+
+/* Ensure links in posts list are styled for dark background */
+#posts li a {
+  color: #9adbbe; /* A contrasting light color for links */
+}
+#posts li a:hover {
+  color: #ecf0f1;
+}
+
+.leaflet-popup-content { 
+  color: #222; /* Keep popup text dark as popup background is usually light */
+  width: 200px;
+  height: 50px;
+}
+
+.leaflet-popup-content a { 
+  font-size: 14px; 
+  font-weight: bold;;
+}
+
+/* Added from posts.html */
+.post-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid #eee; */
+    border-bottom: 1px solid #4f5b66; /* Darker border */
+}
+
+.post-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Should inherit light text color */
+}
+
+.post-meta {
+    font-size: 18px;
+    /* color: #777; */
+    color: #bdc3c7; /* Lighter grey */
+    margin-bottom: 5px;
+}
+
+.post-summary {
+    font-size: 14px;
+    /* color: #444; */
+    color: inherit; /* Inherit light text color */
+}
+
+.sidebar-footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.view-all-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4267B2;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.view-all-button:hover {
+    background-color: #365899;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-height: 200px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.25); /* Adjusted shadow */
+    transform: translateY(180px); /* Hide most of it by default on mobile */
+  }
+  
+  .sidebar-toggle-btn {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    border: 1px solid #4f5b66; /* Match sidebar border */
+    border-bottom: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .sidebar-collapsed {
+    transform: translateY(0); /* Show when toggled on mobile */
+  }
+  
+  .sidebar-collapsed .sidebar-toggle-icon {
+    transform: rotate(90deg);
+  }
+  
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #banner nav ul {
+    margin-top: 10px;
+  }
+  
+  #banner nav li {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+/* Overrides for standard content pages (e.g., posts, about, contact)
+   to ensure they are styled as normal documents with a dark theme,
+   counteracting styles intended for the full-page map interface. */
+
+/* Restore body defaults for content pages that contain an <article> in <main id="content"> */
+body:has(main#content > article) {
+  height: auto;       /* Allow body to grow with content. */
+  overflow-y: auto;   /* Enable vertical scrolling. */
+  padding: 0;         /* Ensure body has no padding, so header can be full-width. */
+}
+
+/* Reset main#content for document flow on these content pages */
+main#content:has(> article) {
+  display: block;     /* Override display:flex from map-page styles. */
+  height: auto;       /* Allow content to determine height. */
+  padding: 20px 16px; /* Add vertical and horizontal padding to the content area. */
+  margin: 0 auto;     /* Center the content block. */
+  max-width: 960px;   /* Constrain width for better readability. */
+  color: inherit;     /* Ensure text elements within inherit the body's light color. */
+}

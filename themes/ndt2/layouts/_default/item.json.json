@@ -1,0 +1,6 @@
+{
+    "name": "{{ .Title | htmlEscape }}",
+    "permalink" : "{{ .Slug }}",
+    "lat": "{{ .Params.lat }}",
+    "lng": "{{ .Params.lng }}"
+}

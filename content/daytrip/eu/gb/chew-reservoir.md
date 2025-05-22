@@ -1,0 +1,11 @@
+---
+slug: "daytrip/eu/gb/chew-reservoir"
+date: '2025-05-23T00:00:00'
+lat: '53.513455838252746'
+lng: '-1.9481148547363318'
+location: Chew Road, Saddleworth, Oldham, Greater Manchester, England, OL3 7NE, United
+  Kingdom
+title: Chew Reservoir
+---
+
+

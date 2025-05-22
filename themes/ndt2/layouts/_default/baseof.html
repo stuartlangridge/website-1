@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <main id="content">
+            {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        #content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Only show footer on non-map pages */
+        body.page-home footer {
+            display: none;
+        }
+    </style>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add class to body if we're on the homepage
+            if (window.location.pathname === '/' || 
+                window.location.pathname === '/index.html') {
+                document.body.classList.add('page-home');
+            }
+        });
+    </script>
+</html>

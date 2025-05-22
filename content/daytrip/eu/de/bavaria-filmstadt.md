@@ -1,0 +1,12 @@
+---
+slug: "daytrip/eu/de/bavaria-filmstadt"
+title: Bavaria Filmstadt
+location: Bavariafilmplatz 7, Germany, 82031
+poster: shezza_t
+date: '2025-05-23T00:00:00'
+lat: '48.06580408438595'
+lng: '11.552215593414303'
+url: null
+---
+
+Bavarian film studios where you can visit the actual submarine set used in the film Das Boot and experience a 4D cinema ride.

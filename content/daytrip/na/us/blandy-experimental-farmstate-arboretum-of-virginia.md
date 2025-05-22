@@ -1,0 +1,11 @@
+---
+slug: "daytrip/na/us/blandy-experimental-farmstate-arboretum-of-virginia"
+date: '2025-05-23T00:00:00'
+lat: '39.06395642397884'
+lng: '-78.0642492185791'
+location: Blandy Farm Lane, Greenway Estates, Clarke County, Virginia, 22620, United
+  States
+title: Blandy Experimental Farm/State Arboretum of Virginia
+---
+
+

@@ -1,0 +1,11 @@
+---
+slug: "daytrip/eu/gb/st-peters-church"
+date: '2025-05-23T00:00:00'
+lat: '50.72026311825353'
+lng: '-1.8760814494323768'
+location: Hinton Road, Lansdowne, West Cliff, Bournemouth, Bournemouth, Christchurch
+  and Poole, England, BH1 2AD, United Kingdom
+title: St. Peter's Church
+---
+
+

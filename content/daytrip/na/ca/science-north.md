@@ -1,0 +1,11 @@
+---
+slug: "daytrip/na/ca/science-north"
+date: '2025-05-23T00:00:00'
+lat: '46.47005990855301'
+lng: '-80.99756527900695'
+location: Ramsey Lake Road, Sudbury, Greater Sudbury, Sudbury District, Northeastern
+  Ontario, Ontario, P3E 5S9, Canada
+title: Science North
+---
+
+

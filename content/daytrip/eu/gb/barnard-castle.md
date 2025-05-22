@@ -1,0 +1,11 @@
+---
+slug: "daytrip/eu/gb/barnard-castle"
+date: '2025-05-23T00:00:00'
+lat: '54.5439076'
+lng: '-1.9255707'
+location: Barnard Castle Grounds, Bridgegate, Barnard Castle, County Durham, North
+  East, England, DL12 9BE, United Kingdom
+title: Barnard Castle
+---
+
+

@@ -1,0 +1,11 @@
+---
+slug: "daytrip/na/ca/scenic-dam-port-sydney"
+date: '2025-05-23T00:00:00'
+lat: '45.21625347921782'
+lng: '-79.27515506744385'
+location: Muskoka Road 10, Huntsville, District Municipality of Muskoka, Muskoka District,
+  Central Ontario, Ontario, P0B 1L0, Canada
+title: Scenic Dam Port Sydney
+---
+
+

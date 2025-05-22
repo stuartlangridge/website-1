@@ -1,0 +1,12 @@
+---
+slug: "daytrip/na/us/knead-feed"
+title: Knead & Feed
+location: Coupeville, WA, USA, 98239
+poster: rmb808
+date: '2025-05-23T00:00:00'
+lat: '48.22099704581205'
+lng: '-122.68545768920899'
+url: null
+---
+
+Best place in the world to get a home made cinnamon roll.

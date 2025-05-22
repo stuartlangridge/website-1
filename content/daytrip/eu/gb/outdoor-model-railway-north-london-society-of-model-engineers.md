@@ -1,0 +1,11 @@
+---
+slug: "daytrip/eu/gb/outdoor-model-railway-north-london-society-of-model-engineers"
+date: '2025-05-23T00:00:00'
+lat: '51.73781921771374'
+lng: '-0.26628971099853516'
+location: 1, Church Lane, Colney Heath, St Albans, Hertfordshire, England, AL4 0NJ,
+  United Kingdom
+title: Outdoor Model Railway - North London Society of Model Engineers
+---
+
+

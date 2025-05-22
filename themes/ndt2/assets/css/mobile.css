@@ -1,0 +1,20 @@
+/* Mobile styles for smaller screens */
+@media (max-width: 769px) {
+    header#banner {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    header#banner h1 {
+        margin-bottom: 10px;
+    }
+    
+    header#banner nav ul {
+        justify-content: center;
+    }
+    
+    header#banner nav ul li:first-child {
+        margin-left: 0;
+    }
+}

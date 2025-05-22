@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{ .Content }}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+  crossorigin="" />
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+  crossorigin=""></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
+
+<div class="map-container">
+  <div id="map"></div>
+  <div class="sidebar" id="sidebar">
+    <button id="sidebar-toggle" class="sidebar-toggle-btn" title="Toggle Sidebar">
+      <span class="sidebar-toggle-icon">❯</span>
+    </button>
+    <div class="sidebar-content">
+      {{- partial "posts.html" . -}}
+    </div>
+  </div>
+</div>
+
+<script>
+async function loadMarkers(L, map) {
+    fetch("./daytrip/index.json")
+        .then(r => r.json())
+        .then(venues => {
+            venues.data.forEach(v => {
+                L.marker({lon: v.lng, lat: v.lat}).bindPopup(`<a href="${v.permalink}">${v.name}</a>`).addTo(cluster);
+            })
+        })
+}
+
+// initialize Leaflet
+var map = L.map('map').setView({lon: 0, lat: 0}, 2);
+
+// add the OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+}).addTo(map);
+
+var cluster = L.markerClusterGroup();
+
+// show the scale bar on the lower left corner
+L.control.scale().addTo(map);
+
+loadMarkers(L, map);
+map.addLayer(cluster);
+
+// Fix map size issues
+setTimeout(function() {
+    map.invalidateSize();
+}, 100);
+
+// Sidebar toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebarContent = document.querySelector('.sidebar-content');
+    
+    // Check if sidebar was previously collapsed
+    const sidebarState = localStorage.getItem('sidebarState');
+    if (sidebarState === 'collapsed') {
+        sidebar.classList.add('sidebar-collapsed');
+    }
+    
+    sidebarToggle.addEventListener('click', function() {
+        sidebar.classList.toggle('sidebar-collapsed');
+        
+        // Save sidebar state
+        if (sidebar.classList.contains('sidebar-collapsed')) {
+            localStorage.setItem('sidebarState', 'collapsed');
+        } else {
+            localStorage.setItem('sidebarState', 'expanded');
+        }
+        
+        // Fix map rendering after sidebar toggle
+        setTimeout(function() {
+            map.invalidateSize();
+        }, 300);
+    });
+    
+    // Add double-click prevention for mobile
+    let touchTimeout;
+    sidebarContent.addEventListener('touchstart', function(e) {
+        if (touchTimeout) {
+            clearTimeout(touchTimeout);
+            touchTimeout = null;
+            e.preventDefault();
+        } else {
+            touchTimeout = setTimeout(function() {
+                touchTimeout = null;
+            }, 300);
+        }
+    });
+});
+</script>
+{{ end }}
