@@ -2,6 +2,10 @@
 <article>
     <header id="post-header">
         <h1>{{ .Title }}
+            {{ if .Params.external_url }}
+                &nbsp;
+                <a href="{{ .Params.external_url }}" target="_blank" class="external-link" title="Website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            {{ end }}
                 {{ if .Params.lat }}
                     &nbsp;
                     <a href="http://maps.google.com/maps?z=12&t=m&q=loc:{{ .Params.lat }}+{{ .Params.lng }}" target="_blank" class="external-link" title="Google Maps"> <i class="fa-solid fa-map"></i></a>
