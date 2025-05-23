@@ -9,7 +9,7 @@ relativeURLs = true
 
 [Permalinks]
     daytrip = "/:slug/"
-    post = "/blog/:year/:month/:contentbasename/"
+    post = "/blog/:year/:month/:filename/"
 
 [outputs]
     section = ['html', 'rss', 'json']
