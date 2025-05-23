@@ -533,7 +533,6 @@ html, body {
 
 /* Restore body defaults for content pages that contain an <article> in <main id="content"> */
 body:has(main#content > article) {
-  height: auto;       /* Allow body to grow with content. */
   overflow-y: auto;   /* Enable vertical scrolling. */
   padding: 0;         /* Ensure body has no padding, so header can be full-width. */
 }
