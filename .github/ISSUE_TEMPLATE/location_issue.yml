@@ -1,0 +1,23 @@
+name: Location Issue
+description: Report an issue with an existing location on Nerdy Day Trips.
+title: "[Location Issue] "
+labels: ["data-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to keep our location data up to date!
+  - type: input
+    id: location-name
+    attributes:
+      label: Location Name
+      description: What is the name of the location that has an issue?
+    validations:
+      required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: "Please describe the issue with the location. For example: Now closed, description is wrong, GPS location is incorrect, address is wrong."
+    validations:
+      required: true
