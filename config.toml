@@ -26,6 +26,17 @@ relativeURLs = true
     mainSections = ["daytrip", "post"]
     description = "A global map of places to visit that might appeal to nerdy types"
 
+[params.repository]
+  branch = 'main'
+  owner = 'nerdydaytrips'
+  repo = 'website'
+  service = 'GitHub'
+  urlPatternEdit = 'https://github.com/%s/%s/edit/%s/%s'
+  urlPatternView = 'https://github.com/%s/%s/blob/%s/%s'
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [menu]
   [[menu.main]]
     name = "Map"
@@ -43,3 +54,8 @@ relativeURLs = true
     name = "Contact"
     url = "/contact/"
     weight = 40
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/nerdydaytrips/website"
+    desc = "Help out on GitHub!"
+    weight = 50
