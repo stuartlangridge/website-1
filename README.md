@@ -16,7 +16,7 @@
 
 Visit [NerdyDayTrips.org](https://nerdydaytrips.org/) to see the map.
 
-(screenshot or slideshow of site here)
+[![NerdyDayTrips.org](.github/ndt-screenshot_thumb.png)](https://nerdydaytrips.org/)
 
 *The project is intended as a reboot and spiritual successor to a defunct project of the same name, launched in 2011 by [Dr Ben Goldacre](https://www.badscience.net/).*
 
