@@ -1,0 +1,48 @@
+name: New Location Proposal
+description: Propose a new location to be added to Nerdy Day Trips.
+title: "[New Location] "
+labels: ["new-location"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new location for Nerdy Day Trips!
+
+        We highly encourage you to submit a Pull Request to add the new location yourself. You can find instructions on how to do this in the project's README.md.
+
+        If you're not able to create a Pull Request, please fill out the details below.
+  - type: input
+    id: location-name
+    attributes:
+      label: Location Name
+      description: What is the name of the new location?
+    validations:
+      required: true
+  - type: textarea
+    id: location-description
+    attributes:
+      label: Location Description
+      description: Please provide a description of the location.
+    validations:
+      required: true
+  - type: input
+    id: location-address
+    attributes:
+      label: Address / GPS Coordinates
+      description: Please provide the address or GPS coordinates for the location.
+    validations:
+      required: true
+  - type: input
+    id: location-website
+    attributes:
+      label: Website (if applicable)
+      description: Does this location have a website?
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Is there anything else we should know about this location?
+    validations:
+      required: false
