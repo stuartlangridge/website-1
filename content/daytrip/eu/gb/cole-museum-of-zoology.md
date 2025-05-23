@@ -6,6 +6,7 @@ lng: '-0.944628'
 location: University of Reading - Whiteknights Campus, Pepper Lane, Earley, Reading,
   Wokingham, England, RG2 7DN, United Kingdom
 title: Cole Museum of Zoology
+external_url: https://collections.reading.ac.uk/cole-museum/
 ---
 
 
