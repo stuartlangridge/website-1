@@ -14,15 +14,31 @@
                 {{ end }}
         </h1>
             <div>
-            {{- if isset .Params "date" -}}
-                {{ if eq .Lastmod .Date }}
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
-                {{ else }}
-                Updated <time>{{ .Lastmod.Format "January 2, 2006" }}</time>
-                {{ end }}
-            {{- end -}}
+                <!-- Created Date -->
+                {{- $pubdate := .PublishDate.Format "January 2, 2006" }}
+                Created: 
+                <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
+                    {{ $pubdate }}
+                </time>
+
+                <!-- Last Updated Date -->
+                {{- if .Lastmod }}
+                    {{- $lastmod := .Lastmod.Format "January 2, 2006" }}
+                    {{- if ne $lastmod $pubdate }}
+                        <div class="post-info-last-mod">
+                            (Updated: 
+                            <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+                                {{ $lastmod }}
+                            </time>)
+                        </div>
+                    {{- end }}
+                {{- end }}
             </div>
     </header>
+    <hr>
     {{- .Content -}}
 </article>
+<hr>
+{{ partial "repository-link.html" (dict "action" "edit" "page" .) }}
+{{ partial "repository-link.html" (dict "action" "view" "page" .) }}
 {{ end }}
