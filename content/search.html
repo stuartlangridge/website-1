@@ -1,0 +1,55 @@
+<form id="search">
+    <input type="search" name="q" required>
+    <input type="submit" value="Search">
+</form>
+<ul id="results">
+</ul>
+<template id="sres">
+    <li><a href="#"></a></li>
+</template>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+let builtIndex = false;
+let idx;
+const snippet = document.getElementById("sres").content;
+const locsByPermalink = {};
+
+function searchFor(q) {
+    if (!builtIndex) {
+        setTimeout(searchFor, 1000, q);
+        return;
+    }
+
+
+    const res = idx.search(q);
+    const ul = document.getElementById("results");
+    ul.innerHTML = "";
+    for (const r of res) {
+        const s = snippet.cloneNode(true);
+        const permalink = r.ref;
+        const span = document.createElement("span");
+        span.innerHTML = locsByPermalink[permalink];
+        const a = s.querySelector("a");
+        a.href = "../" + permalink;
+        a.textContent = span.textContent;
+        ul.append(s);
+    }
+}
+
+fetch("../daytrip/index.json").then(res => res.json()).then(data => {
+    idx = lunr(function() {
+        this.ref("permalink");
+        this.field("name");
+        for (const loc of data.data) {
+            this.add(loc);
+            locsByPermalink[loc.permalink] = loc.name;
+        }
+        builtIndex = true;
+    });
+})
+document.getElementById("search").onsubmit = e => {
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    searchFor(fd.get("q"));
+}
+</script>

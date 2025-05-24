@@ -43,6 +43,10 @@ relativeURLs = true
     url = "/"
     weight = 10
   [[menu.main]]
+    name = "Search"
+    url = "/search"
+    weight = 15
+  [[menu.main]]
     name = "Blog"
     url = "/blog/"
     weight = 20
