@@ -1,5 +1,5 @@
 ---
-slug: "daytrip/eu/gb/dungeness-b-power-station.md"
+slug: "daytrip/eu/gb/dungeness-b-power-station"
 title: Dungeness B Power Station
 location: B Power Station, Dungeness, Romney Marsh TN29 9PX
 poster: popey
