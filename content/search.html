@@ -27,9 +27,11 @@ function searchFor(q) {
     for (const r of res) {
         const s = snippet.cloneNode(true);
         const permalink = r.ref;
+        const span = document.createElement("span");
+        span.innerHTML = locsByPermalink[permalink];
         const a = s.querySelector("a");
         a.href = "../" + permalink;
-        a.textContent = locsByPermalink[permalink];
+        a.textContent = span.textContent;
         ul.append(s);
     }
 }
