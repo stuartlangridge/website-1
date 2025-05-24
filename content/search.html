@@ -28,7 +28,7 @@ function searchFor(q) {
         const s = snippet.cloneNode(true);
         const permalink = r.ref;
         const a = s.querySelector("a");
-        a.href = permalink;
+        a.href = "../" + permalink;
         a.textContent = locsByPermalink[permalink];
         ul.append(s);
     }
