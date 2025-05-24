@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/bagh-ibne-qasim_3720"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '24.80894139774062'
 lng: '67.02457093945304'
 location: "Ikramullah Parade, \u06A9\u0644\u0641\u0679\u0646 \u0628\u0644\u0627\u06A9\

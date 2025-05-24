@@ -3,7 +3,7 @@ slug: "daytrip/na/us/alkek-velodrome"
 title: Alkek Velodrome
 location: Houston, TX, USA, 77084
 poster: bkzimm
-date: '2025-05-23T00:00:00'
+date: '2011-10-03T12:12:00'
 lat: '29.79975053207655'
 lng: '-95.69988515727539'
 url: null

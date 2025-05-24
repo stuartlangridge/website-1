@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/ie/flying-boat-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '52.611685'
 lng: '-9.111716'
 location: "Marine Cove, Foynes, Shanagolden, The Municipal District of Adare \u2014\

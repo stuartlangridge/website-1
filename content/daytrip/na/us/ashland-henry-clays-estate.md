@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/ashland-henry-clays-estate"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.02922828369431'
 lng: '-84.48001428978273'
 location: Ashland - The Henry Clay Estate, 120, Sycamore Road, Ashland Park, Lexington,

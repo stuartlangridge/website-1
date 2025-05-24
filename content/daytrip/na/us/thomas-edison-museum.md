@@ -3,7 +3,7 @@ slug: "daytrip/na/us/thomas-edison-museum"
 title: Thomas Edison Museum
 location: West Orange, NJ, USA, 07052
 poster: lisa
-date: '2025-05-23T00:00:00'
+date: '2011-10-13T17:43:00'
 lat: '40.783902923933795'
 lng: '-74.23307917778016'
 url: null

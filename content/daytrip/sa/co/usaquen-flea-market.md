@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/sa/co/usaquen-flea-market"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '4.693457320237691'
 lng: '-74.02965545654297'
 location: "Carrera 5, Usaqu\xE9n, UPZs Localidad Usaqu\xE9n, Localidad Usaqu\xE9n,\

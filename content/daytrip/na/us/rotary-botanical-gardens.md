@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/rotary-botanical-gardens"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '42.668850755085586'
 lng: '-89.00386474792481'
 location: Ice Age Trail, Janesville, Rock County, Wisconsin, 53547, United States

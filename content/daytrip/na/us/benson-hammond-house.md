@@ -3,7 +3,7 @@ slug: "daytrip/na/us/benson-hammond-house"
 title: Benson-Hammond House
 location: Glen Burnie, MD, USA, 21061
 poster: Vagrarian
-date: '2025-05-23T00:00:00'
+date: '2012-04-23T23:52:00'
 lat: '39.18954663987912'
 lng: '-76.65458026394043'
 url: null

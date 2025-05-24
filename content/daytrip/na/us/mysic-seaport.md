@@ -3,7 +3,7 @@ slug: "daytrip/na/us/mysic-seaport"
 title: Mysic Seaport
 location: Mystic, CT, USA, 06355
 poster: halesong
-date: '2025-05-23T00:00:00'
+date: '2012-02-19T21:31:00'
 lat: '41.36120269092919'
 lng: '-71.96507833663941'
 url: null

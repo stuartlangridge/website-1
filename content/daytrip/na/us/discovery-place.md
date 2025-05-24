@@ -3,7 +3,7 @@ slug: "daytrip/na/us/discovery-place"
 title: Discovery Place
 location: Charlotte, NC, USA, 28202
 poster: mejiajav
-date: '2025-05-23T00:00:00'
+date: '2012-04-20T20:52:00'
 lat: '35.229263301737525'
 lng: '-80.84046335218432'
 url: null

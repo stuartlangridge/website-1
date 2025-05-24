@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/exporailcanadian-train-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '45.37409648531429'
 lng: '-73.56320858001709'
 location: "Mus\xE9e ferroviaire canadien - Exporail, Rue Saint-Pierre, Saint-Constant,\

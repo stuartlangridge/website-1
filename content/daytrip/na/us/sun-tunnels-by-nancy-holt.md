@@ -3,7 +3,7 @@ slug: "daytrip/na/us/sun-tunnels-by-nancy-holt"
 title: Sun Tunnels - by Nancy Holt
 location: North East of Wendover, UT, USA, 84083
 poster: BeardySmith
-date: '2025-05-23T00:00:00'
+date: '2013-08-14T23:33:00'
 lat: '41.304634388885916'
 lng: '-113.88290405273438'
 url: null

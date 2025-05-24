@@ -1,5 +1,5 @@
 ---
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '5.082413937726653'
 lng: '-1.346956712646488'
 location: "Saint George\u2019s Castle, J.J. Rawlings High Street, Elmina, Komenda/Edina/Eguafo/Abirem\

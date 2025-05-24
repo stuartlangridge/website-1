@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/as/tr/mevlana"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '37.87903502673423'
 lng: '32.459863203124996'
 location: "Bey\u015Fehir Caddesi, Sel\xE7uk Mahallesi, Konya, Sel\xE7uklu, Konya,\

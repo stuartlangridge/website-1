@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/essauoira-and-gnawa-festival_4365"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '31.50346264430473'
 lng: '-9.766088945312504'
 location: "Boulevard Mohammed V \u0634\u0627\u0631\u0639 \u0645\u062D\u0645\u062F\

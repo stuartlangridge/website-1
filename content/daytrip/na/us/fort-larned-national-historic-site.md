@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/fort-larned-national-historic-site"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.182861601144126'
 lng: '-99.21821385204771'
 location: Fort Larned National Historic Site, Nature Trail, Pawnee County, Kansas,

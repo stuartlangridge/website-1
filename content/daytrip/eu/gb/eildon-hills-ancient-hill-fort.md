@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/eildon-hills-ancient-hill-fort"
 title: Eildon Hills - Ancient Hill Fort
 location: Melrose, Scottish, UK, BORDERS TD6
 poster: dostoyev12
-date: '2025-05-23T00:00:00'
+date: '2012-09-24T17:02:00'
 lat: '55.587452'
 lng: '-2.700678'
 url: null

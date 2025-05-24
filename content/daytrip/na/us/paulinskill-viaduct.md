@@ -3,7 +3,7 @@ slug: "daytrip/na/us/paulinskill-viaduct"
 title: Paulinskill Viaduct
 location: Columbia, NJ, USA, 07832
 poster: summerfirefly
-date: '2025-05-23T00:00:00'
+date: '2012-02-11T20:17:00'
 lat: '40.94808950173296'
 lng: '-75.06099126998902'
 url: null

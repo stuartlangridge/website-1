@@ -3,7 +3,7 @@ slug: "daytrip/na/us/customhouse-maritime-museum"
 title: Customhouse Maritime Museum
 location: Newburyport, MA, USA, 01950
 poster: jenglo
-date: '2025-05-23T00:00:00'
+date: '2011-11-19T03:10:00'
 lat: '42.811920390340106'
 lng: '-70.8683595363388'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/as/tr/santral-istanbul"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '41.066335461354086'
 lng: '28.946459072189327'
 location: "santralistanbul Kamp\xFCs\xFC, Kaz\u0131m Karabekir Caddesi, Emniyettepe\

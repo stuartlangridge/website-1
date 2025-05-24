@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/soo-locks"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '46.4952996'
 lng: '-84.3453169'
 location: Bethany Christian Services Sault Ste. Marie, Dawson Street, Sault Ste. Marie,

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/florida-holocaust-museum"
 title: Florida Holocaust Museum
 location: St. Petersburg, Pinellas, USA, 33701
 poster: lpbreakfast
-date: '2025-05-23T00:00:00'
+date: '2012-05-17T21:05:00'
 lat: '27.770518'
 lng: '-82.640538'
 url: null

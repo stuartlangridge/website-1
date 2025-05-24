@@ -3,7 +3,7 @@ slug: "daytrip/eu/no/spiralen"
 title: Spiralen
 location: Eivind Olsens vei, Norway, 3016
 poster: CosmonautX
-date: '2025-05-23T00:00:00'
+date: '2012-01-16T17:21:00'
 lat: '59.751854301241124'
 lng: '10.200918691711422'
 url: null

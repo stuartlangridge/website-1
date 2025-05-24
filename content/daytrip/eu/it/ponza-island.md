@@ -3,7 +3,7 @@ slug: "daytrip/eu/it/ponza-island"
 title: Ponza Island
 location: 04027 Ponza, Province of, Italy, LATINA
 poster: El3naLiv
-date: '2025-05-23T00:00:00'
+date: '2013-03-06T14:51:00'
 lat: '40.89067715064627'
 lng: '12.95013427734375'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/canada"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '43.6953439'
 lng: '-79.3183887'
 location: "147, Virginia Avenue, Danforth East York, Beaches\u2014East York, East\

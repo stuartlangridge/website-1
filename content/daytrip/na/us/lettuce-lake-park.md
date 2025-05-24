@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/lettuce-lake-park"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '28.078055'
 lng: '-82.380689'
 location: Osprey Drive, Hillsborough County, Florida, 33613, United States

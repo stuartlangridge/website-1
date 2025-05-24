@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/deptford-railway-station"
 title: Deptford Railway Station
 location: Lewisham, Greater London, UK, SE8 3
 poster: biobill
-date: '2025-05-23T00:00:00'
+date: '2011-10-09T02:48:00'
 lat: '51.47898936000439'
 lng: '-0.026236993713382617'
 url: null

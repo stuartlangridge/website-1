@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/worlds-first-commercial-maglev-train"
 title: World's First Commercial MagLev Train
 location: Bickenhill, Solihull, UK, B37 7
 poster: dasilva_uk
-date: '2025-05-23T00:00:00'
+date: '2011-11-30T12:27:00'
 lat: '52.4662853852135'
 lng: '-1.7567084160277773'
 url: null

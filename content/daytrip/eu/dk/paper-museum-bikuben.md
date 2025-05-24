@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/dk/paper-museum-bikuben"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '56.170586123455436'
 lng: '9.555337803916927'
 location: "Papirmuseet, \xD8stergade, \xC5rhusbakken, Silkeborg, Silkeborg Kommune,\

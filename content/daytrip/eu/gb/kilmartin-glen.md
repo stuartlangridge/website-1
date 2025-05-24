@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/kilmartin-glen"
 title: Kilmartin Glen
 location: Near Loch Awe, Argyle and Bute, United Kingdom, PA 31
 poster: porkbeast
-date: '2025-05-23T00:00:00'
+date: '2012-08-27T20:09:00'
 lat: '54.428403800437216'
 lng: '-5.157324296875004'
 url: null

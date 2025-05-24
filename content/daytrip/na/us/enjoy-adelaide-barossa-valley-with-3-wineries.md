@@ -3,7 +3,7 @@ slug: "daytrip/na/us/enjoy-adelaide-barossa-valley-with-3-wineries"
 title: Enjoy Adelaide - Barossa Valley with 3 Wineries
 location: Barossa Valley Way, Lyndoch SA, Australia, 5351
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-05-07T10:14:00'
 lat: '-34.59209566746953'
 lng: '138.86341094970703'
 url: null

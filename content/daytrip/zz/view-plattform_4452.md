@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/view-plattform_4452"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.588689485439254'
 lng: '128.37110644726567'
 location: "\uB3D9\uD574\uB300\uB85C, \uC1A1\uB3C4\uC9C4\uB9AC, \uD604\uB0B4\uBA74\

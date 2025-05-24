@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/es/mercat-de-la-boquerìa"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '41.3820576503077'
 lng: '2.1723026805686914'
 location: "La Rambla, el Raval, Ciutat Vella, Barcelona, Barcelon\xE8s, Barcelona,\

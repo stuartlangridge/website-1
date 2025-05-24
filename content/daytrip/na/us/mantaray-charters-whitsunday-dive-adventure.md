@@ -3,7 +3,7 @@ slug: "daytrip/na/us/mantaray-charters-whitsunday-dive-adventure"
 title: Mantaray Charters- Whitsunday Dive Adventure
 location: Shingley Drive, Airlie Beach QLD, Australia, 4802
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-05-07T09:53:00'
 lat: '-20.272382'
 lng: '148.706753'
 url: null

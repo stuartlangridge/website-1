@@ -3,7 +3,7 @@ slug: "daytrip/eu/de/senckenberg-naturmuseum"
 title: SENCKENBERG naturMUSEUM
 location: Frankfurt, Germany, 60325
 poster: DarthVirago
-date: '2025-05-23T00:00:00'
+date: '2013-01-21T16:00:00'
 lat: '50.1157078'
 lng: '8.6591469'
 url: null

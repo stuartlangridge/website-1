@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/cazenovia-public-library-and-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '42.92953092137644'
 lng: '-75.85194826126099'
 location: Cazenovia Public Library, 100, Albany Street, Village of Cazenovia, Town

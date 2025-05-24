@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/pirate-adventures"
 title: Pirate Adventures
 location: Victoria, BC, Canada, V8V 4X5
 poster: thepiratequeenkt
-date: '2025-05-23T00:00:00'
+date: '2012-10-04T04:00:00'
 lat: '48.4226134312598'
 lng: '-123.38260672752381'
 url: null

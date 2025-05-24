@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/the-susquehanna-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '39.55577887848412'
 lng: '-76.09404860849003'
 location: Susquehanna Museum at the Lock House, 817, Charles D. Montgomery Way, Somerset

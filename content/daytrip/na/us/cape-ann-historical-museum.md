@@ -3,7 +3,7 @@ slug: "daytrip/na/us/cape-ann-historical-museum"
 title: Cape Ann Historical Museum
 location: Gloucester, MA, USA, 01930
 poster: jenglo
-date: '2025-05-23T00:00:00'
+date: '2011-11-19T03:18:00'
 lat: '42.61399095829596'
 lng: '-70.66199037473297'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/spurn-head"
 title: Spurn Head
 location: Hull, East Riding of Yorkshire, UK, HU12 0UD
 poster: Mr Googer Nishfeed
-date: '2025-05-23T00:00:00'
+date: '2013-01-11T20:15:00'
 lat: '53.573753777432806'
 lng: '0.10986328125'
 url: null

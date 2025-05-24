@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/florence-court-manor-house"
 title: Florence Court Manor House
 location: 246 Ecclesville Road, Omagh, UK, BT78 2HF
 poster: tmcauley
-date: '2025-05-23T00:00:00'
+date: '2013-06-28T15:40:00'
 lat: '54.26258600607214'
 lng: '-7.7175575494766235'
 url: null

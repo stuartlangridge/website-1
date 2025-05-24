@@ -3,7 +3,7 @@ slug: "daytrip/na/us/nottingham-md"
 title: Nottingham, MD
 location: Upper Marlboro, MD, USA, 20772
 poster: Vagrarian
-date: '2025-05-23T00:00:00'
+date: '2013-08-05T20:42:00'
 lat: '38.71022791653633'
 lng: '-76.70371055603027'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/sterling-hill-mine-tour-and-museum"
 title: Sterling Hill Mine Tour and Museum
 location: Ogdensburg, NJ, USA, 07439
 poster: kwscalare622
-date: '2025-05-23T00:00:00'
+date: '2012-09-28T17:12:00'
 lat: '41.082571289656194'
 lng: '-74.60439338610229'
 url: null

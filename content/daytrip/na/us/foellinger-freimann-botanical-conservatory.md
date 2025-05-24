@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/foellinger-freimann-botanical-conservatory"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '41.075040'
 lng: '-85.138716'
 location: Foellinger-Freimann Botanical Conservatory, 1100, South Calhoun Street,

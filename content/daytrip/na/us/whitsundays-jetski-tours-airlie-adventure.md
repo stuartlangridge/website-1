@@ -3,7 +3,7 @@ slug: "daytrip/na/us/whitsundays-jetski-tours-airlie-adventure"
 title: Whitsundays Jetski Tours- Airlie Adventure
 location: 256 Shute Harbour Road, Cannonvale QLD, Australia, 4802
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-06-28T11:03:00'
 lat: '-20.27294607614143'
 lng: '148.70497226715088'
 url: null

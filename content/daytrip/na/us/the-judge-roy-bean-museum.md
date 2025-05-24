@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/the-judge-roy-bean-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '31.758526004988948'
 lng: '-106.4879739855225'
 location: First Mortage Company Building, 109, North Oregon Street, Downtown Historic

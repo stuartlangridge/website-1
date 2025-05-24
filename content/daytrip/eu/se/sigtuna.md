@@ -3,7 +3,7 @@ slug: "daytrip/eu/se/sigtuna"
 title: Sigtuna
 location: Sigtuna, Stockholm, Sweden, 193 91
 poster: monalizah
-date: '2025-05-23T00:00:00'
+date: '2013-02-07T19:20:00'
 lat: '59.62054731081223'
 lng: '17.72918701171875'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/the-william-breman-jewish-heritage-and-holocaust-museum"
 title: The William Breman Jewish Heritage and Holocaust Museum
 location: Atlanta, GA, USA, 30309
 poster: nonmodernist
-date: '2025-05-23T00:00:00'
+date: '2012-02-14T20:51:00'
 lat: '33.79378804319636'
 lng: '-84.38964049715878'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/coldrum-long-barrow"
 title: Coldrum Long Barrow
 location: Trottiscliffe, Kent, UK, ME195EG
 poster: pippag
-date: '2025-05-23T00:00:00'
+date: '2013-02-22T01:57:00'
 lat: '51.32165468464899'
 lng: '0.3724193572998047'
 url: null

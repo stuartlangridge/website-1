@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/resting-place-of-ian-fleming"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '51.6118677271079'
 lng: '-1.6983904666137732'
 location: Sevenhampton Lane, Sevenhampton, Highworth, Swindon, England, SN6 7QB, United

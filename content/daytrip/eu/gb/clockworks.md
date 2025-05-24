@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/clockworks"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '52.926011429983554'
 lng: '-1.4786317176055945'
 location: John Smith's Clockmakers (closed), 27-29, Queen Street, Cathedral Quarter,

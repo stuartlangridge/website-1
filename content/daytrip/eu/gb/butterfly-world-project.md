@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/butterfly-world-project"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '51.725878'
 lng: '-0.368534'
 location: Butterfly World, Miriam Lane, St Stephen, Chiswell Green, St Albans, Hertfordshire,

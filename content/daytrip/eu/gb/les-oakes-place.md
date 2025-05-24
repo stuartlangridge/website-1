@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/les-oakes-place"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '52.991112910472914'
 lng: '-1.9701357907486'
 location: Hales View Farm, Oakamoor Road, Lightwood, Cheadle, Staffordshire Moorlands,

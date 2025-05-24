@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/ww2-plane-wreck-on-the-east-side-of-ben-havel"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '56.962947'
 lng: '-7.463150'
 location: "Our Lady of The Sea, A888, Gearraidh Gadhal, B\xE0gh a' Chaisteil, Na h-Eileanan\

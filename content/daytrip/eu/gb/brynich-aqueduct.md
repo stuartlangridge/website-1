@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/brynich-aqueduct"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '51.93657782213868'
 lng: '-3.3408465213012732'
 location: Cefn Brynich Canal Bridge Aqueduct, A40, Llanhamlach, Llanfrynach, Groesffordd,

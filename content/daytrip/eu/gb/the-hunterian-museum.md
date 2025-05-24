@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/the-hunterian-museum"
 title: The Hunterian Museum
 location: London, United Kingdom, WC2A 3PE
 poster: Gotan
-date: '2025-05-23T00:00:00'
+date: '2012-02-18T07:33:00'
 lat: '51.5152839'
 lng: '-0.1158997'
 url: null

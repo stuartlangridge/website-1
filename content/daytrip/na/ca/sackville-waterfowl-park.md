@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/sackville-waterfowl-park"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '45.90123677271077'
 lng: '-64.37410495941162'
 location: Mount Allison University, Estabrooks Street, Sackville, Sackville Parish,

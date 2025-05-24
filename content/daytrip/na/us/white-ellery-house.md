@@ -3,7 +3,7 @@ slug: "daytrip/na/us/white-ellery-house"
 title: White-Ellery House
 location: Gloucester, MA, USA, 01930
 poster: jenglo
-date: '2025-05-23T00:00:00'
+date: '2011-11-19T03:23:00'
 lat: '42.62302889514443'
 lng: '-70.67613634507751'
 url: null

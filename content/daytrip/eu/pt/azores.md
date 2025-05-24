@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/pt/azores"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '37.92238029104783'
 lng: '-25.767675859375003'
 location: Portugal

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/tall-grass-prairie-national-preserve"
 title: Tall Grass Prairie National Preserve
 location: Strong City, KS, USA, 66869
 poster: julietlikeshistory
-date: '2025-05-23T00:00:00'
+date: '2012-08-25T04:12:00'
 lat: '38.43715837507967'
 lng: '-96.57374523345948'
 url: null

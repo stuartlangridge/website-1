@@ -3,7 +3,7 @@ slug: "daytrip/na/us/fort-vancouver-national-historic-site"
 title: Fort Vancouver National Historic Site
 location: Vancouver, WA, USA, 98661
 poster: pberry2112
-date: '2025-05-23T00:00:00'
+date: '2012-05-01T06:10:00'
 lat: '45.62424779567907'
 lng: '-122.66153698386836'
 url: null

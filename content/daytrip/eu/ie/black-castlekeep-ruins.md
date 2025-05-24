@@ -3,7 +3,7 @@ slug: "daytrip/eu/ie/black-castlekeep-ruins"
 title: Black Castle/Keep Ruins
 location: Wicklow, Co. Wicklow, Ireland, WICKLOW
 poster: vpants
-date: '2025-05-23T00:00:00'
+date: '2013-03-30T21:09:00'
 lat: '52.980069558305566'
 lng: '-6.032524108886719'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/seymour-marine-discovery-center"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '36.948708'
 lng: '-122.064700'
 location: University of California Santa Cruz Coastal Science Campus, Cascade Drive,

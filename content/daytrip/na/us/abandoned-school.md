@@ -3,7 +3,7 @@ slug: "daytrip/na/us/abandoned-school"
 title: Abandoned School
 location: Wellston, OH, USA, 45692
 poster: VernalSoul
-date: '2025-05-23T00:00:00'
+date: '2012-02-06T04:25:00'
 lat: '39.702777'
 lng: '-84.309913'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/chained-library"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '50.79895601850151'
 lng: '-1.9881655997467078'
 location: Minster of St. Cuthburga, High Street, East Brook, Wimborne Minster, Dorset,

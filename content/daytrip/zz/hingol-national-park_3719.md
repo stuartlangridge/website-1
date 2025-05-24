@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/hingol-national-park_3719"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '25.70565613619789'
 lng: '65.65539979687492'
 location: "\u062A\u062D\u0635\u06CC\u0644 \u062C\u06BE\u0644\u062C\u0627\u0624, \u0636\

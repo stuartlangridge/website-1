@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/amelia-earhart-memorial"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '51.68408945813397'
 lng: '-4.251209718627933'
 location: Sandhills Bar, 1, Gors Road, Pembrey and Burry Port Town, Burry Port, Sir

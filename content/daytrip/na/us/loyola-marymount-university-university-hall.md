@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/loyola-marymount-university-university-hall"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '33.9667687433105'
 lng: '-118.42264972393036'
 location: Loyola Marymount University, Fordham Road, Los Angeles, Los Angeles County,

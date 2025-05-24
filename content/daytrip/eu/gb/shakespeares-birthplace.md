@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/shakespeares-birthplace"
 title: Shakespeare's Birthplace
 location: Stratford-upon-Avon, Warwickshire, UK, CV37
 poster: bubbles
-date: '2025-05-23T00:00:00'
+date: '2013-04-29T23:52:00'
 lat: '52.18403686498285'
 lng: '-1.71661376953125'
 url: null

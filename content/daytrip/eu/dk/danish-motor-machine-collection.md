@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/dk/danish-motor-machine-collection"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '56.43709322549823'
 lng: '10.82745053108215'
 location: Dansk Motor- og Maskinsamling, Kristiansmindevej, Kristiansminde, Grenaa,

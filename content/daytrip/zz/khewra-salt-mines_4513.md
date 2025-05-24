@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/khewra-salt-mines_4513"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '32.646668'
 lng: '73.006443'
 location: "Khewra Salt mines, Khewra Road, \u06A9\u06BE\u06CC\u0648\u0691\u06C1, \u062A\

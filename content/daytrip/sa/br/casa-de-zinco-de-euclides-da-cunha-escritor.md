@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/sa/br/casa-de-zinco-de-euclides-da-cunha-escritor"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '-21.594240142317382'
 lng: '-46.89406396046144'
 location: "Avenida Euclides da Cunha, Santo Ant\xF4nio, S\xE3o Jos\xE9 do Rio Pardo,\

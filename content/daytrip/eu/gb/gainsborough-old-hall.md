@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/gainsborough-old-hall"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '53.400691135899905'
 lng: '-0.7784678763580359'
 location: Gainsborough Old Hall, Parnell Street, Gainsborough CP, West Lindsey, Lincolnshire,

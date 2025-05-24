@@ -3,7 +3,7 @@ slug: "daytrip/na/us/camira-whitsunday-sailing-day-tour"
 title: Camira- Whitsunday Sailing Day Tour
 location: 270-274 Shute Harbour Road, Cannonvale QLD, Australia, 4802
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-06-28T11:09:00'
 lat: '-20.27194971584899'
 lng: '148.70700001716614'
 url: null

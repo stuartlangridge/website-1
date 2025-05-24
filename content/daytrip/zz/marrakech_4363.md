@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/marrakech_4363"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '31.636847563393804'
 lng: '-8.005529863281254'
 location: "Rue Sourya, Gu\xE9liz \u2D33\u2D49\u2D4D\u2D49\u2D63 \u06AF\u0644\u064A\

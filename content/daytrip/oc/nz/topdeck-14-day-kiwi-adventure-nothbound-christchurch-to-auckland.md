@@ -3,7 +3,7 @@ slug: "daytrip/oc/nz/topdeck-14-day-kiwi-adventure-nothbound-christchurch-to-auc
 title: Topdeck- 14 Day Kiwi Adventure Nothbound - Christchurch to Auckland
 location: New Zealand, 3074
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-05-03T07:32:00'
 lat: '-38.11727165830541'
 lng: '176.396484375'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/hoveton-hall-and-gardens"
 title: Hoveton Hall and Gardens
 location: Norwich, Norfolk, UK, NR12 8RJ
 poster: kerryellen87
-date: '2025-05-23T00:00:00'
+date: '2014-02-07T15:01:00'
 lat: '52.727975799697404'
 lng: '1.4283943176269531'
 url: null

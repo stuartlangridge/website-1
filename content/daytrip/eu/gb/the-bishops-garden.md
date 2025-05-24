@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/the-bishops-garden"
 title: The Bishop's Garden
 location: Norwich, Norfolk, UK, NR3 1SB
 poster: kerryellen87
-date: '2025-05-23T00:00:00'
+date: '2014-02-07T15:11:00'
 lat: '52.63298475232789'
 lng: '1.301558017730713'
 url: null

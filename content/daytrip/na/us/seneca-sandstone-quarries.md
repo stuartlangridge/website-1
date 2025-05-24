@@ -3,7 +3,7 @@ slug: "daytrip/na/us/seneca-sandstone-quarries"
 title: Seneca Sandstone Quarries
 location: Poolesville, MD, USA, 20837
 poster: Vagrarian
-date: '2025-05-23T00:00:00'
+date: '2013-03-24T17:25:00'
 lat: '39.06971276220753'
 lng: '-77.354736328125'
 url: null

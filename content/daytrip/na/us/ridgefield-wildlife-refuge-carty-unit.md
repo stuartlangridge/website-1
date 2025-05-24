@@ -3,7 +3,7 @@ slug: "daytrip/na/us/ridgefield-wildlife-refuge-carty-unit"
 title: Ridgefield Wildlife Refuge - Carty Unit
 location: Ridgefield, WA, USA, 98642
 poster: pberry2112
-date: '2025-05-23T00:00:00'
+date: '2012-05-01T06:29:00'
 lat: '45.83128700912422'
 lng: '-122.74845622125554'
 url: null

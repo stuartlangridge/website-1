@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/dk/open-air-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '55.78565803282408'
 lng: '12.490076797561642'
 location: "Frilandsmuseet, Fuglevadsvej, Fuglevad, Brede, Kongens Lyngby, Lyngby-Taarb\xE6\

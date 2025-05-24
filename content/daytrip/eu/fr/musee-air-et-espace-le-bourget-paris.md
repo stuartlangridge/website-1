@@ -3,7 +3,7 @@ slug: "daytrip/eu/fr/musee-air-et-espace-le-bourget-paris"
 title: Musee Air et Espace, Le Bourget, Paris
 location: Rue de Rome, Ile de France, France, 93440
 poster: TheBoyMallett
-date: '2025-05-23T00:00:00'
+date: '2012-09-16T16:32:00'
 lat: '48.94727829816411'
 lng: '2.4344430142211877'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/stott-hall-farm"
 title: Stott Hall Farm
 location: Ripponden, West Yorkshire, UK, HX6
 poster: Cowzakeptin
-date: '2025-05-23T00:00:00'
+date: '2012-05-18T13:24:00'
 lat: '53.64160897795542'
 lng: '-1.9521381682586707'
 url: null

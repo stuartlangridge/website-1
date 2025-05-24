@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/peter-j-mcgovern-little-league-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '41.22952214275607'
 lng: '-76.97409294311524'
 location: 768, Montgomery Pike, Armstrong Township, Lycoming County, Pennsylvania,

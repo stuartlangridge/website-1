@@ -3,7 +3,7 @@ slug: "daytrip/na/us/pennsylvania-state-university"
 title: Pennsylvania State University
 location: State College, PA, USA, 16801
 poster: sdeme001
-date: '2025-05-23T00:00:00'
+date: '2012-06-20T06:21:00'
 lat: '40.80638536682435'
 lng: '-77.85111091796875'
 url: null

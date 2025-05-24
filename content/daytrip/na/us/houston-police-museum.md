@@ -3,7 +3,7 @@ slug: "daytrip/na/us/houston-police-museum"
 title: Houston Police Museum
 location: Houston, TX, USA, 77002
 poster: bkzimm
-date: '2025-05-23T00:00:00'
+date: '2011-10-03T12:19:00'
 lat: '29.7557063111414'
 lng: '-95.36742218228147'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/the-mountain-goats-of-riddlesdown"
 title: The Mountain Goats of Riddlesdown
 location: Croydon, Greater London, UK, CR8 5
 poster: rjmehra
-date: '2025-05-23T00:00:00'
+date: '2011-11-03T11:43:00'
 lat: '51.318588944222185'
 lng: '-0.08069924776077642'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/as/pk/kallar-kahar"
 title: Kallar Kahar
 location: Kallar Kahar Lake Rd, Chakwal, Punjab, Pakistan, KAHAR
 poster: sunnygdr
-date: '2025-05-23T00:00:00'
+date: '2012-09-27T07:29:00'
 lat: '32.77140360975411'
 lng: '72.70004053050843'
 url: null

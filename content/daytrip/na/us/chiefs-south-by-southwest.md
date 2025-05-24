@@ -3,7 +3,7 @@ slug: "daytrip/na/us/chiefs-south-by-southwest"
 title: Chief's South by Southwest
 location: Greencastle, IN, USA, 46135
 poster: e.alisonnew
-date: '2025-05-23T00:00:00'
+date: '2012-02-18T09:39:00'
 lat: '39.64484298455041'
 lng: '-86.8642752187103'
 url: null

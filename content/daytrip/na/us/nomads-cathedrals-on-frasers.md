@@ -3,7 +3,7 @@ slug: "daytrip/na/us/nomads-cathedrals-on-frasers"
 title: Nomads Cathedrals On Frasers
 location: Rainbow Beach Road, Rainbow Beach QLD, Australia, 4581
 poster: Nomads Fraser Island
-date: '2025-05-23T00:00:00'
+date: '2013-08-02T08:15:00'
 lat: '-25.25090646432787'
 lng: '153.16932678222656'
 url: null

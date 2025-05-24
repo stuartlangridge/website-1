@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/st-peters-church"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '50.72026311825353'
 lng: '-1.8760814494323768'
 location: Hinton Road, Lansdowne, West Cliff, Bournemouth, Bournemouth, Christchurch

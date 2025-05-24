@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/just-down-the-street-from-drews-house"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '41.7913909709267'
 lng: '-73.68540428344727'
 location: 3423, Franklin Avenue, Village of Millbrook, Town of Washington, Dutchess

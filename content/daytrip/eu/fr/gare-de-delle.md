@@ -3,7 +3,7 @@ slug: "daytrip/eu/fr/gare-de-delle"
 title: Gare De Delle
 location: Delle, France, 90100
 poster: busbloke
-date: '2025-05-23T00:00:00'
+date: '2012-09-12T17:18:00'
 lat: '47.506169656383804'
 lng: '7.009519117431637'
 url: null

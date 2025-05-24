@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/earthquake-house-comrie"
 title: Earthquake House, Comrie
 location: The Ross, Comrie, Perthshire, UK, PH6
 poster: RoseHN
-date: '2025-05-23T00:00:00'
+date: '2012-05-18T10:34:00'
 lat: '56.3719367172078'
 lng: '-4.001437050743107'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/dugway-geode-bed-collecting-expedition"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '40.2210532'
 lng: '-112.7444097'
 location: DPG Command Headquarters, 5450, Doolittle Avenue, English Village, Tooele

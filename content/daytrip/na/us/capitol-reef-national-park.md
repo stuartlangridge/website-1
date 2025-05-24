@@ -3,7 +3,7 @@ slug: "daytrip/na/us/capitol-reef-national-park"
 title: Capitol Reef National Park
 location: Torrey, UT, USA, 84775
 poster: Ickysciencenerd
-date: '2025-05-23T00:00:00'
+date: '2013-06-12T20:04:00'
 lat: '38.32670978823015'
 lng: '-111.36703491210938'
 url: null

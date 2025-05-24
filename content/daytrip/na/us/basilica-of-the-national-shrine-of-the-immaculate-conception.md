@@ -3,7 +3,7 @@ slug: "daytrip/na/us/basilica-of-the-national-shrine-of-the-immaculate-conceptio
 title: Basilica of the National Shrine of the Immaculate Conception
 location: Washington, DC, USA, 20064
 poster: thedan
-date: '2025-05-23T00:00:00'
+date: '2013-08-02T12:29:00'
 lat: '38.932139757994506'
 lng: '-77.00051307678223'
 url: null

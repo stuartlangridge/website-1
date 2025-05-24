@@ -3,7 +3,7 @@ slug: "daytrip/eu/hr/hrvatica"
 title: Hrvatica
 location: Slavonski Brod, Croatia, 35000
 poster: purpuran
-date: '2025-05-23T00:00:00'
+date: '2012-09-11T23:31:00'
 lat: '45.1643622'
 lng: '18.0114006'
 url: null

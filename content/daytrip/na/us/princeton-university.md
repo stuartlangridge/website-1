@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/princeton-university"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '40.346918463967725'
 lng: '-74.66850898925782'
 location: 76, Library Place, Western Section, Princeton, Mercer County, New Jersey,

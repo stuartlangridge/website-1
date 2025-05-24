@@ -3,7 +3,7 @@ slug: "daytrip/na/us/fort-desoto-park"
 title: Fort Desoto Park
 location: Tierra Verde, Pinellas, USA, 33715
 poster: lpbreakfast
-date: '2025-05-23T00:00:00'
+date: '2012-05-17T21:19:00'
 lat: '27.639066'
 lng: '-82.737510'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/san-diego-quail-botanical-gardens"
 title: San Diego (Quail) Botanical Gardens
 location: Encinitas, CA, USA, 92024
 poster: nrainslie
-date: '2025-05-23T00:00:00'
+date: '2012-09-20T17:55:00'
 lat: '33.05282609644715'
 lng: '-117.28044174377442'
 url: null

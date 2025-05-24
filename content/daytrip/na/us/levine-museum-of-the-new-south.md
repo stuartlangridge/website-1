@@ -3,7 +3,7 @@ slug: "daytrip/na/us/levine-museum-of-the-new-south"
 title: Levine Museum of the New South
 location: Charlotte, NC, USA, 28202
 poster: mejiajav
-date: '2025-05-23T00:00:00'
+date: '2012-04-20T21:00:00'
 lat: '35.228218703191985'
 lng: '-80.8385865281029'
 url: null
