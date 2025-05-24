@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/the-toastrack"
 title: The Toastrack
 location: 45 Cromwell Range, UK, MANCHESTER M14
 poster: Oskareel
-date: '2025-05-23T00:00:00'
+date: '2013-04-19T10:09:00'
 lat: '53.447477807066925'
 lng: '-2.217435836791992'
 url: null

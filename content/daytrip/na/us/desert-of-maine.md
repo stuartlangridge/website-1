@@ -3,7 +3,7 @@ slug: "daytrip/na/us/desert-of-maine"
 title: Desert Of Maine
 location: Freeport, maine, USA, 04032
 poster: amandalilley11
-date: '2025-05-23T00:00:00'
+date: '2011-11-10T20:36:00'
 lat: '43.8569770'
 lng: '-70.1031003'
 url: null

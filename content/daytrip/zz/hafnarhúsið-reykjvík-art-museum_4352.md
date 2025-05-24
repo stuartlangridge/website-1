@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/hafnarhúsið-reykjvík-art-museum_4352"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '64.14910525179882'
 lng: '-21.9405605620575'
 location: "Hafnarh\xFAsi\xF0, 17, Tryggvagata, Mi\xF0b\xE6r, Mi\xF0borg, Reykjav\xED\

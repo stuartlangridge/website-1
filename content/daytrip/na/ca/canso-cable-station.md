@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/canso-cable-station"
 title: Canso Cable Station
 location: Canso, NS, Canada, B0H 1H0
 poster: Lynn
-date: '2025-05-23T00:00:00'
+date: '2012-02-13T18:13:00'
 lat: '45.32720408330961'
 lng: '-61.02881023761222'
 url: null

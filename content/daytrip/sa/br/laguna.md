@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/sa/br/laguna"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '-28.49059099428176'
 lng: '-48.781286699218754'
 location: "Rua Jo\xE3o Henrique, Magalh\xE3es, Laguna, Regi\xE3o Geogr\xE1fica Imediata\

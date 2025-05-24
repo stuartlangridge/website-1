@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/shikellamy-state-park"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '40.88141245100959'
 lng: '-76.79329059783936'
 location: Marina Road, Upper Augusta Township, Northumberland County, Pennsylvania,

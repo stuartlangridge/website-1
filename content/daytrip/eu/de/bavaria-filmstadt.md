@@ -3,7 +3,7 @@ slug: "daytrip/eu/de/bavaria-filmstadt"
 title: Bavaria Filmstadt
 location: Bavariafilmplatz 7, Germany, 82031
 poster: shezza_t
-date: '2025-05-23T00:00:00'
+date: '2012-09-19T14:56:00'
 lat: '48.06580408438595'
 lng: '11.552215593414303'
 url: null

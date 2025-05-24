@@ -3,7 +3,7 @@ slug: "daytrip/na/us/jupiter-inlet-lighthouse-museum"
 title: Jupiter Inlet Lighthouse & Museum
 location: Jupiter, FL, USA, 33469
 poster: cjbystarlight
-date: '2025-05-23T00:00:00'
+date: '2011-11-11T04:59:00'
 lat: '26.948720548480704'
 lng: '-80.08221529190064'
 url: null

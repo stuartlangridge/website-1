@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/national-physical-laboratory"
 title: National Physical Laboratory
 location: Teddington, Greater London, UK, TW11
 poster: srj24
-date: '2025-05-23T00:00:00'
+date: '2012-05-03T17:40:00'
 lat: '51.42333500480451'
 lng: '-0.34385345642090215'
 url: null

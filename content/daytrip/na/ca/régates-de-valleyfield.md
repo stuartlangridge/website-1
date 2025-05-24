@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/régates-de-valleyfield"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '45.25728063670539'
 lng: '-74.138415353418'
 location: "Piscine publique du parc Delpha-Sauv\xE9, Route Verte 3, Sainte-C\xE9cile,\

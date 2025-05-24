@@ -3,7 +3,7 @@ slug: "daytrip/na/us/museum-of-arts-and-sciences"
 title: Museum of Arts and Sciences
 location: Daytona Beach, FL, USA, 32114
 poster: skeevyd
-date: '2025-05-23T00:00:00'
+date: '2012-10-06T20:35:00'
 lat: '29.1919736219832'
 lng: '-81.03738047631532'
 url: null

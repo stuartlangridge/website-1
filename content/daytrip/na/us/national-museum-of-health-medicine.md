@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/national-museum-of-health-medicine"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '39.00942929757424'
 lng: '-77.05260158094791'
 location: Linden Lane, National Park Seminary, Montgomery Hills, Forest Glen, Montgomery

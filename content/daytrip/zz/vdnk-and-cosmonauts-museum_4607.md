@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/vdnk-and-cosmonauts-museum_4607"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '55.82186165787709'
 lng: '37.63974525268554'
 location: "\u0430\u043B\u043B\u0435\u044F \u041A\u043E\u0441\u043C\u043E\u043D\u0430\

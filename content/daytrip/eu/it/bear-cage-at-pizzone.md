@@ -3,7 +3,7 @@ slug: "daytrip/eu/it/bear-cage-at-pizzone"
 title: '? Bear cage at Pizzone'
 location: Strada Statale 158, Pizzone, Italy, 86071
 poster: Simonsailor
-date: '2025-05-23T00:00:00'
+date: '2012-09-23T09:05:00'
 lat: '41.67499120795702'
 lng: '14.03574754486408'
 url: null

@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/bentley-miniature-railway"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '50.923490546802256'
 lng: '0.11229910190581904'
 location: The Broyle, Turnpike Farm, Ringmer, Broyle Side, Wealden, East Sussex, England,

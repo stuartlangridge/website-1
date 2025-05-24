@@ -3,7 +3,7 @@ slug: "daytrip/na/us/twin-lights-historic-site"
 title: Twin Lights Historic Site
 location: Highlands, NJ, USA, 07732
 poster: stewmm0
-date: '2025-05-23T00:00:00'
+date: '2012-08-22T20:11:00'
 lat: '40.395732982914495'
 lng: '-73.98623011772156'
 url: null

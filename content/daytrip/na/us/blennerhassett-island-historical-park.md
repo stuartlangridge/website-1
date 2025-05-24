@@ -3,7 +3,7 @@ slug: "daytrip/na/us/blennerhassett-island-historical-park"
 title: Blennerhassett Island Historical Park
 location: Parkersburg, WV, USA, 26181
 poster: Crow
-date: '2025-05-23T00:00:00'
+date: '2011-09-23T15:04:00'
 lat: '39.27259508493641'
 lng: '-81.63468459118656'
 url: null

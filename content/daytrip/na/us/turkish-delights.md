@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/turkish-delights"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '35.782697276779565'
 lng: '-78.64774346351624'
 location: West Jones Street, Forest Park, Glenwood South, Raleigh, Wake County, North

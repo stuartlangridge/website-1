@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/that-fish-place"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '40.05599168879275'
 lng: '-76.39740682238772'
 location: Estelle Drive, Oyster Point, East Hempfield Township, Lancaster County,

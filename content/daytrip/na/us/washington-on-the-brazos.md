@@ -3,7 +3,7 @@ slug: "daytrip/na/us/washington-on-the-brazos"
 title: Washington-on-the-Brazos
 location: Washington, TX, USA, 77880
 poster: benjmn
-date: '2025-05-23T00:00:00'
+date: '2012-01-17T18:54:00'
 lat: '30.324709837446576'
 lng: '-96.15703724090577'
 url: null

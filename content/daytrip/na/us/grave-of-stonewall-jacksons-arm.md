@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/grave-of-stonewall-jacksons-arm"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.316150'
 lng: '-77.734285'
 location: Lacy Family Cemetery, Wilderness Crossing Trail, Wilderness, Spotsylvania

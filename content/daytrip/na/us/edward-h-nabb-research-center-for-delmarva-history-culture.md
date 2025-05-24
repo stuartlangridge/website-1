@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/edward-h-nabb-research-center-for-delmarva-history-culture"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.34453171967027'
 lng: '-75.6057392875'
 location: Salisbury University, 1101, Camden Avenue, Camden, Salisbury, Wicomico County,

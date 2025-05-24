@@ -3,7 +3,7 @@ slug: "daytrip/na/us/nomads-fraser-island-tag-along-2-day-departs-noosa"
 title: Nomads Fraser Island- Tag Along 2 Day - Departs Noosa
 location: Noosa, Noosa, Australia, 4562
 poster: Madtravelshop
-date: '2025-05-23T00:00:00'
+date: '2013-05-06T10:58:00'
 lat: '-26.500072915744372'
 lng: '153.006591796875'
 url: null

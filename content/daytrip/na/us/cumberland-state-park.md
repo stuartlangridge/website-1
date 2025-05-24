@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/cumberland-state-park"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '35.900312211487055'
 lng: '-85.00009916488648'
 location: 3544, Pigeon Ridge Road, Crossville, Cumberland County, East Tennessee,

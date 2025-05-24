@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/ukrainian-cultural-heritage-village"
 title: Ukrainian Cultural Heritage Village
 location: Chipman, AB, Canada, T0B 0W0
 poster: hmartn
-date: '2025-05-23T00:00:00'
+date: '2012-02-11T22:59:00'
 lat: '53.56850687026319'
 lng: '-112.79763363067627'
 url: null

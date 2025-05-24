@@ -3,7 +3,7 @@ slug: "daytrip/na/us/smallest-park-in-the-world"
 title: Smallest Park in the World
 location: Portland, Oregon, Pacific Northwest, U.S.A., 97201
 poster: rainwriter
-date: '2025-05-23T00:00:00'
+date: '2012-09-01T06:37:00'
 lat: '45.516242'
 lng: '-122.673517'
 url: null

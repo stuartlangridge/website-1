@@ -3,7 +3,7 @@ slug: "daytrip/na/us/stade-saturdays"
 title: Stade Saturdays
 location: Hastings, East Sussex, UK, TN34
 poster: Boyce
-date: '2025-05-23T00:00:00'
+date: '2013-06-14T15:20:00'
 lat: '50.85505088673252'
 lng: '0.5921030044555664'
 url: null

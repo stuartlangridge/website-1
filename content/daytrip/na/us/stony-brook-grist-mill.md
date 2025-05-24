@@ -3,7 +3,7 @@ slug: "daytrip/na/us/stony-brook-grist-mill"
 title: Stony Brook Grist Mill
 location: Stony Brook, NY, USA, 11790
 poster: amcduff
-date: '2025-05-23T00:00:00'
+date: '2012-10-06T16:20:00'
 lat: '40.91491492399387'
 lng: '-73.14763900816348'
 url: null

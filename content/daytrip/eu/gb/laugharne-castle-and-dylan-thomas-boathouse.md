@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/laugharne-castle-and-dylan-thomas-boathouse"
 title: Laugharne- Castle and Dylan Thomas' Boathouse
 location: laugharne, Carmarthenshire, UK, SA33 4FA
 poster: 13love
-date: '2025-05-23T00:00:00'
+date: '2013-08-02T20:22:00'
 lat: '51.77014374673787'
 lng: '-4.462487697601318'
 url: null

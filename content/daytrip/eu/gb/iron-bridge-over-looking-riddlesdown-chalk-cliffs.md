@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/iron-bridge-over-looking-riddlesdown-chalk-cliffs"
 title: Iron Bridge over looking Riddlesdown Chalk Cliffs
 location: Croydon, Greater London, UK, CR8 5
 poster: rjmehra
-date: '2025-05-23T00:00:00'
+date: '2011-11-03T11:47:00'
 lat: '51.316999734750326'
 lng: '-0.08233539525986089'
 url: null

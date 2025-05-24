@@ -3,7 +3,7 @@ slug: "daytrip/na/us/lost-river-caverns"
 title: Lost River Caverns
 location: Hellertown, PA, USA, 18055
 poster: comicreliefboy
-date: '2025-05-23T00:00:00'
+date: '2012-08-06T03:11:00'
 lat: '40.58040361019721'
 lng: '-75.3321518725586'
 url: null

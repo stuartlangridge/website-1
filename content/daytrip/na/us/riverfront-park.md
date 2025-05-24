@@ -3,7 +3,7 @@ slug: "daytrip/na/us/riverfront-park"
 title: Riverfront Park
 location: Spokane, Washington, United States, 99201
 poster: Prehnite
-date: '2025-05-23T00:00:00'
+date: '2013-02-06T02:31:00'
 lat: '47.661459'
 lng: '-117.421328'
 url: null

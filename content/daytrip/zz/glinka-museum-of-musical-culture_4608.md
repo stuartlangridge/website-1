@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/glinka-museum-of-musical-culture_4608"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '55.774411417164835'
 lng: '37.599748151855465'
 location: "\u041C\u0443\u0437\u0435\u0439 \u043C\u0443\u0437\u044B\u043A\u0430\u043B\

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/wilmington-serpentarium"
 title: Wilmington Serpentarium
 location: Wilmington, NC, USA, 28401
 poster: stormy
-date: '2025-05-23T00:00:00'
+date: '2011-10-13T18:34:00'
 lat: '34.3023653'
 lng: '-77.9852853'
 url: null

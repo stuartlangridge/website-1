@@ -3,7 +3,7 @@ slug: "daytrip/na/us/mccoll-center-for-visual-art"
 title: McColl Center for Visual Art
 location: Charlotte, NC, USA, 28202
 poster: mejiajav
-date: '2025-05-23T00:00:00'
+date: '2012-04-20T20:55:00'
 lat: '35.23281572316003'
 lng: '-80.83633648378373'
 url: null

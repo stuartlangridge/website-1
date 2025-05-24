@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/canadian-museum-of-nature"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '45.41283546110047'
 lng: '-75.68879984085083'
 location: Victoria Memorial Museum Building, 240, McLeod Street, Golden Triangle,

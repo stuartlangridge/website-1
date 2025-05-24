@@ -3,7 +3,7 @@ slug: "daytrip/na/us/peppersauce-cave"
 title: Peppersauce Cave
 location: Tucson, Pinal County, United States of America, 85623
 poster: kaye-oh
-date: '2025-05-23T00:00:00'
+date: '2012-02-03T16:04:00'
 lat: '32.552001'
 lng: '-110.720047'
 url: null

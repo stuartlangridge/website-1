@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/israel-museum_3735"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '31.76770636152647'
 lng: '35.203698652343746'
 location: "\u05D9\u05D4\u05D5\u05E9\u05D5\u05E2 \u05D9\u05D1\u05D9\u05DF, \u05E0\u05D9\

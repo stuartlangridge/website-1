@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/desert-botanical-garden"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '33.4608045'
 lng: '-111.9477654'
 location: Staff and Volunteer Parking, Desert Botanical Garden, Phoenix, Maricopa

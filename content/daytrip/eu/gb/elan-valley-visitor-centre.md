@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/elan-valley-visitor-centre"
 title: Elan Valley Visitor Centre
 location: Rhayader, Powys, UK, LD6 5
 poster: LadeeNerd
-date: '2025-05-23T00:00:00'
+date: '2011-09-23T14:10:00'
 lat: '52.27276480850918'
 lng: '-3.5651650256347693'
 url: null

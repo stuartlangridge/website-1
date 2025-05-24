@@ -3,7 +3,7 @@ slug: "daytrip/na/us/bramwell-oktoberfest"
 title: Bramwell Oktoberfest
 location: Bramwell, West Virginia, USA, 24715
 poster: yodjtuesday
-date: '2025-05-23T00:00:00'
+date: '2012-06-15T15:03:00'
 lat: '37.3251163'
 lng: '-81.3117673'
 url: null

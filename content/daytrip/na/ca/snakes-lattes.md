@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/snakes-lattes"
 title: Snakes & Lattes
 location: Toronto, ON, Canada, M5S 2K8
 poster: dishanw
-date: '2025-05-23T00:00:00'
+date: '2013-03-27T16:26:00'
 lat: '43.66473618473756'
 lng: '-79.4130420684815'
 url: null

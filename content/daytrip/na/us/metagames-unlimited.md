@@ -3,7 +3,7 @@ slug: "daytrip/na/us/metagames-unlimited"
 title: Metagames Unlimited
 location: Springfield, MO, USA, 65804
 poster: theaman94
-date: '2025-05-23T00:00:00'
+date: '2013-01-16T12:50:00'
 lat: '37.18100551211832'
 lng: '-93.22744846343994'
 url: null

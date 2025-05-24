@@ -3,7 +3,7 @@ slug: "daytrip/na/us/dr-evermores-forevertron"
 title: Dr. Evermore's Forevertron
 location: Sumpter, Sauk County, Wisconsin, United States, 53591
 poster: kimberlybethc
-date: '2025-05-23T00:00:00'
+date: '2012-09-20T17:29:00'
 lat: '43.3725712'
 lng: '-89.7239097'
 url: null

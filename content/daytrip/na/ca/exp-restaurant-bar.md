@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/exp-restaurant-bar"
 title: EXP Restaurant + Bar
 location: Vancouver, B.C., Canada, BC V6B
 poster: fluffibunnibutt
-date: '2025-05-23T00:00:00'
+date: '2013-08-11T07:19:00'
 lat: '49.28232387770698'
 lng: '-123.11104148626328'
 url: null

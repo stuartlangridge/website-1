@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/as/tr/izmir"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.4673256'
 lng: '27.1323518'
 location: "7003. Sokak, G\xFCm\xFC\u015Fpala Mahallesi, Bayrakl\u0131, \u0130zmir,\

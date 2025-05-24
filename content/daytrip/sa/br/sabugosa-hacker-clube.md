@@ -3,7 +3,7 @@ slug: "daytrip/sa/br/sabugosa-hacker-clube"
 title: Sabugosa Hacker Clube
 location: Sao Jose dos Campos, Sao Paulo, Brazil, 12213-330
 poster: aporto
-date: '2025-05-23T00:00:00'
+date: '2013-08-11T12:54:00'
 lat: '-23.197095169043184'
 lng: '-45.88007569313049'
 url: null

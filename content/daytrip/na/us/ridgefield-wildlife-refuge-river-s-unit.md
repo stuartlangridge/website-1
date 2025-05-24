@@ -3,7 +3,7 @@ slug: "daytrip/na/us/ridgefield-wildlife-refuge-river-s-unit"
 title: Ridgefield Wildlife Refuge - River S Unit
 location: Ridgefield, WA, USA, 98642
 poster: pberry2112
-date: '2025-05-23T00:00:00'
+date: '2012-05-01T06:19:00'
 lat: '45.807374101798764'
 lng: '-122.73382788123774'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/florence-griswold-museum"
 title: Florence Griswold Museum
 location: Old Lyme, CT, USA, 06371
 poster: halesong
-date: '2025-05-23T00:00:00'
+date: '2012-02-19T21:39:00'
 lat: '41.32614824782333'
 lng: '-72.32631824676514'
 url: null

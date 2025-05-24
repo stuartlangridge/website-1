@@ -3,7 +3,7 @@ slug: "daytrip/eu/de/gondwana"
 title: Gondwana
 location: Schiffweiler, Germany, 66578
 poster: DarthVirago
-date: '2025-05-23T00:00:00'
+date: '2013-01-21T15:53:00'
 lat: '49.3605230'
 lng: '7.1185953'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/sheerness-heritage-centre"
 title: Sheerness Heritage Centre
 location: Sheerness, Kent, UK, ME12 1AJ
 poster: pippag
-date: '2025-05-23T00:00:00'
+date: '2013-02-22T01:42:00'
 lat: '51.43849369352147'
 lng: '0.7594728469848633'
 url: null

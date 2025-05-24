@@ -3,7 +3,7 @@ slug: "daytrip/na/us/avery-island"
 title: Avery Island
 location: Avery Island, Louisiana, USA, 70513
 poster: btwixt
-date: '2025-05-23T00:00:00'
+date: '2012-05-03T20:18:00'
 lat: '29.9091220'
 lng: '-91.9053420'
 url: null

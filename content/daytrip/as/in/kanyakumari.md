@@ -3,7 +3,7 @@ slug: "daytrip/as/in/kanyakumari"
 title: Kanyakumari
 location: Kanyakumari, Tamil Nadu, India, TAMIL NADU
 poster: sppfrom1998
-date: '2025-05-23T00:00:00'
+date: '2012-08-22T11:27:00'
 lat: '8.053597134203983'
 lng: '77.4049315625'
 url: null

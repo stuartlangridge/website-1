@@ -3,7 +3,7 @@ slug: "daytrip/af/ug/mabira-forest"
 title: Mabira Forest
 location: Kampala-Jinja Rd, Mabira, Uganda, FOREST
 poster: www.inkampala.com
-date: '2025-05-23T00:00:00'
+date: '2012-07-31T17:12:00'
 lat: '0.39052425522117984'
 lng: '33.00577856834411'
 url: null

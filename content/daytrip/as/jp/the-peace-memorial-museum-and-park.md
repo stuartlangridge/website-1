@@ -4,7 +4,7 @@ title: The Peace Memorial Museum and Park
 location: Hiroshima, Hiroshima Prefecture, Hiroshima Prefecture Hiroshima Naka Ward
   Nakajimacho %uFF11%u2212%uFF12, JAPAN
 poster: mccrindle
-date: '2025-05-23T00:00:00'
+date: '2011-11-11T20:13:00'
 lat: '34.39195572818684'
 lng: '132.45215393836975'
 url: null

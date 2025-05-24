@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/herne-bay-pier"
 title: Herne Bay Pier
 location: Herne Bay, Kent, UK, CT6 8
 poster: biobill
-date: '2025-05-23T00:00:00'
+date: '2011-10-09T03:20:00'
 lat: '51.37374796786369'
 lng: '1.1195597821044885'
 url: null

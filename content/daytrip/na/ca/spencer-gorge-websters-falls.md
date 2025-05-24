@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/spencer-gorge-websters-falls"
 title: Spencer Gorge/ Webster's Falls
 location: Hamilton, Ontario, Canada, L9H 4W2
 poster: theresa
-date: '2025-05-23T00:00:00'
+date: '2012-09-01T22:18:00'
 lat: '43.2752618'
 lng: '-79.9815135'
 url: null

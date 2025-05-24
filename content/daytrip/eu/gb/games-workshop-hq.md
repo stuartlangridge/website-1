@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/games-workshop-hq"
 title: Games Workshop HQ
 location: Willow Road, UK, NOTTINGHAM NG7
 poster: afjudge
-date: '2025-05-23T00:00:00'
+date: '2013-02-19T17:23:00'
 lat: '52.94131950487042'
 lng: '-1.174764633178711'
 url: null

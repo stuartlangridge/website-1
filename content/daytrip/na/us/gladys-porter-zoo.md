@@ -3,7 +3,7 @@ slug: "daytrip/na/us/gladys-porter-zoo"
 title: Gladys Porter Zoo
 location: Brownsville, TX, USA, 78520
 poster: Sarah21063
-date: '2025-05-23T00:00:00'
+date: '2012-02-14T23:34:00'
 lat: '25.93317136806685'
 lng: '-97.398535234375'
 url: null

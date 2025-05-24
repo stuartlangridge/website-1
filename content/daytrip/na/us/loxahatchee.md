@@ -3,7 +3,7 @@ slug: "daytrip/na/us/loxahatchee"
 title: Loxahatchee
 location: Pompano Beach, FL, USA, 33076
 poster: cjbystarlight
-date: '2025-05-23T00:00:00'
+date: '2011-11-11T05:11:00'
 lat: '26.355413529969865'
 lng: '-80.29772542182923'
 url: null

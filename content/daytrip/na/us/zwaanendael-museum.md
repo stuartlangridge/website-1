@@ -3,7 +3,7 @@ slug: "daytrip/na/us/zwaanendael-museum"
 title: Zwaanendael Museum
 location: Lewes, DE, USA, 19958
 poster: Vagrarian
-date: '2025-05-23T00:00:00'
+date: '2012-05-07T01:12:00'
 lat: '38.773863507712285'
 lng: '-75.13913193506465'
 url: null

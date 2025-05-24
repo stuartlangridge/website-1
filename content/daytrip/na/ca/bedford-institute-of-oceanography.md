@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/bedford-institute-of-oceanography"
 title: Bedford Institute of Oceanography
 location: Halifax, NS, Canada, B3B 1A5
 poster: jbrydle
-date: '2025-05-23T00:00:00'
+date: '2012-08-27T15:01:00'
 lat: '44.683041394830504'
 lng: '-63.61113975689699'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/conrad-city-yukon"
 title: Conrad City, Yukon
 location: South of Carcross, Yukon, Canada, Y0B 1B0
 poster: Yukon, North of Ordinary
-date: '2025-05-23T00:00:00'
+date: '2012-09-25T05:55:00'
 lat: '60.069062'
 lng: '-134.570021'
 url: null

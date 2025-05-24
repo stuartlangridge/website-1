@@ -3,7 +3,7 @@ slug: "daytrip/na/us/monument-avenue"
 title: Monument Avenue
 location: Richmond, VA, USA, 23220
 poster: spell_on_u13
-date: '2025-05-23T00:00:00'
+date: '2012-07-09T12:56:00'
 lat: '37.553867129022'
 lng: '-77.46012079982756'
 url: null

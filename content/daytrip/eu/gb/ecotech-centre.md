@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/ecotech-centre"
 title: Ecotech Centre
 location: Swaffham, Norfolk, UK, PE37 7HT
 poster: jtn
-date: '2025-05-23T00:00:00'
+date: '2012-09-22T10:57:00'
 lat: '52.6557135'
 lng: '0.6840481'
 url: null

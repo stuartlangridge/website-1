@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/kennedy-farmhouse"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '39.37982660000161'
 lng: '-77.71491524316406'
 location: Memorial Plaque to the Provisional Army of the United States of America,

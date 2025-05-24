@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/collingwood-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '44.50244192738841'
 lng: '-80.21472714607239'
 location: 45, Saint Paul Street, Collingwood, Simcoe County, Central Ontario, Ontario,

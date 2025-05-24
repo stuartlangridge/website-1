@@ -3,7 +3,7 @@ slug: "daytrip/na/us/swan-point-cemetary"
 title: Swan Point Cemetary
 location: Providence, Rhode Island, United States, 02817
 poster: amenafaye
-date: '2025-05-23T00:00:00'
+date: '2012-02-13T20:11:00'
 lat: '41.8574120'
 lng: '-71.4104419'
 url: null

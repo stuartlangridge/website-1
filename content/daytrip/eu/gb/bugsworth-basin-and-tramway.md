@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/bugsworth-basin-and-tramway"
 title: Bugsworth Basin and Tramway
 location: High Peak, Derbyshire, UK, SK23 7NE
 poster: Dizzley
-date: '2025-05-23T00:00:00'
+date: '2012-02-06T08:40:00'
 lat: '53.33547809576228'
 lng: '-1.9681026763153113'
 url: null

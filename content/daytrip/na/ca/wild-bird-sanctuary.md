@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/wild-bird-sanctuary"
 title: Wild Bird Sanctuary
 location: Ottawa, ON, Canada, K2R 1H8
 poster: oobiesface
-date: '2025-05-23T00:00:00'
+date: '2013-03-04T01:45:00'
 lat: '45.29827135679724'
 lng: '-75.8214783668518'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/mx/hiking-climbing-and-rappel"
 title: Hiking, Climbing and Rappel
 location: Asufre, Baja, Mexico, CALIFORNIA
 poster: neto_55
-date: '2025-05-23T00:00:00'
+date: '2012-08-27T07:29:00'
 lat: '32.14754556323595'
 lng: '-116.47904060546875'
 url: null

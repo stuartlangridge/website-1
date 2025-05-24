@@ -3,7 +3,7 @@ slug: "daytrip/eu/de/karl-friedrich-gauss-grave"
 title: Karl Friedrich Gauss Grave
 location: Göttingen, Germany, 37085
 poster: marcelloseri
-date: '2025-05-23T00:00:00'
+date: '2012-09-24T10:44:00'
 lat: '51.53187959570018'
 lng: '9.941323774414059'
 url: null

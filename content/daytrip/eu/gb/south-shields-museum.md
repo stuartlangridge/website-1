@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/south-shields-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '54.9986681'
 lng: '-1.4315039'
 location: South Shields Museum & Art Gallery, Ocean Road, The Lawe, South Shields,

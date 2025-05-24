@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/dundee-contemporary-arts"
 title: Dundee Contemporary Arts
 location: Dundee, Scotland, UK, DD1 4DY
 poster: Stooshie
-date: '2025-05-23T00:00:00'
+date: '2013-07-13T12:02:00'
 lat: '56.4573509960909'
 lng: '-2.9753851890563965'
 url: null

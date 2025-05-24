@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/the-new-library-of-alexandria_4038"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '31.21154234962126'
 lng: '29.916260021286007'
 location: "9, \u0637\u0631\u064A\u0642 \u0627\u0644\u062C\u064A\u0634, \u0627\u0644\

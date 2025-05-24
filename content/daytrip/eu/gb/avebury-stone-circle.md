@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/avebury-stone-circle"
 title: Avebury Stone Circle
 location: Marlborough, UK, WILTSHIRE SN8
 poster: siasl
-date: '2025-05-23T00:00:00'
+date: '2013-03-22T11:49:00'
 lat: '51.42870160659351'
 lng: '-1.8544578552246094'
 url: null

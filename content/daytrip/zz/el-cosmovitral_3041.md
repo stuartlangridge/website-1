@@ -3,7 +3,7 @@ slug: "daytrip/zz/el-cosmovitral_3041"
 title: El Cosmovitral
 location: Toluca de Lerdo, Estado de México, México, 50069
 poster: derlete
-date: '2025-05-23T00:00:00'
+date: '2012-01-13T04:41:00'
 lat: '19.293441333736226'
 lng: '-99.65370170537949'
 url: null

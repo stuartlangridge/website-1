@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/icelandic-national-gallery_4353"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '64.143987'
 lng: '-21.939187'
 location: "Listasafn \xCDslands, 7, Fr\xEDkirkjuvegur, Austurb\xE6r, Mi\xF0borg, Reykjav\xED\

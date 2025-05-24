@@ -3,7 +3,7 @@ slug: "daytrip/na/us/twin-falls-greenbelt"
 title: Twin Falls Greenbelt
 location: Austin, TX, USA, 78746
 poster: steviemaynee
-date: '2025-05-23T00:00:00'
+date: '2012-08-05T05:07:00'
 lat: '30.24405167299513'
 lng: '-97.81006620998721'
 url: null

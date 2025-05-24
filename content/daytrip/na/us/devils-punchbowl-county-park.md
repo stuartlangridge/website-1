@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/devils-punchbowl-county-park"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '34.5064141'
 lng: '-117.9096804'
 location: 34199, 123rd Street East, Pearblossom, Los Angeles County, California, 93553,

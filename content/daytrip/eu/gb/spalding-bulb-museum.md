@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/spalding-bulb-museum"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '52.8230084'
 lng: '-0.1541754'
 location: Surfleet Road, Pinchbeck CP, Crossgate, South Holland, Lincolnshire, Greater

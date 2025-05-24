@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/waylands-smithy"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '51.56673218555707'
 lng: '-1.5960802859497107'
 location: Wayland's Smithy, The Ridgeway, Ashbury, Vale of White Horse, Oxfordshire,

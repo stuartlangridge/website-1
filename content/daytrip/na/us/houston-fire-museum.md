@@ -3,7 +3,7 @@ slug: "daytrip/na/us/houston-fire-museum"
 title: Houston Fire Museum
 location: Houston, TX, USA, 77006
 poster: bkzimm
-date: '2025-05-23T00:00:00'
+date: '2011-10-03T12:17:00'
 lat: '29.747425616428927'
 lng: '-95.37480362149046'
 url: null

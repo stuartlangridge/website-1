@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/pt/university-of-évora"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '38.573281420352146'
 lng: '-7.903906328125004'
 location: "Col\xE9gio do Esp\xEDrito Santo - Universidade de \xC9vora, 6, Rua do Cardeal\

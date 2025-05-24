@@ -3,7 +3,7 @@ slug: "daytrip/eu/de/lehmbruckmuseum"
 title: LehmbruckMuseum
 location: Duisburg, North Rhine-Westphalia, Deutschland, 47051
 poster: trotzendorff
-date: '2025-05-23T00:00:00'
+date: '2012-09-27T16:45:00'
 lat: '51.42998613920794'
 lng: '6.7659074836540185'
 url: null

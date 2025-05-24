@@ -3,7 +3,7 @@ slug: "daytrip/na/us/hamilton-wood-type-and-printing-museum"
 title: Hamilton Wood Type and Printing Museum
 location: Two Rivers, United States, 54241
 poster: grantula108
-date: '2025-05-23T00:00:00'
+date: '2011-11-10T16:52:00'
 lat: '44.147818352577'
 lng: '-87.566587048657'
 url: null

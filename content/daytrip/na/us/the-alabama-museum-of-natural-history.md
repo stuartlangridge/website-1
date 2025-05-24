@@ -3,7 +3,7 @@ slug: "daytrip/na/us/the-alabama-museum-of-natural-history"
 title: The Alabama Museum of Natural History
 location: Tuscaloosa, AL, USA, 35487
 poster: BowtiesAreCool
-date: '2025-05-23T00:00:00'
+date: '2013-01-03T22:50:00'
 lat: '33.155948300786484'
 lng: '-87.69287109375'
 url: null

@@ -3,7 +3,7 @@ slug: "daytrip/na/us/historic-oakland-cemetery"
 title: Historic Oakland Cemetery
 location: Atlanta, GA, USA, 30312
 poster: nonmodernist
-date: '2025-05-23T00:00:00'
+date: '2012-02-14T20:57:00'
 lat: '33.7480003284417'
 lng: '-84.37210957903744'
 url: null

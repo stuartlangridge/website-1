@@ -3,7 +3,7 @@ slug: "daytrip/eu/gb/avro-vulcan-nuclear-bomber"
 title: Avro Vulcan - Nuclear Bomber!
 location: Rochford, Essex, UK, SS4 1HX
 poster: bloodline
-date: '2025-05-23T00:00:00'
+date: '2013-01-21T11:22:00'
 lat: '51.57289545475957'
 lng: '0.7051393389701843'
 url: null

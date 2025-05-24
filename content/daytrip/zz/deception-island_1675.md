@@ -3,7 +3,7 @@ slug: "daytrip/zz/deception-island_1675"
 title: Deception Island
 location: Antarctica, STHPLE
 poster: LadeeNerd
-date: '2025-05-23T00:00:00'
+date: '2011-09-23T14:24:00'
 lat: '-62.98277329440896'
 lng: '-60.649267656250004'
 url: null

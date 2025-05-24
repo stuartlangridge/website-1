@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/ca/science-north"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '46.47005990855301'
 lng: '-80.99756527900695'
 location: Ramsey Lake Road, Sudbury, Greater Sudbury, Sudbury District, Northeastern

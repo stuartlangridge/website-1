@@ -3,7 +3,7 @@ slug: "daytrip/na/us/jane-voorhees-zimmerli-art-museum"
 title: Jane Voorhees Zimmerli Art Museum
 location: New Brunswick, NJ, USA, 08901
 poster: kwscalare622
-date: '2025-05-23T00:00:00'
+date: '2012-09-28T17:05:00'
 lat: '40.499966352435806'
 lng: '-74.44565045834958'
 url: null

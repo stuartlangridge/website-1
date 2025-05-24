@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/eu/gb/dale-abbey"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '52.941753101427274'
 lng: '-1.3470662458801144'
 location: Hermit's Wood & All Saints Church, The Village, Dale Abbey, Erewash, Derbyshire,

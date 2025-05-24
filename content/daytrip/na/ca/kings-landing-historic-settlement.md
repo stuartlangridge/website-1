@@ -3,7 +3,7 @@ slug: "daytrip/na/ca/kings-landing-historic-settlement"
 title: Kings Landing Historic Settlement
 location: Prince William, NB, Canada, E6K 3L1
 poster: MelaJoyRed
-date: '2025-05-23T00:00:00'
+date: '2012-03-24T03:18:00'
 lat: '45.914226385158315'
 lng: '-67.0512714213562'
 url: null

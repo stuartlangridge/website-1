@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/zz/national-museum-of-kraljevo_4368"
-date: '2025-05-23T00:00:00'
+date: '2001-01-30T04:37:00'
 lat: '43.7259387761377'
 lng: '20.68170406158447'
 location: "1a, \u0422\u0430\u043D\u0430\u0441\u043A\u0430 \u0420\u0430\u0458\u0438\
