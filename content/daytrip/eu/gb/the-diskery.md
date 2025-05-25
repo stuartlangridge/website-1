@@ -1,11 +1,10 @@
 ---
 slug: "daytrip/eu/gb/the-diskery"
 date: '2001-01-30T04:37:00'
-lat: '52.47205705230484'
-lng: '-1.8990545696449317'
-location: The Diskery, Bromsgrove Street, Chinese Quarter, Digbeth, Park Central,
-  Birmingham, West Midlands, England, B5 6QB, United Kingdom
+lat: '52.47186316963245'
+lng: '-1.8994185043280936'
+location: The Diskery, 92 Bristol St, Birmingham B5 7AH, West Midlands
 title: The Diskery
 ---
-
+Birmingham's oldest record shop, founded in 1952. Has a website at [thediskery.net](https://www.thediskery.net/).
 
