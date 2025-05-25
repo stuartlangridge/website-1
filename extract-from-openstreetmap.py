@@ -69,7 +69,7 @@ title_slug = slugify.slugify(title)
 slug = f"daytrip/{region}/{country}/{title_slug}"
 output = {
     "slug": slug,
-    "date": datetime.datetime.now().isoformat(timespec="seconds"),
+    "date": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
     "lat": lat,
     "lng": lng,
     "location": address,
