@@ -56,7 +56,7 @@ if os.path.exists(filename):
 
 lines = ["---\n"]
 for k, v in output.items():
-    lines.append(f"{k}: {v}\n")
+    lines.append(f"{k}: '{v.replace("'", "’")}'\n")
 lines.append("---\n")
 lines.append("\n")
 
