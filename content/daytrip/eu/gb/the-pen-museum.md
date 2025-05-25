@@ -5,5 +5,5 @@ lat: 52.4846038
 lng: -1.9116092
 location: The Pen Museum, 60, Frederick Street, Jewellery Quarter, Birmingham, West Midlands, England, B1 3HS, United Kingdom
 title: The Pen Museum
-externalurl: https://penmuseum.org.uk/
+external_url: https://penmuseum.org.uk/
 ---
