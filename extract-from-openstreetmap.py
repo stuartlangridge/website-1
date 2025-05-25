@@ -48,7 +48,7 @@ output = {
     "title": title
 }
 if "url" in j["elements"][0]["tags"]:
-    output["externalurl"] = j["elements"][0]["tags"]["url"]
+    output["external_url"] = j["elements"][0]["tags"]["url"]
 filename = f"content/{slug}.md"
 if os.path.exists(filename):
     print(f"Sorry, filename {filename} already exists; refusing to overwrite it")
