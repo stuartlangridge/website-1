@@ -39,27 +39,37 @@ relativeURLs = true
 
 [menu]
   [[menu.main]]
-    name = "Map"
-    url = "/"
-    weight = 10
-  [[menu.main]]
     name = "Search"
     url = "/search"
+    title = "Search by name"
     weight = 15
+    [menu.main.params]
+      icon = "fa-solid fa-search"
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
+    title = "Our blog"
     weight = 20
+    [menu.main.params]
+      icon = "fa-solid fa-blog"
   [[menu.main]]
     name = "About"
     url = "/about/"
+    title = "About Nerdy Day Trips"
     weight = 30
+    [menu.main.params]
+      icon = "fa-solid fa-user"
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
+    title = "Contact us"
     weight = 40
+    [menu.main.params]
+      icon = "fa-solid fa-envelope"
   [[menu.main]]
     name = "GitHub"
     url = "https://github.com/nerdydaytrips/website"
-    desc = "Help out on GitHub!"
+    title = "Help out on GitHub!"
     weight = 50
+    [menu.main.params]
+      icon = "fa-brands fa-github"
