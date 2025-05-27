@@ -546,3 +546,10 @@ main#content:has(> article) {
   max-width: 960px;   /* Constrain width for better readability. */
   color: inherit;     /* Ensure text elements within inherit the body's light color. */
 }
+
+.sidebar-content button.jump-to-map {
+    background-color: transparent;
+    border-width: 0;
+    color: #00b1ed;
+    cursor: pointer;
+}

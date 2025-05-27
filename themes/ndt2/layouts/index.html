@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.getElementById('sidebar');
     const sidebarToggle = document.getElementById('sidebar-toggle');
     const sidebarContent = document.querySelector('.sidebar-content');
-    
+
     // Check if sidebar was previously collapsed
     const sidebarState = localStorage.getItem('sidebarState');
     if (sidebarState === 'collapsed') {
@@ -99,6 +99,22 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 300);
         }
     });
+
+    /* Add "jump to this place on the map" buttons to sidebar links */
+    sidebarContent.querySelectorAll("a").forEach(a => {
+        if (!a.dataset.lat) return;
+        const lat = parseFloat(a.dataset.lat);
+        const lng = parseFloat(a.dataset.lng);
+        const button = document.createElement("button");
+        button.className = "jump-to-map";
+        button.onclick = () => {
+            map.flyTo([lat, lng], 19);
+        }
+        const icon = document.createElement("i");
+        icon.className = "fa-solid fa-map-pin";
+        button.append(icon);
+        a.parentNode.insertBefore(button, a.nextElementSibling);
+    })
 });
 </script>
 {{ end }}
