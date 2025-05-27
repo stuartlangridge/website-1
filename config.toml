@@ -1,6 +1,6 @@
-baseURL = 'https://proteus.west-mimosa.ts.net/'
+baseURL = 'https://nerdydaytrips.org/'
 languageCode = 'en-gb'
-title = 'Nerdy Day Trips Reborn'
+title = 'Nerdy Day Trips²'
 theme = "ndt2"
 enableRobotsTXT = true
 enableGitInfo = true
