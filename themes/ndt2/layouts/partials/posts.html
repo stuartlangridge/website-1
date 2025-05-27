@@ -3,7 +3,7 @@
 {{- range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
     <li class="post-item">
         <div class="post-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}" data-lat="{{.Params.lat}}" data-lng="{{.Params.lng}}">{{ .Title }}</a>
         </div>
         <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
         <div class="post-summary">
