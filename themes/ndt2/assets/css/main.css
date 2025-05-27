@@ -168,7 +168,8 @@ main#content ul#posts li {
 main#content ul#posts small {
     font-size: 0.8em;
     /* color: #767676; */
-    color: #bdc3c7; /* Lighter grey for dark background */
+    /* color: #bdc3c7; /* Lighter grey for dark background */
+    color: #d5dbdb;
     margin-left: 10px;
 }
 
@@ -198,7 +199,8 @@ main#content header#post-header div {
     display: block;
     font-size: 0.85em;
     /* color: #767676; */
-    color: #bdc3c7; /* Lighter grey for readability */
+    /* color: #bdc3c7; /* Lighter grey for readability */
+    color: #d5dbdb;
 }
 
 main#content #toc {
@@ -336,7 +338,9 @@ footer#footer {
     font-size: 14px;
     font-size: 1.4rem;
     font-weight: 300;
-    color: #949494;
+    /*color: #949494;*/
+    /* color: #bdc3c7; */
+    color: #d5dbdb;
     margin: 40px 0;
 }
 
@@ -375,7 +379,8 @@ html, body {
 .sidebar {
   width: 300px;
   background: #3b4045; /* Medium dark grey for sidebar */
-  color: #bdc3c7; /* Light text for sidebar */
+  /* color: #bdc3c7; /* Light text for sidebar */
+  color: #d5dbdb;
   overflow-y: auto;
   box-shadow: -2px 0 5px rgba(0,0,0,0.25); /* Adjusted shadow */
   z-index: 500;
@@ -477,7 +482,8 @@ html, body {
 .post-meta {
     font-size: 18px;
     /* color: #777; */
-    color: #bdc3c7; /* Lighter grey */
+    /* color: #bdc3c7; /* Lighter grey */
+    color: #d5dbdb;
     margin-bottom: 5px;
 }
 
