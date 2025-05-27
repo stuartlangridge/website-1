@@ -4,7 +4,13 @@
         <ul>
             {{ range .Site.Menus.main.ByWeight -}}
             <li>
-                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">
+                    {{- if .Params.icon -}}
+                        <i class="{{- .Params.icon -}}"></i>
+                    {{- else -}}
+                        {{- .Name -}}
+                    {{- end -}}
+                </a>{{ .Post }}
             </li>
             {{- end }}
         </ul>
