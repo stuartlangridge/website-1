@@ -61,7 +61,6 @@ header#banner nav ul {
 }
 
 header#banner nav ul li {
-    margin-left: 8px;
     white-space: nowrap; /* Prevent wrapping of menu items */
 }
 

@@ -39,13 +39,6 @@ relativeURLs = true
 
 [menu]
   [[menu.main]]
-    name = "Map"
-    url = "/"
-    title = "Show the map"
-    weight = 10
-    [menu.main.params]
-      icon = "fa-solid fa-map"
-  [[menu.main]]
     name = "Search"
     url = "/search"
     title = "Search by name"
