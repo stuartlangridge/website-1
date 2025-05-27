@@ -585,4 +585,18 @@ main#content:has(> article) {
     border-width: 0;
     color: #00b1ed;
     cursor: pointer;
+    width: 44px;
+    height: 44px;
+    order: 1;
+    font-size: 32px;
+}
+
+.sidebar-content .post-title:not(:has(button)) {
+    margin-left: 44px;
+}
+.sidebar-content .post-title:has(button) {
+    display: flex;
+}
+.sidebar-content .post-title:has(button) a {
+    order: 2;
 }
