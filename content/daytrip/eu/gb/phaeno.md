@@ -1,5 +1,5 @@
 ---
-slug: 'daytrip/eu/gb/phaeno'
+slug: 'daytrip/eu/de/phaeno'
 date: '2025-05-29T22:15:29.970Z'
 poster: 'MarcN'
 lat: '52.428791'
