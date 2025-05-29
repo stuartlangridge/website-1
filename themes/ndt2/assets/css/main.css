@@ -407,7 +407,7 @@ html, body {
 
 .sidebar-content {
   padding: 15px;
-  height: 100%;
+  height: calc(100vh - 60px);
   overflow-y: auto;
 }
 
@@ -496,7 +496,7 @@ html, body {
 }
 
 .post-meta {
-    font-size: 18px;
+    font-size: 14px;
     /* color: #777; */
     /* color: #bdc3c7; /* Lighter grey */
     color: #d5dbdb;
@@ -601,10 +601,10 @@ main#content:has(> article) {
     border-width: 0;
     color: #00b1ed;
     cursor: pointer;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     order: 1;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .sidebar-content .post-title:not(:has(button)) {
