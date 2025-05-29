@@ -5,6 +5,7 @@ lat: '-0.40393968494303895'
 lng: '32.24425651367187'
 location: Buiri, Bujumba, Kalangala, Central Region, Uganda
 title: Ssese Islands
+external_url: https://www.sseseislands.net
 ---
 
 

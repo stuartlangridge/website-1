@@ -6,6 +6,7 @@ lng: '127.8926024609375'
 location: "\u77E5\u5FF5\u4E45\u9AD8, \u5357\u57CE\u5E02, \u6C96\u7E04\u770C, 901-1501,\
   \ \u65E5\u672C"
 title: Kudaka Island
+external_url: https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/kudaka-island/
 ---
 
 

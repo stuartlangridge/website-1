@@ -6,6 +6,7 @@ location: "Saint George\u2019s Castle, J.J. Rawlings High Street, Elmina, Komend
   \ Municipal District, Central Region, Ghana"
 title: Elmina Slave Castle
 slug: "daytrip/af/gh/elmina-slave-castle"
+external_url: https://visitghana.com/elmina-castle-2/
 ---
 
 

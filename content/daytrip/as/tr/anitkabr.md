@@ -1,12 +1,9 @@
 ---
 slug: "daytrip/as/tr/anitkabr"
 date: '2001-01-30T04:37:00'
-lat: '39.91379974076749'
-lng: '32.833398359374996'
-location: "Savunma Sanayii M\xFCste\u015Farl\u0131\u011F\u0131, 5, \u0130smet \u0130\
-  n\xF6n\xFC Bulvar\u0131, Devlet Mahallesi, Ankara, \xC7ankaya, Ankara, \u0130\xE7\
-  \ Anadolu B\xF6lgesi, 06420, T\xFCrkiye"
-title: ANITKAB?R
+lat: '39.925556'
+lng: '32.837778'
+location: Anıtkabir Command Anıttepe. Çankaya, Ankara
+title: Anıtkabir
+external_url: https://www.anitkabir.tsk.tr/index_eng.html
 ---
-
-
