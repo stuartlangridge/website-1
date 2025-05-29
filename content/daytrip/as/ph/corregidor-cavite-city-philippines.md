@@ -5,6 +5,7 @@ lat: '14.373305244023221'
 lng: '120.57158805664062'
 location: C1 Tunnel, Cavite City, Cavite, Calabarzon, 4125, Philippines
 title: Corregidor, Cavite City, Philippines
+external_url: https://www.discoverthephilippines.com/corregidor-island-visitors-guide/
 ---
 
 
