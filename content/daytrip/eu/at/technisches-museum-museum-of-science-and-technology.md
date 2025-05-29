@@ -4,7 +4,7 @@ date: '2025-05-29T14:46:38.510Z'
 poster: 'same'
 lat: '48.19071'
 lng: '16.317905'
-location: 'Mariahilfer Straﬂe 212, 1140 Wien'
+location: 'Mariahilfer Stra√üe 212, 1140 Wien'
 title: 'Technisches Museum / Museum of Science and Technology'
 external_url: https://www.technischesmuseum.at/
 ---

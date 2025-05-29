@@ -4,7 +4,7 @@ date: '2025-05-29T14:51:23.581Z'
 poster: 'MarcN'
 lat: '51.731322'
 lng: '8.735611'
-location: 'Fürstenallee 7, 33102 Paderborn, Germany'
+location: 'FÃ¼rstenallee 7, 33102 Paderborn, Germany'
 title: 'Heinz Nixdorf MuseumsForum'
 external_url: https://hnf.de
 ---
