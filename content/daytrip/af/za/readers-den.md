@@ -6,6 +6,6 @@ lng: '18.46531294503552'
 location: Main Road, Cape Town Ward 59, Cape Town, City of Cape Town, Western Cape,
   7708, South Africa
 title: Reader's Den
+external_url: https://readersden.co.za
 ---
-
-
+Comic shop
