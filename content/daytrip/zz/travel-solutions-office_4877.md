@@ -6,7 +6,7 @@ poster: kstanishev
 date: '2013-04-22T12:32:00'
 lat: '42.68846078054314'
 lng: '27.707862854003906'
-url: null
+external_url: null
 ---
 
 Book excursions, trips. Buy tickets for Aquaparks. Hire cars. Arrange transfers to and from airport.

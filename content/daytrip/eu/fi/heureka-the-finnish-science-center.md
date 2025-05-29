@@ -6,7 +6,7 @@ poster: kedontemp
 date: '2012-07-21T13:03:00'
 lat: '60.28671518503877'
 lng: '25.043920057373043'
-url: null
+external_url: null
 ---
 
 Heureka is an exhibition and activity centre which displays and demonstrates the achievements of science and technology.

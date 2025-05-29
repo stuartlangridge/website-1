@@ -6,7 +6,7 @@ poster: oobiesface
 date: '2013-03-04T01:45:00'
 lat: '45.29827135679724'
 lng: '-75.8214783668518'
-url: null
+external_url: null
 ---
 
 A wild bird sanctuary where sick and injured birds are rehabilitated.  Open all year except for new years day.  There are many types of birds you can view and knowledgeable and friendly staff.  They have a Turkey vulture and many small and large birds.  Wild birds on the trails will eat seed from your hand, and wild turkey and deer frequent the property.  There is an excellent walking, and bike trail where friendly birds are plentiful.  

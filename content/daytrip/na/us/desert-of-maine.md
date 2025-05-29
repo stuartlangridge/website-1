@@ -6,7 +6,7 @@ poster: amandalilley11
 date: '2011-11-10T20:36:00'
 lat: '43.8569770'
 lng: '-70.1031003'
-url: null
+external_url: null
 ---
 
 a desert in the middle of maine? i think yes~

@@ -6,7 +6,7 @@ poster: Cowzakeptin
 date: '2012-05-18T13:18:00'
 lat: '53.62972921912123'
 lng: '-2.0185791677665748'
-url: null
+external_url: null
 ---
 
 Highest motorway in England

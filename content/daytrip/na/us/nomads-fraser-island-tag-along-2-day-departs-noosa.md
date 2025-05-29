@@ -6,7 +6,7 @@ poster: Madtravelshop
 date: '2013-05-06T10:58:00'
 lat: '-26.500072915744372'
 lng: '153.006591796875'
-url: null
+external_url: null
 ---
 
 Nomads Fraser 2d/1n 4WD self-drive tag-along safari departing Noosa, overnight at Beach House on the Fraser Island.

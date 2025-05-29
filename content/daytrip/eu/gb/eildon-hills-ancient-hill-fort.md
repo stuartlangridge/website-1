@@ -6,7 +6,7 @@ poster: dostoyev12
 date: '2012-09-24T17:02:00'
 lat: '55.587452'
 lng: '-2.700678'
-url: null
+external_url: null
 ---
 
 We are told that these hills were fortified around 1000BC in the Bronze age. The hills are rather unique in that respect - many still visible platforms were carved out of the hills to provide foundations for homes and fortifications. 

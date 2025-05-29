@@ -6,7 +6,7 @@ poster: opalinemortal
 date: '2012-05-12T04:23:00'
 lat: '39.4153520'
 lng: '-81.4548436'
-url: null
+external_url: null
 ---
 
 A museum of the history of the Northwest Territory, in the first established permanent colony of the Northwest Territory.

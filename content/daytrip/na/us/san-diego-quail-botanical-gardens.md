@@ -6,7 +6,7 @@ poster: nrainslie
 date: '2012-09-20T17:55:00'
 lat: '33.05282609644715'
 lng: '-117.28044174377442'
-url: null
+external_url: null
 ---
 
 A beautiful garden open to the public. It includes everything from the local coastal sage-scrub communities to lush tropical plants arranged along many long, meandering paths which pass by waterfalls, ponds, sculptures, and so much more!

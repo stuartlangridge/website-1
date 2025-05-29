@@ -6,7 +6,7 @@ poster: srj24
 date: '2012-05-03T17:40:00'
 lat: '51.42333500480451'
 lng: '-0.34385345642090215'
-url: null
+external_url: null
 ---
 
 For over a century NPL has contributed scientific and technological leadership in the physical sciences, as well as in materials science, computing, and bioscience.

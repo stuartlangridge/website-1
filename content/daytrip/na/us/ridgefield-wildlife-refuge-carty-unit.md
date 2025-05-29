@@ -6,7 +6,7 @@ poster: pberry2112
 date: '2012-05-01T06:29:00'
 lat: '45.83128700912422'
 lng: '-122.74845622125554'
-url: null
+external_url: null
 ---
 
 Walking friendly area of the refuge.  Numerous small lakes and pond offer a large variety of wildlife viewing opportunities.  There's also a recreation of a traditional Cathlapotle Plankhouse.

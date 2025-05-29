@@ -6,7 +6,7 @@ poster: DuckyFuzz
 date: '2011-11-13T10:26:00'
 lat: '51.51707468177122'
 lng: '-0.09837634627342595'
-url: null
+external_url: null
 ---
 
 A wall lined with memorial tablets to commemorate the bravery of ordinary people.

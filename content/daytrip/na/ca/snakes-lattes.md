@@ -6,7 +6,7 @@ poster: dishanw
 date: '2013-03-27T16:26:00'
 lat: '43.66473618473756'
 lng: '-79.4130420684815'
-url: null
+external_url: null
 ---
 
 A board game cafe (that also sells beer) boasting over 2500 unique games to enjoy with 2 players or a larger group. 

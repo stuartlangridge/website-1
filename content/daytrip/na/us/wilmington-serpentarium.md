@@ -6,7 +6,7 @@ poster: stormy
 date: '2011-10-13T18:34:00'
 lat: '34.3023653'
 lng: '-77.9852853'
-url: null
+external_url: null
 ---
 
 OMG!  Up close &amp; personal with some of the rarest &amp; deadliest reptiles in the world... in downtown Wilmington, NC!

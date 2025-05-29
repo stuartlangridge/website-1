@@ -6,7 +6,7 @@ poster: TomP
 date: '2012-11-29T12:46:00'
 lat: '51.13077099743184'
 lng: '0.05950212478637695'
-url: null
+external_url: null
 ---
 
 Historic house - first work of architect B.H. Latrobe, also well known for the White House and Capitol Building in Washington D.C.

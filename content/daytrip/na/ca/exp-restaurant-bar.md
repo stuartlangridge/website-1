@@ -6,7 +6,7 @@ poster: fluffibunnibutt
 date: '2013-08-11T07:19:00'
 lat: '49.28232387770698'
 lng: '-123.11104148626328'
-url: null
+external_url: null
 ---
 
 EXP is a classy restaurant for the grown-up gamer; we aim to redefine the term 'social gaming.'

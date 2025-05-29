@@ -6,7 +6,7 @@ poster: amcduff
 date: '2012-10-06T16:20:00'
 lat: '40.91491492399387'
 lng: '-73.14763900816348'
-url: null
+external_url: null
 ---
 
 A working grist mill has stood here since 1699, this one was built circa 1751. It's definitely worth taking a tour of the interior (check for current opening hours as of Oct 6th 2012 it is open Sat/Sun 12 -4:30pm) to see all the gears in motion!

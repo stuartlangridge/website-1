@@ -6,7 +6,7 @@ poster: El3naLiv
 date: '2013-03-06T14:48:00'
 lat: '43.07390374227269'
 lng: '11.668853759765625'
-url: null
+external_url: null
 ---
 
 A charming Medieval and well-known village.. come here and visit old churches &amp; narrow streets  with a glass of wine and a piece of Pecorino in your hands ;) !

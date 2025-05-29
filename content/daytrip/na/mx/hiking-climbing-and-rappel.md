@@ -6,7 +6,7 @@ poster: neto_55
 date: '2012-08-27T07:29:00'
 lat: '32.14754556323595'
 lng: '-116.47904060546875'
-url: null
+external_url: null
 ---
 
 Great place to go hiking, in the middle of nowhere, get off at LA CETTO and keep on the road until it ends, there are two waterfalls (dry in the summer), thermal waters, you can climb un and rappel down. there are also caves to explore. Just be sure to take the right equipment.

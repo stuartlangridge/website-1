@@ -6,7 +6,7 @@ poster: Boyce
 date: '2013-06-14T15:20:00'
 lat: '50.85505088673252'
 lng: '0.5921030044555664'
-url: null
+external_url: null
 ---
 
 After the first successful year, Stade Saturdays returns for another exciting and diverse season in 2013.

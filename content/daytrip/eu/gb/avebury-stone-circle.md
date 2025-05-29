@@ -6,7 +6,7 @@ poster: siasl
 date: '2013-03-22T11:49:00'
 lat: '51.42870160659351'
 lng: '-1.8544578552246094'
-url: null
+external_url: null
 ---
 
 In the 1930s, the pretty village of Avebury, partially encompassed by the stone circle of this World Heritage Site, was witness to the excavations of archaeologist Alexander Keiller. Keiller opened the museum here to display his findings in 1938 in the old stable building of Avebury Manor where he lived.

@@ -6,7 +6,7 @@ poster: cirrus
 date: '2011-10-12T10:34:00'
 lat: '52.4071916'
 lng: '-1.5061276'
-url: null
+external_url: null
 ---
 
 Museum, achives and art gallery all under one roof.

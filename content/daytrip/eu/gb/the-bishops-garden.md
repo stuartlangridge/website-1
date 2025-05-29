@@ -6,7 +6,7 @@ poster: kerryellen87
 date: '2014-02-07T15:11:00'
 lat: '52.63298475232789'
 lng: '1.301558017730713'
-url: null
+external_url: null
 ---
 
 A popular place for many years and still a favourite, attracting visitors yearly is the Bishop’s garden. A four acre walled garden dating back to the 12th century in the grounds of the Bishop’s House.

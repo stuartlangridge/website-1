@@ -6,7 +6,7 @@ poster: bkzimm
 date: '2011-10-03T12:17:00'
 lat: '29.747425616428927'
 lng: '-95.37480362149046'
-url: null
+external_url: null
 ---
 
 The HOUSTON Fire Museum was originally Fire Station No. 7, the first fire station built by the Houston Fire Department after it went fully paid in 1895. 

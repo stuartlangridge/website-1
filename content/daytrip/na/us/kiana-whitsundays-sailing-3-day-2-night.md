@@ -6,7 +6,7 @@ poster: Madtravelshop
 date: '2013-05-07T10:00:00'
 lat: '-20.271980'
 lng: '148.708009'
-url: null
+external_url: null
 ---
 
 The only small number vessel that ventures to the'Outer' Great Barrier Reef with only 14 passengers. Don't forget that the 1st dive is included.

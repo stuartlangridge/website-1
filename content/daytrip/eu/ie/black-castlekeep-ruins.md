@@ -6,7 +6,7 @@ poster: vpants
 date: '2013-03-30T21:09:00'
 lat: '52.980069558305566'
 lng: '-6.032524108886719'
-url: null
+external_url: null
 ---
 
 This castle ruin stands on a rocky promontory over the sea, at the eastern side of the town. It is a fine vantage-point for views over the town and the coast of North Wicklow from the ruins. 

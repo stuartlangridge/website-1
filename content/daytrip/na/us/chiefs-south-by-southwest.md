@@ -6,7 +6,7 @@ poster: e.alisonnew
 date: '2012-02-18T09:39:00'
 lat: '39.64484298455041'
 lng: '-86.8642752187103'
-url: null
+external_url: null
 ---
 
 Chiefs is located just a few blocks from DePauw University, right off the historical courthouse square in downtown Greencastle, IN. Inspired by the classic barbecue joints, "fish shacks", and Cajun / Creole food of the American South, chef/owner Stephen Geabes opened Chiefs in 2007.

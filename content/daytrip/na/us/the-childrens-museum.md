@@ -6,7 +6,7 @@ poster: Hoop
 date: '2011-11-30T01:26:00'
 lat: '47.621566740793'
 lng: '-122.35084155616'
-url: null
+external_url: null
 ---
 
 Fun for all ages, but you aren't allowed in without a kid!

@@ -6,7 +6,7 @@ poster: jtn
 date: '2012-09-22T10:57:00'
 lat: '52.6557135'
 lng: '0.6840481'
-url: null
+external_url: null
 ---
 
 Working 67m wind turbine open to the public -- you get to climb up the inside and stand in an observation deck just below the hub. (There's plenty of other stuff at the centre too, but the turbine tour is obviously the star.)

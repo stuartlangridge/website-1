@@ -6,7 +6,7 @@ poster: gregge46
 date: '2012-08-01T16:11:00'
 lat: '38.2415063'
 lng: '-85.7230719'
-url: null
+external_url: null
 ---
 
 290 acre cemetery in the heart of Louisville.   Final resting place to the elite of another time along with over 5,000 National Veterans.  Major burial site for 1,000's of Civil War soldiers, also many local important people, including Col. Sanders of Kentucky Fried Chicken fame (follow yellow line).

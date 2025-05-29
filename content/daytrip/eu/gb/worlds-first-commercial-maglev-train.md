@@ -6,7 +6,7 @@ poster: dasilva_uk
 date: '2011-11-30T12:27:00'
 lat: '52.4662853852135'
 lng: '-1.7567084160277773'
-url: null
+external_url: null
 ---
 
 The world's first commercial automatic MagLev train.

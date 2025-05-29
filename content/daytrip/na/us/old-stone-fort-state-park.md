@@ -6,7 +6,7 @@ poster: diana-tn
 date: '2011-10-11T13:17:00'
 lat: '35.4821426255944'
 lng: '-86.12640773203122'
-url: null
+external_url: null
 ---
 
 Beautiful waterfalls &amp; river hiking  as well ass trail hiking..... Camp sites available .

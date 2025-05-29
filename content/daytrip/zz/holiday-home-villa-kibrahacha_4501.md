@@ -7,7 +7,7 @@ poster: CasCura
 date: '2012-09-19T16:03:00'
 lat: '12.244039263327453'
 lng: '-69.05801437561036'
-url: null
+external_url: null
 ---
 
 The best park of Curacao in the Caribbean. A nice place to call home, different beaches nearby and cool sites to see, like the mountain Chrostoffel Berg.

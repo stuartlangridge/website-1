@@ -6,7 +6,7 @@ poster: ocad123
 date: '2012-03-24T02:43:00'
 lat: '43.7771430'
 lng: '-79.5054390'
-url: null
+external_url: null
 ---
 
 The Archives of Ontario is the premier source of information about the provinces history.
