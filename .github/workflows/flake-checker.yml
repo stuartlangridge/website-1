@@ -1,0 +1,21 @@
+name: Flake ❄️ Checker ✅
+
+on:
+  schedule:
+    - cron: 6 9 * * *
+  workflow_dispatch:
+
+jobs:
+  flake-checker:
+    name: Flake Checker
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: wimpysworld/nothing-but-nix@main
+        with:
+          hatchet-protocol: 'holster'
+      - uses: DeterminateSystems/determinate-nix-action@v3
+      - uses: DeterminateSystems/flake-checker-action@v9
