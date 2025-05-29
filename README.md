@@ -1,7 +1,7 @@
 # Nerdy Day Trips
 
 <p align=center>
-<a href="https://nerdydaytrips.org" target="_blank"><img src=".github/ndt-logo.webp" alt="nerdy day trips logo" width="128"></a>
+<a href="https://nerdydaytrips.org" target="_blank"><img src=".github/ndt-logo-512px.png" alt="nerdy day trips logo" width="128"></a>
 <br>
 &nbsp;<a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 &nbsp;
