@@ -3,8 +3,8 @@ slug: "daytrip/eu/ro/chindia-tower"
 date: '2001-01-30T04:37:00'
 lat: '44.93222123449475'
 lng: '25.458117502288815'
-location: "Turnul Chindiei, Calea Domneasc\u0103, Mircea cel B\u0103tr\xE2n, T\xE2\
-  rgovi\u0219te, D\xE2mbovi\u021Ba, 130008, Rom\xE2nia"
+location: "Turnul Chindiei, Calea Domnească, Mircea cel Bătrân, Tâ\
+  rgoviște, Dâmbovița, 130008, România"
 title: Chindia Tower
 ---
 
