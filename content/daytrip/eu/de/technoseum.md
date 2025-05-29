@@ -4,7 +4,7 @@ date: '2025-05-29T15:23:18.572Z'
 poster: 'wLana'
 lat: '49.476339'
 lng: '8.4973753'
-location: 'Museumsstraﬂe 1, 68165 Mannheim'
+location: 'Museumsstr 1, 68165 Mannheim'
 title: 'TECHNOSEUM'
 external_url: https://www.technoseum.de
 ---
