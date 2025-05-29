@@ -1,0 +1,32 @@
+readMore:
+  other: "Read more..."
+seeAlso:
+  other: "See also"
+previousPost:
+  other: "Previous post"
+nextPost:
+  other: "Next post"
+comments:
+  other: "Comments"
+show:
+  other: "Show"
+newerPosts:
+  other: "Newer posts"
+olderPosts:
+  other: "Older posts"
+dateFormat:
+  other: "Jan 2, 2006"
+postedOnDate:
+  other: "Posted on {{ . }}"
+readingTime:
+  other: "Reading time: "
+words:
+  other: "words"
+moreComment:
+  other: "more comments"
+oneComment:
+  other: "one comment"
+translationsSeparator:
+  other: ", "
+translationsLabel:
+  other: "Translations: "
