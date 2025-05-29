@@ -46,6 +46,13 @@ relativeURLs = true
     [menu.main.params]
       icon = "fa-solid fa-search"
   [[menu.main]]
+    name = "Add"
+    url = "https://add.nerdydaytrips.org/"
+    title = "Add a new venue"
+    weight = 16
+    [menu.main.params]
+      icon = "fa-solid fa-square-plus"      
+  [[menu.main]]
     name = "Blog"
     url = "/blog/"
     title = "Our blog"
