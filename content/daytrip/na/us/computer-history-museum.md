@@ -1,5 +1,5 @@
 ---
-slug: 'daytrip/eu/gb/computer-history-museum'
+slug: 'daytrip/na/us/computer-history-museum'
 date: '2025-05-29T10:24:52.485Z'
 lat: '37.414218'
 lng: '-122.07745'
