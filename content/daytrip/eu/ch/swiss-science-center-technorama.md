@@ -1,7 +1,7 @@
 ---
 slug: 'daytrip/eu/ch/swiss-science-center-technorama'
 date: '2025-05-29T21:53:30.931Z'
-poster: 'De'naa'
+poster: "De'naa"
 lat: '47.514012'
 lng: '8.764451'
 location: 'Technoramastrasse 1, CH-8404 Winterthur, Switzerland'
