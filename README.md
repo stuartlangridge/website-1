@@ -1,8 +1,8 @@
 # Nerdy Day Trips
 
-(logo)
-
 <p align=center>
+<a href="https://nerdydaytrips.org" target="_blank"><img src=".github/ndt-logo.webp" alt="nerdy day trips logo" width="128"></a>
+<br>
 &nbsp;<a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
 &nbsp;
 <a rel="me" href="https://mastodon.social/@nerdydaytrips"><img alt="Follow on Mastodon" src="https://img.shields.io/badge/Mastodon-Follow-blue?logoColor=white&logo=mastodon"/></a>
