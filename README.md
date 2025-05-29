@@ -12,41 +12,80 @@
 <a rel="me" href="https://bsky.app/profile/nerdydaytrips.bsky.social"><img alt="Follow on BlueSky" src="https://img.shields.io/badge/Bluesky-Follow-blue?logoColor=white&logo=Bluesky"/></a>
 </p>
 
-[NerdyDayTrips.org](https://nerdydaytrips.org/) aims to create a global map of places to visit that might appeal to nerdy types. The open source data is crowd-sourced in this repository. The website is regularly built using this data.
+**Building a global map of fascinating places for curious minds.**
 
-Visit [NerdyDayTrips.org](https://nerdydaytrips.org/) to see the map.
+[NerdyDayTrips.org](https://nerdydaytrips.org/) is an open-source project creating a crowd-sourced database of museums, laboratories, observatories, maker spaces, historical sites, and other destinations that spark intellectual curiosity. Think of it as a treasure map for lifelong learners.
+
+🗺️ **[Explore the map →](https://nerdydaytrips.org/)**
 
 [![NerdyDayTrips.org](.github/ndt-screenshot_thumb.png)](https://nerdydaytrips.org/)
 
-*The project is intended as a reboot and spiritual successor to a defunct project of the same name, launched in 2011 by [Dr Ben Goldacre](https://www.badscience.net/).*
+*This project serves as a modern reboot and spiritual successor to the original Nerdy Day Trips, launched in 2011 by [Dr Ben Goldacre](https://www.badscience.net/).*
 
-## Project Goal
+## 🎯 Mission
 
-Create a dynamic, sustainable, and accessible map showing places to go, and things to do for nerds.
+Create a dynamic, sustainable, and accessible map showing fascinating places to explore for curious minds everywhere.
 
-## How it works
+## 🏗️ Architecture
 
-This repository on GitHub contains a file for each place shown on the map. A GitHub action deploys the main [NerdyDayTrips.org](https://nerdydaytrips.org/) website and the [NerdyDayTrips blog](https://nerdydaytrips.org/blog/) periodically - when there are changes made.
+- **Frontend**: [Hugo](https://gohugo.io/) static site generator
+- **Mapping**: Leaflet.js for interactive maps
+- **Data**: Markdown files for each location
+- **Hosting**: Deployed automatically to Cloudflare Pages
 
-## Contributing
+## 🚀 Contributing
 
-[NerdyDayTrips.org](https://nerdydaytrips.org/) needs you! 
+We'd love your help making this the ultimate guide to nerdy destinations!
 
 ```mermaid
 graph TD;
-    A[Is there a place that appeals to you or the nerd in your life?] --> B[Add it to the site!]
-    C[Is the data about any of our points of interest missing or incorrect?] --> D[Fix it!]
-    E[I think the site is broken!] --> F[File an issue!]
+    A[Found an amazing place?] --> B[Add it to the map!]
+    C[Spotted incorrect information?] --> D[Submit a fix!]
+    E[Want to improve the site?] --> F[Open a pull request!]
+    G[Found a bug?] --> H[File an issue!]
 ```
 
-## Background
+### Quick Start for Contributors
 
-Originally **Nerdy Day Trips** (at `http://www.nerdydaytrips.com`) [was](https://web.archive.org/web/20250000000000*/http://www.nerdydaytrips.com/) (Internet archive link) a website creation of Dr Ben Goldacre in 2011. It was a crowd-sourced database of "nerdy" places to go. The site was built as a frontend to an editable Google Map.
+1. **Add a location**: Use our [web form](https://add.nerdydaytrips.org) or create a markdown file in `/content/places/`
+2. **Fix data**: Edit existing markdown files and submit a PR
+3. **Improve code**: Check our [issues](https://github.com/nerdydaytrips/website/issues) for ways to help
+4. **Enhance design**: We welcome CSS and UX improvements!
 
-Upon visiting the site, users would see a large Google Map with pins dotted around the world, indicating the locations of "nerdy" places. Visitors could navigate around the map, and click the pins to get details about each location. The data was crowd-sourced, so anyone could add nerdy places to the database.
+### Development Setup
 
-The website went down in 2016. There are some captures of the data on the [Internet Archive](https://web.archive.org/web/20250000000000*/http://www.nerdydaytrips.com/), but the dataset there is incomplete.
+```bash
+git clone https://github.com/nerdydaytrips/website.git
+cd website
+hugo server
+```
 
-## Thanks
+Visit `http://localhost:1313` to see your local version.
 
-Thanks to [Dr Ben Goldacre](https://www.badscience.net/), [Applecado](http://www.applecado.co.uk/), [Aaron Rudd](http://www.aaronrudd.co.uk/), who developed the original site, and [Jo Brodie](https://howtodotechystuff.wordpress.com/) for [inspiring](http://brodiesnotes.blogspot.com/2010/10/abandoned-britain-half-day-nerd-trips.html) it to be created in the first place. Thanks also to the numerous contributors who contributed data to the original site.
+## 📊 Current Status
+
+- ✅ Core functionality working
+- 🔄 Actively adding locations
+- 🎨 Theme improvements in progress
+- 📱 Mobile optimization ongoing
+
+Check our [issues](https://github.com/nerdydaytrips/website/issues) to see what we're working on!
+
+## 🌟 Background
+
+The original **Nerdy Day Trips** was created by Dr Ben Goldacre in 2011 as a crowd-sourced Google Maps frontend. It featured locations worldwide where curious people could explore science museums, historical sites, observatories, and other intellectually stimulating destinations.
+
+When the original site went offline in 2016, much of the community's contributed data was lost. This project aims to rebuild and improve upon that vision with modern, sustainable technology.
+
+## 🙏 Acknowledgments
+
+Huge thanks to:
+- [Dr Ben Goldacre](https://www.badscience.net/) for the original vision
+- [Applecado](http://www.applecado.co.uk/) and [Aaron Rudd](http://www.aaronrudd.co.uk/) for developing the original site
+- [Jo Brodie](https://howtodotechystuff.wordpress.com/) for [inspiring](http://brodiesnotes.blogspot.com/2010/10/abandoned-britain-half-day-nerd-trips.html) the project
+- All the contributors to the original site
+- Everyone helping to rebuild this community resource
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
