@@ -4,7 +4,7 @@ date: '2025-05-29T22:19:57.663Z'
 poster: 'Paul Drye'
 lat: '43.088769'
 lng: '-79.108193'
-location: '6768 Lundy's Lane, Niagara Falls, Ontario, Canada'
+location: "6768 Lundy's Lane, Niagara Falls, Ontario, Canada"
 title: 'Flying Saucer Restaurant'
 external_url: https://flyingsaucerrestaurant.com/
 ---
