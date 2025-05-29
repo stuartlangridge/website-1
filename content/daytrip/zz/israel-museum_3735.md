@@ -3,10 +3,10 @@ slug: "daytrip/zz/israel-museum_3735"
 date: '2001-01-30T04:37:00'
 lat: '31.76770636152647'
 lng: '35.203698652343746'
-location: "\u05D9\u05D4\u05D5\u05E9\u05D5\u05E2 \u05D9\u05D1\u05D9\u05DF, \u05E0\u05D9\
-  \u05D5\u05EA, \u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD, \u05E0\u05E4\u05EA \u05D9\
-  \u05E8\u05D5\u05E9\u05DC\u05D9\u05DD, \u05DE\u05D7\u05D5\u05D6 \u05D9\u05E8\u05D5\
-  \u05E9\u05DC\u05D9\u05DD, 9218812, \u05D9\u05E9\u05E8\u05D0\u05DC"
+location: "יהושוע יבין, ני\
+  ות, ירושלים, נפת י\
+  רושלים, מחוז ירו\
+  שלים, 9218812, ישראל"
 title: Israel Museum
 ---
 
