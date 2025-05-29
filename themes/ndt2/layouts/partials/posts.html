@@ -1,4 +1,4 @@
-<h2>Recently added</h2>
+<h2>New venues</h2>
 <ul id="posts">
 {{- range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
     <li class="post-item">
@@ -17,3 +17,14 @@
 {{- end }}
 </ul>
 
+<h2>Recent Blogs</h2>
+<ul id="recent-blogs">
+{{- range first 3 (where site.RegularPages "Section" "blog") }}
+    <li class="blog-item">
+        <div class="blog-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        <div class="blog-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+    </li>
+{{- end }}
+</ul>
