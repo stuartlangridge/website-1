@@ -41,7 +41,7 @@ header#banner a {
 }
 
 header#banner a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header#banner h1 {
@@ -70,7 +70,7 @@ header#banner nav a {
 }
 
 header#banner nav a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Remove underline on hover */
 }
 
 .nav-link {
@@ -79,15 +79,31 @@ header#banner nav a:hover {
     align-items: center;
     text-decoration: none;
     gap: 4px;
+    padding: 0; /* No padding for zero space between icons */
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
 }
 
 .nav-link i {
     font-size: 1.2em;
+    transition: color 0.2s;
+}
+
+.nav-link:hover, .nav-link:focus {
+    background-color: #22313a;
+    color: #7cc5f1;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15); /* Larger shadow horizontally and vertically */
+    outline: none;
+}
+
+.nav-link:hover i, .nav-link:focus i {
+    color: #7cc5f1;
 }
 
 .nav-text {
     font-size: 0.75em;
     line-height: 1;
+    transition: color 0.2s;
 }
 
 nav ul {
