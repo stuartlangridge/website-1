@@ -5,7 +5,8 @@ lat: '54.8022869'
 lng: '9.4212794'
 location: 3, Lindenallee, Nordstadt, Galwik, Nordstadt, Flensburg, Schleswig-Holstein,
   24939, Deutschland
-title: "Ph\xE4nomenta Flensburg"
+title: "Phänomenta Flensburg"
+external_url: https://www.phaenomenta-flensburg.de
 ---
 
 
