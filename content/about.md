@@ -6,29 +6,38 @@ draft: false
 
 # About Nerdy Day Trips
 
-Nerdy Day Trips aims to create a global map of places to visit that might appeal to nerdy types. The open source data is crowd-sourced in our [GitHub repository](https://github.com/yourusername/nerdydaytrips). The website is regularly built using this data.
+This is a crowd-sourced map of fascinating places to visit around the world - science museums, observatories, maker spaces, research facilities, and other spots that'll scratch your curiosity itch.
 
-## History
+## What we're doing
 
-Originally **Nerdy Day Trips** (at `nerdydaytrips.com`) was a website creation of Dr Ben Goldacre in 2011. It was a crowd-sourced database of "nerdy" places to go. The site was built as a frontend to an editable Google Map.
+The idea is simple: there are brilliant places to explore everywhere, but they're often hidden away or not well known. We're building a comprehensive map to help curious people find their next interesting day out, whether you're a student, teacher, lifelong learner, or just someone who enjoys discovering cool stuff.
 
-Upon visiting the site, users would see a large Google Map with pins dotted around the world, indicating the locations of "nerdy" places. Visitors could navigate around the map, and click the pins to get details about each location. The data was crowd-sourced, so anyone could add nerdy places to the database.
+## The backstory
 
-The website went down in 2016. There are some captures of the data on the Internet Archive, but the dataset there is incomplete.
+The original Nerdy Day Trips was created by Dr Ben Goldacre back in 2011. It was one of the early crowd-sourced platforms where people could discover and share nerdy destinations - everything from particle accelerators you could actually visit to quirky local science museums.
 
-## The Reboot
+For five years, the community grew and hundreds of locations were contributed. Then in 2016, the site went offline and much of that collective knowledge vanished.
 
-This site serves as a spiritual successor and reboot of the original Nerdy Day Trips concept. We've modernized the technology stack and made the data fully open-source. The project is maintained by a small group of enthusiasts who believe in sharing information about interesting places.
+We couldn't let that happen again.
+
+## Building something that lasts
+
+This reboot preserves the original concept while using modern, sustainable technology. Everything is open-source - the location data, the website code, the lot. We've learned from what happened before to build something more resilient and genuinely community-owned.
+
+The platform uses Hugo (a static site generator) which means it's fast, reliable, and won't suddenly disappear because we can't afford hosting costs.
 
 ## How it works
 
-This site is built with [Hugo](https://gohugo.io/) and features:
+Every location on the map represents someone's discovery - someone who thought "this place is brilliant, others should know about it." That's the heart of what makes this work.
 
-- An interactive map powered by Leaflet.js
-- Open-source data in markdown format
-- A blog with posts about selected locations
-- Regular updates as new locations are added
+We're still growing and improving. There are features in development, design improvements being made, and most importantly, new places being added regularly.
 
-## Thanks
+## Get involved
 
-Thanks to [Dr Ben Goldacre](https://www.badscience.net/), [Applecado](http://www.applecado.co.uk/), [Aaron Rudd](http://www.aaronrudd.co.uk/), who developed the original site, and [Jo Brodie](https://howtodotechystuff.wordpress.com/) for [inspiring](http://brodiesnotes.blogspot.com/2010/10/abandoned-britain-half-day-nerd-trips.html) it to be created in the first place. Thanks also to the numerous contributors who contributed data to the original site.
+This only works with community contributions. Whether you're adding locations, fixing outdated information, improving the code, or just exploring and sharing what you find, you're helping build something useful.
+
+## Acknowledgments
+
+Massive thanks to Dr Ben Goldacre for the original vision, the team at Applecado and Aaron Rudd who built the first version, and Jo Brodie whose writing inspired the whole thing. Most importantly, thanks to all the original contributors who shared their favourite places - this exists to continue what they started.
+
+Ready to have a look? Check out the [map](/) or [add a place](https://add.nerdydaytrips.org/) you think others should know about.

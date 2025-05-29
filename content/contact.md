@@ -1,41 +1,49 @@
 ---
-title: "Contact Us"
+title: "Contacting Us and Getting Involved"
 date: 2025-05-22
 draft: false
 ---
 
-Have a question, suggestion, or want to contribute to Nerdy Day Trips? We'd love to hear from you!
+# Get Involved
 
-## Add a new venue
+There are several ways to contribute to Nerdy Day Trips, depending on how hands-on you want to get.
 
-Fill in this form to submit a new nerdy venue for review:
+## Add places
 
-- [Add venue form](https://add.nerdydaytrips.org) - All you need is the name, location, and what's great about the place.
+Know somewhere brilliant that others should visit? Share it.
 
-Alternatively, "rawdog" it directly on GitHub:
+**Simple way**: Use our [venue submission form](https://add.nerdydaytrips.org) - just tell us the name, location, and what makes it worth visiting.
 
-- [NerdyDayTrips repository](https://github.com/nerdydaytrips/website) - If you know markdown, and have a GitHub account, you may prefer adding or editing directly.
+**Technical way**: If you're comfortable with GitHub and markdown, contribute directly via our [repository](https://github.com/nerdydaytrips/website).
 
-## Join Our Community
+## Join the community
 
-We hang out and chat on Discord:
+We're building this in the open, and you're welcome to be part of the conversation:
 
-- [Discord](https://discord.gg/VJKJ5EzgXA)
+- [Discord](https://discord.gg/VJKJ5EzgXA) - Chat with other contributors
+- [Mastodon](https://mastodon.social/@nerdydaytrips) - Updates and discoveries
+- [BlueSky](https://bsky.app/profile/nerdydaytrips.bsky.social) - More community chat
 
-Follow our socials:
+*We're still in soft launch mode, so these communities are small but growing.*
 
-- [Mastodon](https://mastodon.social/@nerdydaytrips)
-- [BlueSky](https://bsky.app/profile/nerdydaytrips.bsky.social)
+## Other ways to help
 
-## Contribute
+**Submit locations**: Found an interesting observatory, maker space, or museum? Add it using our [form](https://add.nerdydaytrips.org) or create a pull request.
 
-The best way to contribute is through our [GitHub repository](https://github.com/nerdydaytrips/website). You can:
+**Fix things**: Spotted outdated information or errors? Help us correct them by [submitting issues](https://github.com/nerdydaytrips/website/issues).
 
-1. **Submit new locations**: Use the [form](https://add.nerdydaytrips.org) or create a pull request with new markdown files for interesting locations
-2. **Fix errors**: Found an error in our data? Submit a [correction](https://github.com/nerdydaytrips/website/issues)
-3. **Improve the code**: Help us make the website better by improving the [code](https://github.com/nerdydaytrips/website/)
-4. **Improve the design**: We are far from CSS experts. Help!
+**Improve the site**: Check our [GitHub repository](https://github.com/nerdydaytrips/website/) for ways to enhance functionality or add features.
 
-## Report Issues
+**Make it look better**: We always need help with design and user experience.
 
-If you find any bugs or issues with the website, please report them on our [GitHub Issues](https://github.com/nerdydaytrips/website/issues) page.
+## Report problems
+
+Found a bug or have suggestions? Report them on our [GitHub Issues](https://github.com/nerdydaytrips/website/issues) page.
+
+## Why contribute?
+
+Every place you add helps someone else discover something interesting. You're not just updating a website - you're building a resource that people actually use to plan visits to fascinating places.
+
+Plus, there's something satisfying about seeing your contributions on a map that people around the world are using.
+
+Pick whichever option works for you and let's build this together.
