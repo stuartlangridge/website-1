@@ -1,4 +1,5 @@
 public/
+.direnv/
 .vscode/
 .hugo_build.lock
 .venv
