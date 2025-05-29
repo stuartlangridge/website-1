@@ -6,7 +6,7 @@ poster: kerryellen87
 date: '2014-02-07T15:05:00'
 lat: '52.62548282901008'
 lng: '1.31561279296875'
-url: null
+external_url: null
 ---
 
 Will Giles has had a passion for plants of a tropical nature since he was a small boy, a passion that has grown dramatically over the past 25 years at his home in Norwich - aptly named The Exotic Garden. Here, he has experimented with plants from the extremely hardy to the ludicrously tender, endeavouring to find a balance of plants that grow well in his one acre microclimate and fit into his ideal of a lush sub-tropical setting.

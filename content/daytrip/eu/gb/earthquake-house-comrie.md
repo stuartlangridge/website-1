@@ -6,7 +6,7 @@ poster: RoseHN
 date: '2012-05-18T10:34:00'
 lat: '56.3719367172078'
 lng: '-4.001437050743107'
-url: null
+external_url: null
 ---
 
 One of the oldest permenant seismic observatories in the world, Comrie has had an earthquake observatory since 1840 due to the relatively high number of seismic events it has for a UK site, hence it's nickname - Shaky Toun.

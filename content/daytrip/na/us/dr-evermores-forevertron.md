@@ -6,7 +6,7 @@ poster: kimberlybethc
 date: '2012-09-20T17:29:00'
 lat: '43.3725712'
 lng: '-89.7239097'
-url: null
+external_url: null
 ---
 
 Dr. Evermor's Forevertron, built in the 1980s, is the largest scrap metal sculpture in the world, standing 50 ft.  high and 120 ft. wide, and weighing 300 tons. It is housed in Dr. Evermore's Art Park on Highway 12, in the town of Sumpter, in Sauk County, Wisconsin, United States.

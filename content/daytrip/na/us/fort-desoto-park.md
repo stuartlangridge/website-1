@@ -6,7 +6,7 @@ poster: lpbreakfast
 date: '2012-05-17T21:19:00'
 lat: '27.639066'
 lng: '-82.737510'
-url: null
+external_url: null
 ---
 
 3500 Pinellas Bayway S.

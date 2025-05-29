@@ -6,7 +6,7 @@ poster: MonsoonBaby
 date: '2011-10-11T14:31:00'
 lat: '51.759219493028'
 lng: '0.1435790234375'
-url: null
+external_url: null
 ---
 
 The museum of Harlow.

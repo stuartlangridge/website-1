@@ -6,7 +6,7 @@ poster: lisa
 date: '2011-10-13T17:43:00'
 lat: '40.783902923933795'
 lng: '-74.23307917778016'
-url: null
+external_url: null
 ---
 
 Thomas Edison's actual laboratory.  Tours of his house in Llewellyn Park are also available.

@@ -6,7 +6,7 @@ poster: kaye-oh
 date: '2012-02-03T16:04:00'
 lat: '32.552001'
 lng: '-110.720047'
-url: null
+external_url: null
 ---
 
 This cave is for beginning spelunkers. It's up in the mountains, after a scenic drive, hidden just off to the right (there will be signs). A beautiful and exciting way to spend a couple hours of your day. Read the author's comments for instructions/suggestions.

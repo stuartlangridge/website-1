@@ -7,7 +7,7 @@ poster: Letremon
 date: '2011-11-13T07:37:00'
 lat: '59.9420177375'
 lng: '30.288003461914'
-url: null
+external_url: null
 ---
 
 It's a place where nerdy people of St Petersburg are trying to make the world better together by helping others to make their ideas live as business-projects in some technological nerdy fields

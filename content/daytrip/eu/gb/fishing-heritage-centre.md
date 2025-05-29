@@ -6,7 +6,7 @@ poster: ianxriley
 date: '2013-07-14T21:40:00'
 lat: '53.56898826338735'
 lng: '-0.0839853286743164'
-url: null
+external_url: null
 ---
 
 Interactive guide to the Fishing industry of the 1950's, including guided tour of the Ross Tiger trawler moored alongside the museum.

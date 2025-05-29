@@ -6,7 +6,7 @@ poster: JBirks
 date: '2013-04-18T19:41:00'
 lat: '51.40652119310493'
 lng: '-2.378861904144287'
-url: null
+external_url: null
 ---
 
 Tower with a museum about William Beckford and fantastic views over Bath.

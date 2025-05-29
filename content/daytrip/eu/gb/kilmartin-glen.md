@@ -6,7 +6,7 @@ poster: porkbeast
 date: '2012-08-27T20:09:00'
 lat: '54.428403800437216'
 lng: '-5.157324296875004'
-url: null
+external_url: null
 ---
 
 Fantastic spot for neolithic burial chambers, carved rocks and standing stones.

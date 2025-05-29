@@ -6,7 +6,7 @@ poster: lpbreakfast
 date: '2012-05-17T21:05:00'
 lat: '27.770518'
 lng: '-82.640538'
-url: null
+external_url: null
 ---
 
 55 5th Street South

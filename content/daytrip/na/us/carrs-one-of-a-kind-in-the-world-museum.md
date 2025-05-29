@@ -6,7 +6,7 @@ poster: Prehnite
 date: '2013-02-06T02:21:00'
 lat: '47.707719'
 lng: '-117.360726'
-url: null
+external_url: null
 ---
 
 An original collection of eclectic, crazy, and fun items!

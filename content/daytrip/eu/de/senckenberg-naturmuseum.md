@@ -6,7 +6,7 @@ poster: DarthVirago
 date: '2013-01-21T16:00:00'
 lat: '50.1157078'
 lng: '8.6591469'
-url: null
+external_url: null
 ---
 
 The Senckenberg Museum is one of the largest Natural History Museums in Germany and exhibits the recent biodiversity of life and evolution of organisms as well as the change of planet earth over millions of years. New scientific findings in all areas of biology, paleontology and geology are on display.

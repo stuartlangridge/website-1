@@ -6,7 +6,7 @@ poster: freshmn09
 date: '2012-10-04T09:32:00'
 lat: '53.33859794446481'
 lng: '-2.0536866015625037'
-url: null
+external_url: null
 ---
 
 The Backdrop for the BBC version of Pemberly in Pride and Prejudice. Extensive grounds with plenty of picturesque views!

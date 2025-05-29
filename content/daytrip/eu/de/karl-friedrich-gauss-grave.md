@@ -6,7 +6,7 @@ poster: marcelloseri
 date: '2012-09-24T10:44:00'
 lat: '51.53187959570018'
 lng: '9.941323774414059'
-url: null
+external_url: null
 ---
 
 The Grave of Gauss is a relatively big construction in the Albanifiredhof in Göttingen: a cemetery embedded in a city park (the Cheltenhampark).

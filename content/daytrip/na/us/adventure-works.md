@@ -6,7 +6,7 @@ poster: diana-tn
 date: '2011-10-11T13:25:00'
 lat: '36.099186519568015'
 lng: '-87.11259867778318'
-url: null
+external_url: null
 ---
 
 Zip lining through the woods !!

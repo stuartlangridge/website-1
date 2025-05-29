@@ -6,7 +6,7 @@ poster: trotzendorff
 date: '2012-09-27T16:45:00'
 lat: '51.42998613920794'
 lng: '6.7659074836540185'
-url: null
+external_url: null
 ---
 
 Experience modern sculpture, enjoy exquisite exhibitions in the unique combination of listed architecture, a sculpture park and a wide-ranging sculpture program throughout the city, or join our workshops, lectures and events—especially the "plastikBAR" every Thursday night.

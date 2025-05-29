@@ -6,7 +6,7 @@ poster: tmcauley
 date: '2013-06-28T15:40:00'
 lat: '54.26258600607214'
 lng: '-7.7175575494766235'
-url: null
+external_url: null
 ---
 
 From the National Trust Website:

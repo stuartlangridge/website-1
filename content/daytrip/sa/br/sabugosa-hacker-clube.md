@@ -6,7 +6,7 @@ poster: aporto
 date: '2013-08-11T12:54:00'
 lat: '-23.197095169043184'
 lng: '-45.88007569313049'
-url: null
+external_url: null
 ---
 
 The first (and, up to now, the only one) hackerspace in this area

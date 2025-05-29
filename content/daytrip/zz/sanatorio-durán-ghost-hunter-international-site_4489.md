@@ -6,7 +6,7 @@ poster: diego wolf
 date: '2012-09-13T07:42:00'
 lat: '9.931983744461515'
 lng: '-83.88152681056977'
-url: null
+external_url: null
 ---
 
 Costa Rica's ultimate haunted place. This sanatorium was founded in 1915 by the renowned doctor Carlos Durán whose daughter was said to had suffered of tuberculosis, incident that motivated him to build the hospital. 

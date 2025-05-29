@@ -6,7 +6,7 @@ poster: Gotan
 date: '2012-02-18T07:33:00'
 lat: '51.5152839'
 lng: '-0.1158997'
-url: null
+external_url: null
 ---
 
 The Royal College of Surgeons of England, 35-43 Lincoln's Inn Fields, London, WC2A 3PE

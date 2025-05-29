@@ -6,7 +6,7 @@ poster: KatieR
 date: '2012-09-18T13:43:00'
 lat: '50.54276603915469'
 lng: '-4.974247438354496'
-url: null
+external_url: null
 ---
 
 A collapsed sea cave

@@ -6,7 +6,7 @@ poster: jenglo
 date: '2011-11-19T03:23:00'
 lat: '42.62302889514443'
 lng: '-70.67613634507751'
-url: null
+external_url: null
 ---
 
 The White-Ellery House was erected in 1710 upon what was then the Town Green of Gloucester. It was built at the edge of a marsh for Gloucester’s first settled minister, the Reverend John White (1677–1760). In keeping with White’s esteemed position in the community, the House exhibits a certain elegance and refinement, perhaps best reflected in the surviving interior details.

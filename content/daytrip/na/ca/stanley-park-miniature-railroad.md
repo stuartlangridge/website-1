@@ -6,7 +6,7 @@ poster: Hoop
 date: '2011-11-29T21:27:00'
 lat: '49.301283602221915'
 lng: '-123.13433073226929'
-url: null
+external_url: null
 ---
 
 Awesome miniature railroad. Usually given themes at different times of the year.

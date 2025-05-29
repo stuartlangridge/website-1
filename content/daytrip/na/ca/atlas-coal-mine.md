@@ -6,7 +6,7 @@ poster: hmartn
 date: '2012-02-11T22:55:00'
 lat: '51.32879118944767'
 lng: '-112.48276375'
-url: null
+external_url: null
 ---
 
 Historical site; walk around the mine site, up the tipple and into the mouth of the underground mine itself!

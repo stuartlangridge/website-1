@@ -6,7 +6,7 @@ poster: mejiajav
 date: '2012-04-20T21:00:00'
 lat: '35.228218703191985'
 lng: '-80.8385865281029'
-url: null
+external_url: null
 ---
 
 The Levine Museum of the New South is a history museum focusing on life in the North Carolina Piedmont after the American Civil War. The museum includes temporary and permanent exhibits on a range of Southern-related topics.

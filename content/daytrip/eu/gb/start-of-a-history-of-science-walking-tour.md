@@ -6,7 +6,7 @@ poster: Science Tourist
 date: '2012-05-12T16:01:00'
 lat: '51.50955854069703'
 lng: '-0.13511741514275855'
-url: null
+external_url: null
 ---
 
 The best dozen history of science spots in central London on a walking tour circuit 

@@ -6,7 +6,7 @@ poster: thedan
 date: '2013-08-02T12:29:00'
 lat: '38.932139757994506'
 lng: '-77.00051307678223'
-url: null
+external_url: null
 ---
 
 The Basilica of the National Shrine of the Immaculate Conception is the largest Roman Catholic church in the United States and North America, and is one of the ten largest churches in the world.
