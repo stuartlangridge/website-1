@@ -1,52 +1,49 @@
 ---
-title: "Get Involved"
+title: "Contacting Us and Getting Involved"
 date: 2025-05-22
 draft: false
 ---
 
-# Join the Nerdy Day Trips Community
+# Get Involved
 
-We're building something amazing together, and we'd love to have you as part of the journey! Whether you've discovered an incredible science museum, spotted an error that needs fixing, or want to help improve the site, there are lots of ways to get involved.
+There are several ways to contribute to Nerdy Day Trips, depending on how hands-on you want to get.
 
-## 🗺️ Add Amazing Places
+## Add places
 
-Know a place that would blow someone's mind? Share it with the world!
+Know somewhere brilliant that others should visit? Share it.
 
-**Easy option**: Use our simple [venue submission form](https://add.nerdydaytrips.org) – just tell us the name, location, and what makes it special.
+**Simple way**: Use our [venue submission form](https://add.nerdydaytrips.org) - just tell us the name, location, and what makes it worth visiting.
 
-**Developer option**: Contribute directly via our [GitHub repository](https://github.com/nerdydaytrips/website) if you're comfortable with markdown and pull requests.
+**Technical way**: If you're comfortable with GitHub and markdown, contribute directly via our [repository](https://github.com/nerdydaytrips/website).
 
-## 🤝 Connect With Us
+## Join the community
 
-We're building a community of curious minds who love discovering and sharing fascinating places.
+We're building this in the open, and you're welcome to be part of the conversation:
 
-**Join the conversation**:
-- [Discord](https://discord.gg/VJKJ5EzgXA) - Chat with fellow explorers and contributors
-- [Mastodon](https://mastodon.social/@nerdydaytrips) - Follow our updates and discoveries
-- [BlueSky](https://bsky.app/profile/nerdydaytrips.bsky.social) - Connect with the community
+- [Discord](https://discord.gg/VJKJ5EzgXA) - Chat with other contributors
+- [Mastodon](https://mastodon.social/@nerdydaytrips) - Updates and discoveries
+- [BlueSky](https://bsky.app/profile/nerdydaytrips.bsky.social) - More community chat
 
-*We're in soft launch mode, so these communities are just getting started – be among the first to help shape our culture!*
+*We're still in soft launch mode, so these communities are small but growing.*
 
-## 🛠️ Contribute to the Project
+## Other ways to help
 
-There are many ways to help make Nerdy Day Trips better:
+**Submit locations**: Found an interesting observatory, maker space, or museum? Add it using our [form](https://add.nerdydaytrips.org) or create a pull request.
 
-**📍 Submit locations**: Found an amazing observatory, maker space, or quirky museum? Add it using our [form](https://add.nerdydaytrips.org) or create a pull request.
+**Fix things**: Spotted outdated information or errors? Help us correct them by [submitting issues](https://github.com/nerdydaytrips/website/issues).
 
-**🔍 Improve accuracy**: Spotted outdated information or errors? Help us fix them by submitting [corrections](https://github.com/nerdydaytrips/website/issues).
+**Improve the site**: Check our [GitHub repository](https://github.com/nerdydaytrips/website/) for ways to enhance functionality or add features.
 
-**💻 Enhance the website**: Check our [GitHub repository](https://github.com/nerdydaytrips/website/) for ways to improve functionality, performance, or add new features.
+**Make it look better**: We always need help with design and user experience.
 
-**🎨 Make it beautiful**: We're always looking for help with design and user experience – every bit of CSS magic is appreciated!
+## Report problems
 
-## 🐛 Report Issues
+Found a bug or have suggestions? Report them on our [GitHub Issues](https://github.com/nerdydaytrips/website/issues) page.
 
-Found something broken or have suggestions for improvement? We want to hear about it! Report bugs or request features on our [GitHub Issues](https://github.com/nerdydaytrips/website/issues) page.
+## Why contribute?
 
-## 🌟 Why Contribute?
+Every place you add helps someone else discover something interesting. You're not just updating a website - you're building a resource that people actually use to plan visits to fascinating places.
 
-Every place you add, every fix you submit, and every improvement you make helps fellow curious minds discover something amazing. You're not just contributing to a website – you're building a global resource that celebrates learning, discovery, and the joy of exploration.
+Plus, there's something satisfying about seeing your contributions on a map that people around the world are using.
 
-Plus, it's pretty cool to see your contributions on a map that people around the world are using to plan their adventures!
-
-Ready to get started? Pick the option that works best for you and let's build something incredible together!
+Pick whichever option works for you and let's build this together.
