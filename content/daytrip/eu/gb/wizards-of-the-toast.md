@@ -1,5 +1,5 @@
 ---
-slug: 'daytrip/eu/gb/wizards-of-the-toast'
+slug: 'daytrip/eu/pt/wizards-of-the-toast'
 date: '2025-05-30T09:11:11.091Z'
 poster: 'TimoMicro'
 lat: '38.769418'
