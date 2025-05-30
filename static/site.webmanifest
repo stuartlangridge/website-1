@@ -1,6 +1,6 @@
 {
   "name": "Nerdy Day Trips",
-  "short_name": "NerdyTrips",
+  "short_name": "Nerdy",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#dedede",
-  "background_color": "#dedede",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone"
 }
