@@ -1,7 +1,14 @@
 {{ define "main" }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+  crossorigin="" />
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+  crossorigin=""></script>
 <article>
     <header id="post-header">
-        <h1>                {{ if .Params.lat }}
+        <h1>{{ if .Params.lat }}
                     &nbsp;
                     <a href="/#{{ .Params.slug }}" title="Show {{ .Title }} on the map"><i class="fa-solid fa-map-location-dot"></i></a>{{ end }}&nbsp;{{ .Title }}
             {{ if .Params.external_url }}
@@ -11,17 +18,19 @@
         </h1>
             <div>
                 <!-- Created Date -->
+                <span class="post-info-pubdate"></span>
                 {{- $pubdate := .PublishDate.Format "January 2, 2006" }}
                 Created: 
                 <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
                     {{ $pubdate }}
                 </time>
-
+                {{- if .Params.poster }}
+                    by {{ .Params.poster }}
+                {{- end }}
                 <!-- Last Updated Date -->
                 {{- if .Lastmod }}
                     {{- $lastmod := .Lastmod.Format "January 2, 2006" }}
                     {{- if ne $lastmod $pubdate }}
-                        <div class="post-info-last-mod">
                             (Updated: 
                             <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
                                 {{ $lastmod }}
@@ -29,9 +38,54 @@
                         </div>
                     {{- end }}
                 {{- end }}
+                </span>
             </div>
     </header>
     <hr>
+    {{- if and .Params.lat .Params.lng }}
+    <div id="leaflet-map-static" style="height: 300px; width: 100%; max-width: 600px; margin: 20px auto;"></div>
+    <script>
+        // Ensure Leaflet is loaded before attempting to use it.
+        if (typeof L !== 'undefined') {
+            var lat = {{ .Params.lat }};
+            var lng = {{ .Params.lng }};
+            
+            // Initialize the map
+            var map = L.map('leaflet-map-static', {
+                center: [lat, lng],
+                zoom: 15, // You can adjust the default zoom level
+                dragging: false,         // Disable dragging
+                touchZoom: false,        // Disable touch zoom
+                doubleClickZoom: false,  // Disable double click zoom
+                scrollWheelZoom: false,  // Disable scroll wheel zoom
+                boxZoom: false,          // Disable box zoom (shift-drag)
+                keyboard: false,         // Disable keyboard navigation
+                tap: false,              // Disable tap on mobile (if applicable)
+                zoomControl: false       // Hide zoom controls (+/-)
+            });
+
+            // Add OpenStreetMap tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            // Add a marker
+            L.marker([lat, lng]).addTo(map);
+            
+            // Optional: Make the map container non-focusable to prevent accidental tabbing,
+            // as it's non-interactive.
+            var mapElement = document.getElementById('leaflet-map-static');
+            if (mapElement) {
+                mapElement.setAttribute('tabindex', '-1');
+            }
+
+        } else {
+            console.warn('LeafletJS is not loaded. Static Leaflet map cannot be displayed.');
+            // As a fallback, you could insert the static OpenStreetMap image here
+            // or display a message to the user.
+        }
+    </script>
+    {{- end }}
     {{- .Content -}}
 </article>
 <hr>
