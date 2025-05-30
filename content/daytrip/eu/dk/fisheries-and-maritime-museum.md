@@ -6,6 +6,7 @@ lng: '8.411692159729'
 location: "Fiskeri- og Søfartsmuseet, Sædding Strandvej, Sædding Strand,\
   \ Sædding, Esbjerg, Esbjerg Kommune, Region Syddanmark, 6710, Danmark"
 title: Fisheries and Maritime Museum
+external_url: https://fimus.dk/en/
 ---
 
 

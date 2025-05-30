@@ -6,6 +6,7 @@ lng: '10.661550539093014'
 location: "Kerteminde Havn, Kystvej, Feddet, Lundsgård, Kerteminde, Kerteminde\
   \ Kommune, Region Syddanmark, 5300, Danmark"
 title: "Fjord & Bælt"
+external_url: https://fjordbaelt.dk
 ---
 
 
