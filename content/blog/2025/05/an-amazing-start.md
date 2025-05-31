@@ -7,7 +7,7 @@ author: "Alan Pope"
 
 # What a week!
 
-First, **thank you** to everyone who has [added](https://add.nerdydaytrips.org/) new venues, filed [bugs](https://github.com/nerdydaytrips/issues), reviewed & edited locations, and provided feedback and support. Thank you _so_ much. I had no idea whether people would actually want to contribute to something like this. I'm *delighted* you all have.
+First, **thank you** to everyone who has [added](https://add.nerdydaytrips.org/) new venues, filed [bugs](https://github.com/NerdyDayTrips/website/issues), reviewed & edited locations, and provided feedback and support. Thank you _so_ much. I had no idea whether people would actually want to contribute to something like this. I'm *delighted* you all have.
 
 We have had contributions from around the globe, including from the USA, UK, Japan, Croatia, Germany, Canada, and no doubt more I missed.
 
