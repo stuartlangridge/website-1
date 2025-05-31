@@ -31,7 +31,7 @@ It does require an OSM [way](https://wiki.openstreetmap.org/wiki/Way) style URL,
 
 > When on OSM, click the little arrow-with-question-mark icon in the toolbar, then point at the venue you wish to add. On the left will be a pop-out panel with "Nearby features", and "Enclosing features". Pick the most appropriate "way", and your URL will update. That's the one to paste into [add a venue](https://add.nerdydaytrips.org/) page.
 
-If there are problems with this new feature, do let us know with an [issue](https://github.com/nerdydaytrips/issues) report, or jump on our [Discord](https://discord.gg/VJKJ5EzgXA) server to chat directly with us.
+If there are problems with this new feature, do let us know with an [issue](https://github.com/NerdyDayTrips/website/issues) report, or jump on our [Discord](https://discord.gg/VJKJ5EzgXA) server to chat directly with us.
 
 ## Managing duplicates
 
