@@ -5,6 +5,7 @@ lat: '50.62189973167613'
 lng: '-2.554251176757816'
 location: Langton Herring, Dorset, England, DT3 4HT, United Kingdom
 title: Chesil Beach
+external_url: http://www.chesilbeach.org/Chesil/
 ---
 
 

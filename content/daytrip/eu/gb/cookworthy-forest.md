@@ -5,6 +5,7 @@ lat: '50.79599258809827'
 lng: '-4.241081697387699'
 location: Black Torrington, Torridge, Devon, Devon and Torbay, England, United Kingdom
 title: Cookworthy Forest
+external_url: https://www.woodlandtrust.org.uk/visiting-woods/woods/cookworthy-forest/
 ---
 
 
