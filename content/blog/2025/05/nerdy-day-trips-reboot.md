@@ -1,7 +1,7 @@
 ---
 date: "2025-05-22T23:00:00+01:00"
 title: "Bringing Back Nerdy Day Trips"
-slug: "2025/05/nerdy-day-trips-reboot"
+slug: "nerdy-day-trips-reboot"
 author: "Alan Pope"
 ---
 
