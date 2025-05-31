@@ -23,6 +23,10 @@ I wanted to make adding new venues straightforward, but not too easy that we get
 
 So, with that in mind, today, I added the ability on the [add a venue](https://add.nerdydaytrips.org/) page to just paste an [Open Street Map](https://openstreetmap.org/) (OSM) URL in, and have our site pick out the lat/long and other details, directly from OSM.
 
+[{{< image
+src="/images/2025/05/add-with-osm-url-thumb.png"
+alt="The new submission option" >}}](/images/2025/05/add-with-osm-url.png)
+
 It does require an OSM [way](https://wiki.openstreetmap.org/wiki/Way) style URL, which often isn't just the link your browser shows. However, they're easy to discover on the OSM site. 
 
 > When on OSM, click the little arrow-with-question-mark icon in the toolbar, then point at the venue you wish to add. On the left will be a pop-out panel with "Nearby features", and "Enclosing features". Pick the most appropriate "way", and your URL will update. That's the one to paste into [add a venue](https://add.nerdydaytrips.org/) page.
