@@ -616,3 +616,7 @@ main#content:has(> article) {
 .sidebar-content .post-title:has(button) a {
     order: 2;
 }
+
+.center {
+  text-align: center;
+}
