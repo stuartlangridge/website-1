@@ -1,10 +1,11 @@
 ---
 slug: "daytrip/eu/gb/farnham-museum"
 date: '2001-01-30T04:37:00'
-lat: '51.21197670622771'
-lng: '-0.805107576293949'
+lat: 51.213210
+lng: -0.804532
 location: The Grove, Mount Pleasant, Farnham, Waverley, Surrey, England, GU9 7GB,
   United Kingdom
+external_url: https://farnhammaltings.com/museum/
 title: Farnham Museum
 ---
 
