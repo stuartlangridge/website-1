@@ -5,6 +5,7 @@ lat: '54.5310856'
 lng: '-1.9032496'
 location: Abbey Mill, Abbey Lane, Egglestone Abbey, County Durham, North East, England,
   DL12 9TN, United Kingdom
+external_url: https://www.english-heritage.org.uk/visit/places/egglestone-abbey/history/
 title: Eaglestone Abbey
 ---
 
