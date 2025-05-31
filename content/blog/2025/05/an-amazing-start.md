@@ -7,7 +7,7 @@ author: "Alan Pope"
 
 # What a week!
 
-First, **thank you** to everyone who has [added](https://add.nerdydaytrips.org/) new venues, filed [bugs](https://github.com/nerdydaytrips/issues), reviewed & edited locations, and provided feedback and support. Thank you _so_ much. I had no idea whether people would actually want to contribute to something like this. I'm *delighted* you all have.
+First, **thank you** to everyone who has [added](https://add.nerdydaytrips.org/) new venues, filed [bugs](https://github.com/NerdyDayTrips/website/issues), reviewed & edited locations, and provided feedback and support. Thank you _so_ much. I had no idea whether people would actually want to contribute to something like this. I'm *delighted* you all have.
 
 We have had contributions from around the globe, including from the USA, UK, Japan, Croatia, Germany, Canada, and no doubt more I missed.
 
@@ -31,7 +31,7 @@ It does require an OSM [way](https://wiki.openstreetmap.org/wiki/Way) style URL,
 
 > When on OSM, click the little arrow-with-question-mark icon in the toolbar, then point at the venue you wish to add. On the left will be a pop-out panel with "Nearby features", and "Enclosing features". Pick the most appropriate "way", and your URL will update. That's the one to paste into [add a venue](https://add.nerdydaytrips.org/) page.
 
-If there are problems with this new feature, do let us know with an [issue](https://github.com/nerdydaytrips/issues) report, or jump on our [Discord](https://discord.gg/VJKJ5EzgXA) server to chat directly with us.
+If there are problems with this new feature, do let us know with an [issue](https://github.com/NerdyDayTrips/website/issues) report, or jump on our [Discord](https://discord.gg/VJKJ5EzgXA) server to chat directly with us.
 
 ## Managing duplicates
 
