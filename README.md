@@ -37,7 +37,7 @@ We need help adding locations and improving the site.
 
 ### Ways to contribute
 
-1. **Add a location**: Use our [web form](https://add.nerdydaytrips.org) or create a markdown file in `/content/places/`
+1. **Add a location**: Use our [web form](https://add.nerdydaytrips.org) or create a markdown file in `/content/daytrips/`
 2. **Fix data**: Edit existing markdown files and submit a PR
 3. **Improve code**: Check our [issues](https://github.com/nerdydaytrips/website/issues) for tasks
 4. **Enhance design**: CSS and UX improvements welcome
@@ -63,7 +63,7 @@ Check our [issues](https://github.com/nerdydaytrips/website/issues) to see what 
 
 ## Background
 
-The original **Nerdy Day Trips** was created by Dr Ben Goldacre in 2011 as a crowd-sourced Google Maps frontend. People could find and share science museums, historical sites, observatories, and other interesting destinations worldwide.
+Dr Ben Goldacre created the original Nerdy Day Trips in 2011 as a crowd-sourced Google Maps frontend. Through it, people could find and share science museums, historical sites, observatories, and other interesting destinations worldwide.
 
 When the original site went offline in 2016, much of the community's contributed data was lost. This project rebuilds and improves on that concept using modern, sustainable technology.
 
