@@ -8,4 +8,4 @@ location: "Spyway Dinosaur Footprints, Priest's Way, Langton Matravers, Worth Ma
 title: 'Spyway Dinosaur Footprints'
 external_url: https://dorset-nl.org.uk/location/spyway/
 ---
-Over 100 dinosaur footprint tracks preserved in what was the shore of a lagoon 140 million years ago, but is now a flat sheet of rock. No barriers, you can walk right up and compar the size of your foot to the footprint left by a 50 tonne brachiosaur.
+Over 100 dinosaur footprint tracks have been preserved in what was the shore of a lagoon 140 million years ago but is now a flat sheet of rock. There are no barriers; you can walk right up and compare the size of your foot to the footprint left by a 50-tonne brachiosaur.
