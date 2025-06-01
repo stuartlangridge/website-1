@@ -6,7 +6,7 @@ poster: tmcauley
 date: '2013-06-28T15:40:00'
 lat: '54.26258600607214'
 lng: '-7.7175575494766235'
-external_url: null
+external_url: https://www.nationaltrust.org.uk/visit/northern-ireland/florence-court
 ---
 
 From the National Trust Website:

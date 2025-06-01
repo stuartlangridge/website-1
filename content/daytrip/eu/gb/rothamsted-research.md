@@ -5,6 +5,7 @@ lat: '51.80937395163692'
 lng: '-0.3563222221985143'
 location: Centenary Building, Sir Joseph's Walk, Southdown, Harpenden, Hatching Green,
   St Albans, Hertfordshire, England, AL5 2FF, United Kingdom
+external_url: https://www.rothamsted.ac.uk/events
 title: Rothamsted Research
 ---
 

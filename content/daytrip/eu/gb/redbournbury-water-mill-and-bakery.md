@@ -5,6 +5,7 @@ lat: '51.78429595695628'
 lng: '-0.3797271780624669'
 location: Redbournbury Mill, Redbournbury Lane, Redbourn, St Albans, Hertfordshire,
   England, AL3 6RS, United Kingdom
+external_url: https://www.redbournburymill.co.uk
 title: Redbournbury Water Mill and Bakery
 ---
 
