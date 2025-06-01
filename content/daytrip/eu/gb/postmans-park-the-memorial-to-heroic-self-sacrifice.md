@@ -4,9 +4,9 @@ title: Postmans Park - The Memorial to Heroic Self Sacrifice
 location: City of London, UK, EC1A 7
 poster: DuckyFuzz
 date: '2011-11-13T10:26:00'
-lat: '51.51707468177122'
-lng: '-0.09837634627342595'
-external_url: null
+lat: 51.516882
+lng: -0.097868
+external_url: https://postmanspark.org.uk
 ---
 
 A wall lined with memorial tablets to commemorate the bravery of ordinary people.
