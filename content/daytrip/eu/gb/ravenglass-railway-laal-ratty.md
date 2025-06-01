@@ -5,7 +5,7 @@ lat: 54.355987
 lng: -3.409013
 location: Ravenglass, Cumberland, England, CA19 1YY, United Kingdom
 external_url: https://ravenglass-railway.co.uk
-title: Ravenglass railway: La'al Ratty.
+title: "Ravenglass railway: La'al Ratty."
 ---
 
 
