@@ -15,6 +15,7 @@
 <div class="map-container">
   <div id="map">
     <button id="locate-btn" class="locate-btn" title="Find my location">📍</button>
+    <button id="cluster-toggle-btn" class="cluster-toggle-btn" title="Toggle marker clustering">🔍</button>
   </div>
   <div class="sidebar" id="sidebar">
     <button id="sidebar-toggle" class="sidebar-toggle-btn" title="Toggle Sidebar">
@@ -58,6 +59,7 @@
 </style>
 
 <script>
+var allMarkers = [];
 async function loadMarkers(L, map) {
     fetch("./daytrip/index.json")
         .then(r => r.json())
@@ -69,14 +71,16 @@ async function loadMarkers(L, map) {
             }
 
             venues.data.forEach(v => {
-                L.marker({lon: v.lng, lat: v.lat}).bindPopup(`<a href="${v.permalink}">${v.name}</a>`).addTo(cluster);
+                const marker = L.marker({lon: v.lng, lat: v.lat}).bindPopup(`<a href="${v.permalink}">${v.name}</a>`);
+                marker.addTo(cluster);
+                allMarkers.push(marker); // Store marker reference
+                
                 console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
                 if (jumpToSlug && jumpToSlug == v.permalink) {
                     console.log("Fly, my pretties")
                     map.flyTo([v.lat, v.lng], 19);
                 }
             })
-
         })
 }
 
@@ -187,5 +191,25 @@ map.on('locationerror', function(e) {
     alert('Could not get your location: ' + e.message);
 });
 
+// Cluster toggle functionality
+const clusterToggleBtn = document.getElementById('cluster-toggle-btn');
+let clusteringEnabled = true;
+
+clusterToggleBtn.addEventListener('click', function() {
+    if (clusteringEnabled) {
+        // Disable clustering
+        map.removeLayer(cluster);
+        allMarkers.forEach(marker => marker.addTo(map));
+        clusterToggleBtn.classList.add('active');
+        clusterToggleBtn.title = "Enable marker clustering";
+    } else {
+        // Enable clustering
+        allMarkers.forEach(marker => map.removeLayer(marker));
+        map.addLayer(cluster);
+        clusterToggleBtn.classList.remove('active');
+        clusterToggleBtn.title = "Disable marker clustering";
+    }
+    clusteringEnabled = !clusteringEnabled;
+});
 </script>
 {{ end }}
