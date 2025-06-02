@@ -659,4 +659,12 @@ main#content:has(> article) {
 
 .cluster-toggle-btn.active .fa-stack-circle {
   visibility: hidden;
+
+.user-location-icon {
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-left: -20px;
+  margin-top: -40px; /* Position the bottom of the pin at the exact location */
+  contain: none;
 }

@@ -182,11 +182,20 @@ locateBtn.addEventListener('click', function() {
 });
 
 map.on('locationfound', function(e) {
-    // Add a marker at the user's location
+    // Create a custom pin icon for user location
+    const userLocationIcon = L.divIcon({
+        html: '📍',
+        className: 'user-location-icon',
+        iconSize: [40, 40],
+        iconAnchor: [20, 40],
+        popupAnchor: [0, -40]
+    });
+    
+    // Add a marker at the user's location with the custom pin icon
     if (window._userLocationMarker) {
         map.removeLayer(window._userLocationMarker);
     }
-    window._userLocationMarker = L.marker(e.latlng).addTo(map)
+    window._userLocationMarker = L.marker(e.latlng, {icon: userLocationIcon}).addTo(map)
         .bindPopup('You are here!').openPopup();
     // Auto-close the popup after 3 seconds
     setTimeout(function() {
