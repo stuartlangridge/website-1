@@ -636,12 +636,27 @@ main#content:has(> article) {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.5em;
   transition: background 0.2s;
 }
+
 .cluster-toggle-btn:hover, .cluster-toggle-btn:focus {
   background: #f0f0f0;
 }
-.cluster-toggle-btn.active {
-  background: #e0f0ff; /* Light blue background when active */
+
+.cluster-toggle-btn .fa-stack {
+  font-size: 1.2em;
+  color: #e8955a;
+}
+
+.cluster-toggle-btn.active .fa-stack {
+  color: #2b83cb;
+}
+
+.cluster-toggle-btn .fa-stack-circle {
+  font-size: 3em;
+  color: #e8955a;
+}
+
+.cluster-toggle-btn.active .fa-stack-circle {
+  color: #f0f0f0;
 }
