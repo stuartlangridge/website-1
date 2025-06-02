@@ -5,6 +5,7 @@ lat: '52.31226853892447'
 lng: '1.553133504943844'
 location: Thorington, Wenhaston, East Suffolk, Suffolk, England, IP17 3RD, United
   Kingdom
+external_url: https://www.living-architecture.co.uk/the-houses/balancing-barn/overview/
 title: The Balancing Barn
 ---
 
