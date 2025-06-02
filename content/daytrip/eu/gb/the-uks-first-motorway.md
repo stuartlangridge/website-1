@@ -1,9 +1,10 @@
 ---
 slug: "daytrip/eu/gb/the-uks-first-motorway"
 date: '2001-01-30T04:37:00'
-lat: '50.66413705441469'
-lng: '-1.9548096484375037'
-location: Heather Walk, Studland, Dorset, England, BH19 3AQ, United Kingdom
+lat: 50.66912
+lng: -1.96123
+location: Ferry Road, Studland, Dorset, England, BH19 3AQ, United Kingdom
+external_url: https://www.roads.org.uk/articles/studland-motor-road
 title: The UK's first motorway?
 ---
 
