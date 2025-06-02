@@ -1,12 +1,12 @@
 ---
-slug: "daytrip/eu/gb/sink-hole"
-title: Sink hole
+slug: daytrip/eu/gb/trevone-round-hole
+title: Trevone Round Hole
 location: Trevone, Cornwall, UK, PL28
 poster: KatieR
 date: '2012-09-18T13:43:00'
-lat: '50.54276603915469'
-lng: '-4.974247438354496'
-external_url: null
+lat: 50.54821
+lng: -4.97936
+external_url: https://en.wikipedia.org/wiki/Trevone#Geography
 ---
 
 A collapsed sea cave
