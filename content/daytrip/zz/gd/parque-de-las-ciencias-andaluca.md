@@ -6,5 +6,6 @@ lng: '-3.605801'
 location: 'Av. de la Ciencia, s/n, Ronda, 18006 Granada'
 title: 'Parque de las Ciencias Andalucía'
 external_url: https://www.parqueciencias.com
+poster: "Hugo"
 ---
 Small but well-formed science museum. Includes the Biodome, with exhibits of animals living in constructed habitats.

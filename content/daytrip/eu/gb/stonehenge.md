@@ -6,5 +6,6 @@ lng: '-1.859952'
 location: 'Near Amesbury, Wiltshire, SP4 7DE'
 title: 'Stonehenge'
 external_url: https://www.english-heritage.org.uk/visit/places/stonehenge/
+poster: "Hugo"
 ---
 *The* prehistoric stone circle.

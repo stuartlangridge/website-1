@@ -6,6 +6,7 @@ lng: '-121.901797'
 location: '886 Cannery Row, Monterey, CA 93940, United States'
 title: 'The Monterey Bay Aquarium'
 external_url: https://www.montereybayaquarium.org/
+poster: "JohnD"
 ---
 A world class aquarium in its own right, Star Trek fans will recognise this as the location of the Cetacean Institute from Star Trek IV: The Voyage Home.
 

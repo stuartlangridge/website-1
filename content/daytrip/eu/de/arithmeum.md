@@ -6,5 +6,6 @@ lng: '7.104726'
 location: 'Lennéstr. 2, 53113 Bonn'
 title: 'Arithmeum'
 external_url: https://www.arithmeum.uni-bonn.de/en/arithmeum.html
+poster: "Aesdeef"
 ---
 A museum of calculation tools, with several replicas with instructions for you to try out.
