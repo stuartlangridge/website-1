@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/eu/gb/worlds-first-commercial-maglev-train"
 title: World's First Commercial MagLev Train
-location: Bickenhill, Solihull, UK, B37 7
+location: Birmingham Airport, Birmingham, UK, B26 3QJ
 poster: dasilva_uk
 date: '2011-11-30T12:27:00'
-lat: '52.4662853852135'
-lng: '-1.7567084160277773'
-external_url: null
+lat: 52.451923
+lng: -1.728984
+external_url: https://thelongandshort.org/machines/whither-british-maglev
 ---
 
 The world's first commercial automatic MagLev train.
