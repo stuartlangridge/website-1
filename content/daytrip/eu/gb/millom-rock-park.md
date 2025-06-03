@@ -6,5 +6,6 @@ lng: '-3.271689386293'
 location: 'Ghyll Scaur Quarry, The Hill, Millom LA18 5HB'
 title: 'Millom Rock Park'
 external_url: https://www.holcim.co.uk/about-us/millom-rock-park
+poster: "Sarah Dal"
 ---
 Samples of rock types and displays on quarrying around a large gravel area. 

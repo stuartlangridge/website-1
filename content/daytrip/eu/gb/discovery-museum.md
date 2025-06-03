@@ -6,5 +6,6 @@ lng: '-1.624818'
 location: 'Blandford Square, Newcastle upon Tyne, NE1 4JA'
 title: 'Discovery Museum'
 external_url: https://www.northeastmuseums.org.uk/discoverymuseum
+poster: "Elleo"
 ---
 Museum focusing on science and the industrial history of the North.

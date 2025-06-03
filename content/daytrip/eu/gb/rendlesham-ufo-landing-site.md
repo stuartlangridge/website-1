@@ -6,5 +6,6 @@ lng: '1.448779'
 location: 'Rendlesham Forest, Tangham, Woodbridge, IP12 3NF'
 title: 'Rendlesham UFO Landing Site'
 external_url: https://www.forestryengland.uk/rendlesham-forest/ufo-trail-rendlesham-forest
+poster: "Floppy"
 ---
 A short woodland walk to a sculpture commemorating the Rendlesham UFO Incident in 1980.

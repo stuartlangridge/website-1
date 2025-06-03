@@ -6,6 +6,7 @@ lng: '-1.0398349'
 location: 'Whitmarsh Ln, Chineham, Basingstoke RG24 8LL, Hampshire, United Kingdom'
 title: 'Chineham Incinerator'
 external_url: https://www.hampshire.veolia.co.uk/energy-recovery/chineham
+poster: "Wimpy"
 ---
 # Chineham Energy Recovery Facility
 
