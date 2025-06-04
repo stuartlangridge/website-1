@@ -5,6 +5,7 @@ lat: '44.49447562346344'
 lng: '28.089568393783566'
 location: "Situl arheologic \"Cetatea Capidava\", Strada Parcului, Capidava,\
   \ Topalu, Constanța, 907281, România"
+external_url: https://en.wikipedia.org/wiki/Capidava
 title: Capidava
 ---
 

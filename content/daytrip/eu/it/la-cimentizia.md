@@ -5,6 +5,7 @@ lat: '43.86624909304545'
 lng: '11.130844645790035'
 location: Cementificio Marchino, Via Firenze, Marzia e Paolo, Prato, Toscana, 59100,
   Italia
+external_url: http://industrialheritagemap.sc17.it/?places=cementizia
 title: La Cimentizia
 ---
 

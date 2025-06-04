@@ -6,7 +6,7 @@ poster: jiertherth
 date: '2013-01-16T18:15:00'
 lat: '46.36966673169695'
 lng: '14.1004478931427'
-external_url: null
+external_url: https://www.blejski-grad.si/en/plan-your-visit/access-and-parking/
 ---
 
 Museum from years near 1000. Nice view of Bled and lake.
