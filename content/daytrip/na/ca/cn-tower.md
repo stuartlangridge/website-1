@@ -5,6 +5,7 @@ lat: '43.64143096808704'
 lng: '-79.38584945861817'
 location: "Bremner Boulevard, Harbourfront-CityPlace, Spadina—Fort York, Toronto,\
   \ Golden Horseshoe, Ontario, M5V 3L9, Canada"
+external_url: https://www.cntower.ca
 title: CN Tower
 ---
 
