@@ -6,7 +6,7 @@ poster: hmartn
 date: '2012-02-11T22:55:00'
 lat: '51.32879118944767'
 lng: '-112.48276375'
-external_url: null
+external_url: https://atlascoalmine.ab.ca
 ---
 
 Historical site; walk around the mine site, up the tipple and into the mouth of the underground mine itself!
