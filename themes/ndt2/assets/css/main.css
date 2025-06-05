@@ -574,6 +574,32 @@ html, body {
   #banner nav li {
     margin-left: 0;
   }
+  header#banner {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center; /* This will center text within full-width h1 and nav items */
+  }
+  
+  header#banner h1 {
+      width: 100%; /* Make h1 take full width of header#banner */
+      margin-bottom: 10px;
+      /* text-align: center; is inherited from header#banner */
+  }
+  
+  header#banner nav { /* Target the nav element */
+      width: 100%; /* Make nav element take full width */
+  }
+
+  header#banner nav ul {
+      /* display: flex; is already set in main.css */
+      justify-content: center; /* This centers the li items within the ul */
+      width: 100%; /* Ensure the ul itself takes full width of the nav */
+      padding: 0; /* Reset padding that might affect centering */
+  }
+  
+  header#banner nav ul li:first-child {
+      margin-left: 0;
+  }
 }
 
 /* Overrides for standard content pages (e.g., posts, about, contact)
