@@ -1,6 +1,6 @@
 ---
 slug: "daytrip/na/us/connections-museum-seattle"
-date: "2025-006-06T02:33:00"
+date: "2025-06-06T02:33:00"
 lat: "47.5407112"
 lng: "-122.3232500"
 location: "7000, East Marginal Way South, Van Asselt, Georgetown, Seattle, King County, Washington, 98108, United States"
