@@ -1,5 +1,5 @@
 ---
-slug: 'daytrip/eu/gb/walchenseekraftwerk'
+slug: daytrip/eu/de/walchenseekraftwerk
 date: '2025-05-29T14:45:02.447Z'
 poster: 'PopeySentMeHere'
 lat: '47.630361'
