@@ -4,7 +4,7 @@ date: "2025-06-03T04:43:01.160Z"
 poster: "Mark Dominus"
 lat: "40.253706"
 lng: "-74.579701"
-location: "BAPS Swaminarayan Akshardam, 112, North Main Street, Robbinsville Township, Mercer County, New Jersey, 08561, United States
+location: "BAPS Swaminarayan Akshardam, 112, North Main Street, Robbinsville Township, Mercer County, New Jersey, 08561, United States"
 title: "BAPS Swaminarayan Akshardam"
 external_url: https://usa.akshardham.org/
 ---
