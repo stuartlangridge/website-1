@@ -5,6 +5,7 @@ lat: '45.41283546110047'
 lng: '-75.68879984085083'
 location: Victoria Memorial Museum Building, 240, McLeod Street, Golden Triangle,
   Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K2P 1A2, Canada
+external_url: https://nature.ca/en/
 title: Canadian Museum of Nature
 ---
 
