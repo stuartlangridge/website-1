@@ -5,6 +5,7 @@ lat: '60.10007588432653'
 lng: '-149.44079302017212'
 location: Alaska SeaLife Center, 301, Railway Avenue, Seward, Kenai Peninsula Borough,
   Alaska, 99664, United States
+external_url: https://alaskasealife.org
 title: Alaska Sealife Center
 ---
 
