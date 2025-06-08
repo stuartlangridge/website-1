@@ -5,7 +5,7 @@ poster: "Frederik Dekker"
 lat: "51.946922"
 lng: "5.612297"
 location: "Various starting points (see website)"
-title: "Safari ship "de Blauwe Bever'"
+title: "Safari ship 'de Blauwe Bever'"
 external_url: https://deblauwebever.nl/
 ---
 Educational wildlife sailing tours on a ship run by volunteers.
