@@ -4,6 +4,7 @@ date: '2001-01-30T04:37:00'
 lat: '38.05407987984612'
 lng: '-75.22695007636719'
 location: Worcester County, Maryland, United States
+external_url: https://www.nps.gov/asis/index.htm
 title: Assateague Island National Seashore
 ---
 

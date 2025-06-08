@@ -5,6 +5,7 @@ lat: '33.2695690'
 lng: '-111.8366630'
 location: Arizona Railway Museum, 330, East Ryan Road, Chandler, Maricopa County,
   Arizona, 85286, United States
+external_url: https://azrymuseum.org
 title: Arizona Railway Museum
 ---
 
