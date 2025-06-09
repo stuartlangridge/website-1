@@ -5,6 +5,7 @@ lat: '42.497388'
 lng: '-87.955353'
 location: Bristol Renaissance Faire, 12550, 120th Avenue, Bristol, Kenosha County,
   Wisconsin, 53142, United States
+external_url: https://renfair.com/bristol/
 title: Bristol Renaissance Faire
 ---
 

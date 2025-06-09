@@ -6,7 +6,7 @@ poster: yodjtuesday
 date: '2012-06-15T15:03:00'
 lat: '37.3251163'
 lng: '-81.3117673'
-external_url: null
+external_url: https://www.facebook.com/groups/8243922374/
 ---
 
 A one-day brewing and tasting festival with lots of live music, a few food and craft vendors, and many different breweries (and home-brewers) from around the US.  The town itself is a very beautiful historic town set in the hills of West Virginia.  Be sure to check out The Corner Store for milkshakes!
