@@ -5,6 +5,7 @@ lat: '46.550580784796885'
 lng: '-91.58067367736817'
 location: Tri County Corridor, Muskeg, Town of Brule, Town of Hughes, Douglas County,
   Wisconsin, United States
+external_url: https://bruleriverpreservation.org
 title: Brule River
 ---
 
