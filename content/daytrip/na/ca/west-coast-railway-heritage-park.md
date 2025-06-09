@@ -1,10 +1,10 @@
 ---
 slug: "daytrip/na/ca/west-coast-railway-heritage-park"
 date: '2001-01-30T04:37:00'
-lat: '49.71369822953552'
-lng: '-123.0735840625'
-location: Mamquam Forest Service Road, Valleycliffe, Squamish, Squamish-Lillooet Regional
-  District, British Columbia, V8B 0N8, Canada
+lat: 49.728044
+lng: -123.160461
+location: 39645 Government Rd, Squamish, BC V8B 0B6, Canada
+external_url: https://www.wcra.org
 title: West Coast Railway Heritage Park
 ---
 

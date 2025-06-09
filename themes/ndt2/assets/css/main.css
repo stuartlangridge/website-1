@@ -631,6 +631,29 @@ body:has(main#content > article) {
   padding: 0;         /* Ensure body has no padding, so header can be full-width. */
 }
 
+/* Format tables in blog posts */
+main#content table {
+  margin: 20px auto; 
+  width: 600px;
+  border-collapse: collapse;
+}
+
+main#content table th {
+  background-color: #2c3e50; 
+}
+/* Alternate background colors for table rows */
+main#content table tr:nth-child(odd) {
+  background-color: #34495e;
+}
+main#content table tr:nth-child(even) {
+  background-color: #2c3e50; 
+}
+main#content table th, main#content table td {
+  padding: 10px;
+  border: 1px solid #4f5b66;
+  color: #ecf0f1;
+}
+
 /* Reset main#content for document flow on these content pages */
 main#content:has(> article) {
   display: block;     /* Override display:flex from map-page styles. */

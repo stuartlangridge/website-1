@@ -5,6 +5,7 @@ lat: '43.94927930871485'
 lng: '-79.43715475265503'
 location: Willowbank Avenue, Wilcox Lake, Richmond Hill, York Region, Golden Horseshoe,
   Ontario, L4E 3B5, Canada
+external_url: https://www.richmondhill.ca/en/things-to-do/Lake-Wilcox-Park.aspx
 title: Wilcox Lake
 ---
 

@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/ca/snakes-lattes"
 title: Snakes & Lattes
-location: Toronto, ON, Canada, M5S 2K8
+location: 600 Bloor St W, Toronto, ON, Canada, M5S 2K8
 poster: dishanw
 date: '2013-03-27T16:26:00'
 lat: '43.66473618473756'
 lng: '-79.4130420684815'
-external_url: null
+external_url: https://www.snakesandlattes.com/annex
 ---
 
 A board game cafe (that also sells beer) boasting over 2500 unique games to enjoy with 2 players or a larger group. 
