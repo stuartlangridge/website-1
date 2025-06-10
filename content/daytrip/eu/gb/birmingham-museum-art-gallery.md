@@ -6,5 +6,6 @@ lng: '-1.90324985'
 location: 'Birmingham Museum & Art Gallery, Chamberlain Square, Chinese Quarter, Ladywood, Park Central, Birmingham, West Midlands, England, B3 3DH, United Kingdom'
 title: 'Birmingham Museum & Art Gallery'
 external_url: https://www.birminghammuseums.org.uk/birmingham-museum-and-art-gallery
+poster: "Stuart Langridge"
 ---
 Art gallery and museum with the largest collection of Pre-Raphaelite art around. See the Edwardian tearooms while you're there.

@@ -5,5 +5,6 @@ lat: 52.4748956
 lng: -1.8845326
 location: Waylands Forge, High Street Deritend, Rea Valley, Digbeth, Highgate, Birmingham, West Midlands, England, B9 4AU, United Kingdom
 title: Waylands Forge
+poster: "Stuart Langridge"
 ---
 Famous RPG and board games shop.
