@@ -9,4 +9,4 @@ lng: '10.783378'
 external_url: https://www.tekniskmuseum.no/en/
 ---
 
-The Norwegian Museum of Science and Technology is an inclusive arena for dissemination, research and management of technology, medicine and science's opportunities and history. The cultural heritage is linked with the present and future. Playful learning and dialogue in the Science Center and Museum ensures insight and science interest. Our vision is to be the most engaging, knowledge -provoking and funniest museum.
+The Norwegian Museum of Science and Technology. The museum has more than 25 permanent and temporary exhibitions on energy, oil, industry, medicine, aircraft, cars and trains. Lots of fun for all ages.
