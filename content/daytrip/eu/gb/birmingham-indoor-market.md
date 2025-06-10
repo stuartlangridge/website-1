@@ -5,5 +5,6 @@ lat: '52.4759204'
 lng: '-1.89540515'
 location: 'Birmingham Indoor Market, Edgbaston Street, Bullring, Vauxhall, Park Central, Birmingham, West Midlands, England, B5 4RQ, United Kingdom'
 title: 'Birmingham Indoor Market'
+poster: "Stuart Langridge"
 ---
 
