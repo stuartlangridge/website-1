@@ -2,8 +2,8 @@
 slug: "daytrip/eu/gb/arcade-club-bury"
 date: "2025-06-10T12:38:56.918Z"
 poster: "Irrelevant"
-lat: "51.453647"
-lng: "-0.041199"
+lat: "53.5951729"
+lng: "-2.2838063"
 location: "Cork Street, Ela Mill, Bury, GB BL9 7BW"
 title: "Arcade Club Bury"
 external_url: https://www.arcadeclub.co.uk/bury/
