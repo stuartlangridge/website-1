@@ -70,22 +70,22 @@ async function loadMarkers(L, map) {
                        this keeps the size of the index.json down to a minimum */
                     const popup = e.target.getPopup();
                     fetch(v.permalink + '/index.json').then(res => res.json()).then(details => {
-                        let popupText = `<a href="${details.permalink}">${details.name}</a>`;
+                        let popupText = `<a class="popup-name" href="${details.permalink}">${details.name}</a>`;
                         // If the venue has an external_url add it as a ink to the popup
                         if (details.external_url) {
                             popupText += `&nbsp;&nbsp;<a href="${details.external_url}" target="_blank" class="external-link" title="Website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>`;
                         }
                         // If the venue has a location, append it to the popup text
                         if (details.location) {
-                            popupText += `<br><div class="popup-location">${details.location}</div>`;
+                            popupText += `<div class="popup-location">${details.location}</div>`;
                         }
                         // If the venue has a description, append it to the popup text
                         if (details.description) {
-                            popupText += `<br><div class="popup-description">${details.description}</div>`;
+                            popupText += `<div class="popup-description">${details.description}</div>`;
                         }
                         // If the venue has a poster, add it to the popup
                         if (details.poster) {
-                            popupText += `<br><div class="popup-poster">Added by: ${details.poster}.</div>`;
+                            popupText += `<div class="popup-poster">Added by: ${details.poster}.</div>`;
                         }
                         popup.setContent(popupText);
                         popup.update();
