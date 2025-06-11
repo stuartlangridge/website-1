@@ -509,7 +509,6 @@ html, body {
   color: #000000;
   grid-area: address;
   overflow: hidden;
-  xwhite-space: nowrap;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
