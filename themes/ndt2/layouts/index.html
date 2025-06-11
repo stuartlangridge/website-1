@@ -103,7 +103,7 @@ async function loadMarkers(L, map) {
                         }
                         // If the venue has a location, append it to the popup text
                         if (details.location) {
-                            popupText += `<div class="popup-location">${shorten(details.location, 40)}</div>`;
+                            popupText += `<div class="popup-location">${shorten(details.location, 100)}</div>`;
                         }
                         // If the venue has a description, append it to the popup text
                         if (details.description) {
