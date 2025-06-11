@@ -51,6 +51,32 @@
 </style>
 
 <script>
+const SHORTENERS = [
+    address => address.replace(/, England,/g, ""),
+    address => address.replace(/, Wales,/g, ""),
+    address => address.replace(/, Alba \/ Scotland,/g, ""),
+    address => address.replace(/, United States of America$/, ", USA"),
+];
+function shorten(address, target_length) {
+    // successively try different address shortening techniques
+    // to try to get the address down below target_length.
+    // Add shorteners to this list in order of aggressiveness.
+    // If we've tried all shorteners and it's still too long, 
+    // tough, return anyway.
+    console.log("shorten", address, address.length);
+
+    // if it's already short enough, don't do anything.
+    if (address.length <= target_length) return address;
+
+    SHORTENERS.forEach(shortener => {
+        address = shortener(address);
+        console.log("  tried a shortener", address, address.length);
+        if (address.length <= target_length) return address;
+    })
+    // didn't work, still too long, oh well
+    return address;
+}
+
 var allMarkers = [];
 async function loadMarkers(L, map) {
     fetch("./daytrip/index.json")
@@ -77,7 +103,7 @@ async function loadMarkers(L, map) {
                         }
                         // If the venue has a location, append it to the popup text
                         if (details.location) {
-                            popupText += `<div class="popup-location">${details.location}</div>`;
+                            popupText += `<div class="popup-location">${shorten(details.location, 40)}</div>`;
                         }
                         // If the venue has a description, append it to the popup text
                         if (details.description) {
