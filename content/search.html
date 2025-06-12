@@ -429,8 +429,13 @@ function renderResults(lunrRes, gotHereByDragging=false) {
             const marker = L.marker([r.lat, r.lng])
                 .bindPopup(`<a href="../${r.permalink}">${tempDiv.textContent}</a>`)
                 .addTo(markersLayer);
+            a.onmouseenter = () => {
+                marker._icon.classList.add("highlight");
+            }
+            a.onmouseleave = () => {
+                marker._icon.classList.remove("highlight");
+            }
         }
-                
 
         const i = s.querySelector("i");
         i.textContent = COUNTRIES[r.country_code] || r.country_code;
