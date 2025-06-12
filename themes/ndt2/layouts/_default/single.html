@@ -12,25 +12,29 @@
             <div>
                 <!-- Created Date -->
                 <span class="post-info-pubdate"></span>
-                {{- $pubdate := .PublishDate.Format "January 2, 2006" }}
-                Created: 
-                <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
-                    {{ $pubdate }}
-                </time>
-                {{- if .Params.poster }}
-                    by {{ .Params.poster }}
-                {{- end }}
-                <!-- Last Updated Date -->
-                {{- if .Lastmod }}
-                    {{- $lastmod := .Lastmod.Format "January 2, 2006" }}
-                    {{- if ne $lastmod $pubdate }}
-                            (Updated: 
-                            <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
-                                {{ $lastmod }}
-                            </time>)
-                        </div>
+                {{- if .Params.date }}
+                    {{- $created := .Params.date.Format "January 2, 2006" }}
+                    <span class="post-info-created">
+                        Created: 
+                        <time datetime="{{ .Params.date }}" title="{{ .Params.date }}">
+                            {{ $created }}
+                        </time>
+                    <!-- Last Updated Date -->
+                    {{- if .Lastmod }}
+                        {{- $lastmod := .Lastmod.Format "January 2, 2006" }}
+                        {{- if ne $lastmod $created }}
+                                (Updated: 
+                                <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+                                    {{ $lastmod }}
+                                </time>)
+                        {{- end }}
                     {{- end }}
+                    {{- if .Params.poster }}
+                        by {{ .Params.poster }}
+                    {{- end }}
+                    </span>
                 {{- end }}
+
                 </span>
             </div>
     </header>
