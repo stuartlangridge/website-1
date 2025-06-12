@@ -349,15 +349,15 @@ function renderResults(lunrRes) {
         const permalinkParts = r.ref.split("/");
         const countryCode = permalinkParts[permalinkParts.length - 2];
 
-    return {
-    ...r,
-    name: locData.name,
-    permalink: r.ref,
-    country_code: countryCode,
-    distance: distance,
-    lat: parseFloat(locData.lat), 
-    lng: parseFloat(locData.lng)  
-};
+        return {
+            ...r,
+            name: locData.name,
+            permalink: r.ref,
+            country_code: countryCode,
+            distance: distance,
+            lat: parseFloat(locData.lat), 
+            lng: parseFloat(locData.lng)  
+        };
     }).filter(r => r !== null);
 
     if (mapCenter) {
@@ -409,12 +409,13 @@ function renderResults(lunrRes) {
             // Extend bounds to include this marker
             bounds.extend([r.lat, r.lng]);
         }
-    }
-    
+    }    
     // If we have results with locations, fit the map to show all markers
     if (markersLayer.getLayers().length > 0) {
         // Only fit bounds on initial search, not when the map is manually moved
-        if (!mapCenter || processedResults.length === 1) {
+        // this is mostly done by trapping manual moves via dragend, not moveend
+        // because us moving the map with fitbounds triggers moveend, not dragend
+        if (!mapCenter || processedResults.length >= 1) {
             leafletMap.fitBounds(bounds, {
                 padding: [50, 50],
                 maxZoom: 13
@@ -485,8 +486,9 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Could not get your location: ' + e.message);
     });
 
-    leafletMap.on('moveend', () => {
+    leafletMap.on('dragend', (e) => {
         if (lastQueryResults && lastQueryResults.length > 0) {
+            console.log("dragend", e);
             renderResults(lastQueryResults); // Re-sort and re-display with new map center
         }
     });
