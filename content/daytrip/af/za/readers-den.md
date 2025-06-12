@@ -1,10 +1,9 @@
 ---
 slug: "daytrip/af/za/readers-den"
-date: '2001-01-30T04:37:00'
-lat: '-33.98018104543144'
-lng: '18.46531294503552'
-location: Main Road, Cape Town Ward 59, Cape Town, City of Cape Town, Western Cape,
-  7708, South Africa
+date: '2025-06-11T17:01:00'
+lat: '-34.002744'
+lng: '18.477998'
+location: 25 Barnstaple Rd, Wynberg, Cape Town, 7800
 title: Reader's Den
 external_url: https://readersden.co.za
 ---
