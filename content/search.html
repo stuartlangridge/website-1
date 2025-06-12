@@ -3,7 +3,9 @@ title: Search for Venues
 slug: "search"
 ---
 
-<div id="map-container" style="height: 300px; width: 100%; margin-bottom: 20px;"></div>
+<div id="map-container" style="height: 300px; width: 100%; margin-bottom: 20px; position: relative;">
+  <button id="locate-btn" class="locate-btn" title="Find my location">📍</button>
+</div>
 <p>Use the box to search.<br>Move and zoom the map to sort results by distance from the centre.</p>
 <form id="search">
     <input type="search" name="q" required>
@@ -12,12 +14,35 @@ slug: "search"
 <ul id="results">
 </ul>
 <template id="sres">
-    <li><a href="#"></a> (<i></i>)</li>
+    <li><a href="#"></a> (<i></i><span class="distance"></span>)</li>
 </template>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
+<style>
+.locate-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em;
+  transition: background 0.2s;
+}
+.locate-btn:hover, .locate-btn:focus {
+  background: #f0f0f0;
+}
+</style>
 <script>
 let markersLayer; // To store and manage result markers
 
@@ -408,6 +433,49 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize a layer group for markers
     markersLayer = L.layerGroup().addTo(leafletMap);
+
+    // Initialize locate button functionality
+    const locateBtn = document.getElementById('locate-btn');
+    locateBtn.addEventListener('click', function() {
+        leafletMap.locate({
+            setView: true, 
+            maxZoom: 12,
+            timeout: 10000,           // Increase timeout to 10 seconds
+            enableHighAccuracy: true, // Request high accuracy if available
+            maximumAge: 0             // Don't use cached position
+        });
+    });
+    
+    // Handle location found event
+    leafletMap.on('locationfound', function(e) {
+        // Create a custom pin icon for user location
+        const userLocationIcon = L.divIcon({
+            html: '<div style="font-size: 24px; line-height: 1;">📍</div>', // Larger emoji
+            className: 'user-location-icon',
+            iconSize: [48, 48],       // Larger icon size
+            iconAnchor: [24, 48],     // Bottom-center of the icon
+            popupAnchor: [0, -48]
+        });
+        
+        // Remove existing marker if present
+        if (window._userLocationMarker) {
+            leafletMap.removeLayer(window._userLocationMarker);
+        }
+        
+        // Add a marker at the user's location with the custom pin icon
+        window._userLocationMarker = L.marker(e.latlng, {icon: userLocationIcon})
+            .addTo(leafletMap);
+        
+        // Re-run search with new map center if we have results
+        if (lastQueryResults && lastQueryResults.length > 0) {
+            renderResults(lastQueryResults); // Re-sort and re-display with new map center
+        }
+    });
+    
+    // Handle location error
+    leafletMap.on('locationerror', function(e) {
+        alert('Could not get your location: ' + e.message);
+    });
 
     leafletMap.on('moveend', () => {
         if (lastQueryResults && lastQueryResults.length > 0) {
