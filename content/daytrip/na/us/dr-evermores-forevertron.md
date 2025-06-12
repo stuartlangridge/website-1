@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/us/dr-evermores-forevertron"
 title: Dr. Evermore's Forevertron
-location: Sumpter, Sauk County, Wisconsin, United States, 53591
+location: S7703 US HWY 12, Sumpter, Wisconsin 53591, United States
 poster: kimberlybethc
 date: '2012-09-20T17:29:00'
-lat: '43.3725712'
-lng: '-89.7239097'
-external_url: null
+lat: 43.363589
+lng: -89.770736
+external_url: https://www.worldofdrevermor.com
 ---
 
 Dr. Evermor's Forevertron, built in the 1980s, is the largest scrap metal sculpture in the world, standing 50 ft.  high and 120 ft. wide, and weighing 300 tons. It is housed in Dr. Evermore's Art Park on Highway 12, in the town of Sumpter, in Sauk County, Wisconsin, United States.
