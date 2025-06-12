@@ -3,6 +3,7 @@ slug: "daytrip/eu/de/carl-zeiss-planetarium"
 date: '2025-06-11T15:37:00'
 lat: '48.783319999999996'
 lng: '9.18688'
+poster: "sebastian-xyz"
 location: "Carl-Zeiss-Planetarium, Willy-Brandt-Straße 25, Stuttgart, Baden-Württemberg, 70173, Deutschland"
 title: Carl-Zeiss-Planetarium
 external_url: https://www.planetarium-stuttgart.de/site/Stuttgart-Planetarium/node/11933363/index.html

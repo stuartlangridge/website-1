@@ -3,6 +3,7 @@ slug: "daytrip/eu/de/mercedes-benz-museum"
 date: '2025-06-11T15:37:00'
 lat: '48.7883399'
 lng: '9.233674299999999'
+poster: "sebastian-xyz"
 location: "Mercedes‑Benz Museum, Mercedesstrasse 100, Stuttgart, Baden-Württemberg, 70372, Deutschland"
 title: Mercedes-Benz Museum
 external_url: https://www.mercedes-benz.com/en/art-and-culture/museum/
