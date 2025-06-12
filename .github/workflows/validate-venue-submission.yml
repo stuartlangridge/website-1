@@ -5,6 +5,10 @@ on:
     paths:
       - 'content/daytrip/**'
 
+permissions:
+  issues: write
+  pull-requests: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
