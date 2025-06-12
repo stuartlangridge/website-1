@@ -1,0 +1,199 @@
+name: Validate Venue Submission
+
+on:
+  pull_request:
+    paths:
+      - 'content/daytrip/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.120.4'
+          extended: true
+
+      - name: Test Hugo build
+        run: hugo --minify
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install js-yaml front-matter
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v38
+        with:
+          files: 'content/daytrip/**/*.md'
+
+      - name: Validate venue submissions
+        id: validate
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          # Create a results file for the PR comment
+          echo "# Venue Submission Validation Results" > validation_results.md
+          echo "" >> validation_results.md
+          
+          # Process each changed file
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "## Validating: $file" >> validation_results.md
+            echo "" >> validation_results.md
+            
+            # Extract frontmatter using Node script
+            node -e "
+              const fs = require('fs');
+              const fm = require('front-matter');
+              
+              const fileContent = fs.readFileSync('$file', 'utf8');
+              const content = fm(fileContent);
+              const attrs = content.attributes;
+              
+              // Check if file has valid frontmatter
+              if (!attrs) {
+                console.log('ERROR: Invalid or missing frontmatter');
+                process.exit(1);
+              }
+              
+              // Output the data as JSON for further processing
+              fs.writeFileSync('temp_data.json', JSON.stringify(attrs));
+              
+              // Check for excessive whitespace or malformed markdown
+              const bodyContent = content.body.trim();
+              if (bodyContent.includes('  \n')) {
+                console.log('WARNING: Found excessive whitespace in content');
+              }
+            "
+            
+            # Process the extracted data
+            if [ -f "temp_data.json" ]; then
+              # Validate required fields
+              lat=$(jq -r '.lat' temp_data.json)
+              lng=$(jq -r '.lng' temp_data.json)
+              title=$(jq -r '.title' temp_data.json)
+              location=$(jq -r '.location' temp_data.json)
+              poster=$(jq -r '.poster' temp_data.json)
+              
+              echo "### Data Validation" >> validation_results.md
+              
+              # Check title
+              if [ "$title" == "null" ] || [ -z "$title" ]; then
+                echo "❌ **Missing title**" >> validation_results.md
+              else
+                echo "✅ Title: $title" >> validation_results.md
+              fi
+              
+              # Check lat/long
+              lat_valid=true
+              lng_valid=true
+              
+              if [ "$lat" == "null" ] || [ -z "$lat" ]; then
+                echo "❌ **Missing latitude**" >> validation_results.md
+                lat_valid=false
+              elif ! [[ "$lat" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
+                echo "❌ **Invalid latitude format**: $lat" >> validation_results.md
+                lat_valid=false
+              elif (( $(echo "$lat < -90 || $lat > 90" | bc -l) )); then
+                echo "❌ **Latitude out of range (-90 to 90)**: $lat" >> validation_results.md
+                lat_valid=false
+              else
+                echo "✅ Latitude: $lat" >> validation_results.md
+              fi
+              
+              if [ "$lng" == "null" ] || [ -z "$lng" ]; then
+                echo "❌ **Missing longitude**" >> validation_results.md
+                lng_valid=false
+              elif ! [[ "$lng" =~ ^-?[0-9]+(\.[0-9]+)?$ ]]; then
+                echo "❌ **Invalid longitude format**: $lng" >> validation_results.md
+                lng_valid=false
+              elif (( $(echo "$lng < -180 || $lng > 180" | bc -l) )); then
+                echo "❌ **Longitude out of range (-180 to 180)**: $lng" >> validation_results.md
+                lng_valid=false
+              else
+                echo "✅ Longitude: $lng" >> validation_results.md
+              fi
+              
+              # Check location
+              if [ "$location" == "null" ] || [ -z "$location" ]; then
+                echo "❌ **Missing location**" >> validation_results.md
+              elif [ ${#location} -gt 100 ]; then
+                echo "❌ **Location too long (${#location} chars, max 100)**" >> validation_results.md
+              else
+                echo "✅ Location: $location" >> validation_results.md
+              fi
+              
+              # Check poster
+              if [ "$poster" == "null" ] || [ -z "$poster" ]; then
+                echo "❌ **Missing poster field**" >> validation_results.md
+              else
+                echo "✅ Poster: $poster" >> validation_results.md
+              fi
+              
+              # Provide verification links
+              echo "" >> validation_results.md
+              echo "### Verification Links" >> validation_results.md
+              
+              if [ "$lat_valid" = true ] && [ "$lng_valid" = true ]; then
+                echo "📍 **Maps:** [Google Maps](https://www.google.com/maps?q=$lat,$lng) | [OpenStreetMap](https://www.openstreetmap.org/?mlat=$lat&mlon=$lng&zoom=16)" >> validation_results.md
+              fi
+              
+              if [ "$title" != "null" ] && [ ! -z "$title" ] && [ "$location" != "null" ] && [ ! -z "$location" ]; then
+                # Sanitize strings for URL
+                search_term=$(echo "$title, $location" | sed 's/ /%20/g')
+                echo "🔍 **Search:** [Google Maps Search](https://www.google.com/maps/search/$search_term) | [OpenStreetMap Search](https://www.openstreetmap.org/search?query=$search_term)" >> validation_results.md
+              fi
+              
+              # Add space between entries
+              echo "" >> validation_results.md
+              echo "---" >> validation_results.md
+              echo "" >> validation_results.md
+              
+              # Clean up
+              rm temp_data.json
+            else
+              echo "❌ **Failed to extract frontmatter**" >> validation_results.md
+              echo "" >> validation_results.md
+            fi
+          done
+          
+          # Save the validation results for the PR comment step
+          cat validation_results.md
+
+      - name: Comment on PR
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const validationResults = fs.readFileSync('validation_results.md', 'utf8');
+            
+            // Add a summary message at the top
+            const hasErrors = validationResults.includes('❌');
+            let commentContent = '';
+            
+            if (hasErrors) {
+              commentContent = `## ⚠️ Venue Submission Needs Attention\n\n`;
+              commentContent += `The automated validation found issues that need to be addressed before this submission can be accepted.\n\n`;
+            } else {
+              commentContent = `## ✅ Venue Submission Looks Good\n\n`;
+              commentContent += `The automated validation passed, but please manually verify the information before merging.\n\n`;
+            }
+            
+            commentContent += validationResults;
+            
+            // Add the comment to the PR
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: commentContent
+            });
