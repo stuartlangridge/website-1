@@ -14,7 +14,7 @@ slug: "search"
 <ul id="results">
 </ul>
 <template id="sres">
-    <li><a href="#"></a> (<i></i><span class="distance"></span>)</li>
+    <li><a href="#"></a> - <i></i><span class="distance"></span></li>
 </template>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -42,6 +42,9 @@ slug: "search"
 .locate-btn:hover, .locate-btn:focus {
   background: #f0f0f0;
 }
+.distance {
+  font-style: italic;
+  }
 </style>
 <script>
 let markersLayer; // To store and manage result markers
@@ -298,7 +301,8 @@ const COUNTRIES = {
   "eh": "Western Sahara",
   "ye": "Yemen",
   "zm": "Zambia",
-  "zw": "Zimbabwe"
+  "zw": "Zimbabwe",
+  "zz": "Unknown (please fix)"
 };
 
 let leafletMap;
@@ -379,7 +383,11 @@ function renderResults(lunrRes) {
         const s = snippet.cloneNode(true);
         const a = s.querySelector("a");
         a.href = "../" + r.permalink;
-        a.textContent = r.name;
+        
+        // Create a temporary div to decode HTML entities safely
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = r.name;
+        a.textContent = tempDiv.textContent; // This will contain decoded entities
 
         const i = s.querySelector("i");
         i.textContent = COUNTRIES[r.country_code] || r.country_code;
@@ -395,7 +403,7 @@ function renderResults(lunrRes) {
         // Add marker to map
         if (!isNaN(r.lat) && !isNaN(r.lng)) {
             const marker = L.marker([r.lat, r.lng])
-                .bindPopup(`<a href="../${r.permalink}">${r.name}</a>`)
+                .bindPopup(`<a href="../${r.permalink}">${tempDiv.textContent}</a>`)
                 .addTo(markersLayer);
                 
             // Extend bounds to include this marker
