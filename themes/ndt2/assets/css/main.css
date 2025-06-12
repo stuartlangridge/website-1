@@ -462,23 +462,42 @@ html, body {
   border-bottom: 1px solid #4f5b66; /* Lighter border for dark sidebar */
 }
 
-/* Ensure links in posts list are styled for dark background */
-#posts li a {
-  color: #9adbbe; /* A contrasting light color for links */
+/* Ensure links in side bar are coloured nicely */
+.sidebar-content #posts li.post-item .post-title a {
+  color: #7cc5f1; 
 }
-#posts li a:hover {
-  color: #ecf0f1;
-}
-
-.leaflet-popup-content { 
-  color: #222; /* Keep popup text dark as popup background is usually light */
-  width: 200px;
-  height: 50px;
+.sidebar-content #posts li.post-item .post-title a:hover {
+  color: #02b1ec;
 }
 
-.leaflet-popup-content a { 
-  font-size: 14px; 
-  font-weight: bold;;
+.map-container { position: relative; }
+
+#map .leaflet-popup-content { 
+  color: #222; 
+  width: 400px;
+  height: 200px;
+  line-height: 1.4;
+  font-weight: normal;
+  font-size: 1em; 
+}
+
+#map .leaflet-popup-content a { 
+  font-size: 2.5em; 
+  font-weight: bold;
+  color: #02b1ec;
+}
+
+#map .leaflet-popup-content .popup-location { 
+  font-size: 2em; 
+  font-weight: normal;
+  color: #000000;
+}
+
+#map .leaflet-popup-content .popup-poster { 
+  font-size: 1.8em; 
+  font-weight: normal;
+  color: #000000;
+  font-style: italic;
 }
 
 /* Added from posts.html */
@@ -574,6 +593,32 @@ html, body {
   #banner nav li {
     margin-left: 0;
   }
+  header#banner {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center; /* This will center text within full-width h1 and nav items */
+  }
+  
+  header#banner h1 {
+      width: 100%; /* Make h1 take full width of header#banner */
+      margin-bottom: 10px;
+      /* text-align: center; is inherited from header#banner */
+  }
+  
+  header#banner nav { /* Target the nav element */
+      width: 100%; /* Make nav element take full width */
+  }
+
+  header#banner nav ul {
+      /* display: flex; is already set in main.css */
+      justify-content: center; /* This centers the li items within the ul */
+      width: 100%; /* Ensure the ul itself takes full width of the nav */
+      padding: 0; /* Reset padding that might affect centering */
+  }
+  
+  header#banner nav ul li:first-child {
+      margin-left: 0;
+  }
 }
 
 /* Overrides for standard content pages (e.g., posts, about, contact)
@@ -584,6 +629,29 @@ html, body {
 body:has(main#content > article) {
   overflow-y: auto;   /* Enable vertical scrolling. */
   padding: 0;         /* Ensure body has no padding, so header can be full-width. */
+}
+
+/* Format tables in blog posts */
+main#content table {
+  margin: 20px auto; 
+  width: 600px;
+  border-collapse: collapse;
+}
+
+main#content table th {
+  background-color: #2c3e50; 
+}
+/* Alternate background colors for table rows */
+main#content table tr:nth-child(odd) {
+  background-color: #34495e;
+}
+main#content table tr:nth-child(even) {
+  background-color: #2c3e50; 
+}
+main#content table th, main#content table td {
+  padding: 10px;
+  border: 1px solid #4f5b66;
+  color: #ecf0f1;
 }
 
 /* Reset main#content for document flow on these content pages */
@@ -615,4 +683,56 @@ main#content:has(> article) {
 }
 .sidebar-content .post-title:has(button) a {
     order: 2;
+}
+
+.center {
+  text-align: center;
+}
+
+.cluster-toggle-btn {
+  position: absolute;
+  top: 70px; /* Position below the locate button */
+  right: 16px;
+  z-index: 1000;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.cluster-toggle-btn:hover, .cluster-toggle-btn:focus {
+  background: #f0f0f0;
+}
+
+.cluster-toggle-btn .fa-stack {
+  font-size: 1.2em;
+  color: #e8955a;
+}
+
+.cluster-toggle-btn.active .fa-stack {
+  color: #2b83cb;
+}
+
+.cluster-toggle-btn .fa-stack-circle {
+  font-size: 3em;
+  color: #e8955a;
+}
+
+.cluster-toggle-btn.active .fa-stack-circle {
+  visibility: hidden;
+
+.user-location-icon {
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-left: -20px;
+  margin-top: -40px; /* Position the bottom of the pin at the exact location */
+  contain: none;
 }

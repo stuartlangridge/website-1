@@ -1,9 +1,10 @@
 ---
 slug: "daytrip/na/us/akron-zoo"
 date: '2001-01-30T04:37:00'
-lat: '41.0683790'
-lng: '-81.5459300'
-location: Howe Street, Sherbondy Hill, Akron, Summit County, Ohio, 44307, United States
+lat: 41.07900
+lng: -81.54087
+location: 505 Euclid Ave, Akron, OH 44307, USA
+external_url: https://www.akronzoo.org
 title: Akron Zoo
 ---
 

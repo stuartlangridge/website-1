@@ -6,6 +6,7 @@ lng: '-1.706931'
 location: 'Henley Street, Stratford-upon-Avon, Warwickshire. CV37 6PT.'
 title: 'The MAD Museum (Mechanical Art and Design)'
 external_url: https://themadmuseum.co.uk
+poster: "NAB"
 ---
 The MAD Museum (Mechanical Art and Design) is a wonderfully eccentric attraction located in the heart of Stratford-upon-Avon. 
 

@@ -6,5 +6,6 @@ lat: '53.7968822'
 location: 'Upper Floor, Trinity, Shopping Centre, Leeds LS1 5AT'
 title: 'MathsCity'
 external_url: https://mathscity.co.uk/
+poster: "Katie Steckles"
 ---
 MathsCity is a hands-on maths activity centre, with puzzles, toys, a giant kaleidoscope and a human-sized bubble maker, as well as codebreaking activities, mathematical demonstrations and extra activities run during the holidays.

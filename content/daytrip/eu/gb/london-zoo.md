@@ -6,7 +6,7 @@ poster: acalmarises
 date: '2013-05-06T21:41:00'
 lat: '51.535017818387956'
 lng: '-0.15404462814331055'
-external_url: null
+external_url: https://www.londonzoo.org
 ---
 
 I'm guessing they have animals here.

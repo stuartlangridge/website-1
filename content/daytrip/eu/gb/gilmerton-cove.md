@@ -1,10 +1,10 @@
 ---
 slug: "daytrip/eu/gb/gilmerton-cove"
 date: '2001-01-30T04:37:00'
-lat: '55.90446582041612'
-lng: '-3.131591302795414'
-location: 25, Limefield, Gilmerton, Gilmerton/Inch, City of Edinburgh, Alba / Scotland,
-  EH17 8PF, United Kingdom
+lat: 55.905589
+lng: -3.133104
+location: 16 Drum Street, Gilmerton, Edinburgh, EH17 8QH, Alba / Scotland
+external_url: https://www.undiscoveredscotland.co.uk/edinburgh/gilmertoncove/index.html
 title: Gilmerton Cove
 ---
 

@@ -1,11 +1,11 @@
 ---
 slug: "daytrip/eu/fi/spy-museum"
 date: '2001-01-30T04:37:00'
-lat: '61.50426188600123'
-lng: '23.758691328124996'
-location: 6, Alaverstaanraitti, Ranta-Tampella, Tampella, Keskustan suuralue, Tampere,
-  Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33210, Suomi / Finland
+lat: '61.500954'
+lng: '23.761041'
+location: Satakunnankatu 18, 33210 Tampere, Suomi / Finland
 title: Spy Museum
+external_url: https://www.vakoilumuseo.fi/spy-museum/
 ---
 
 

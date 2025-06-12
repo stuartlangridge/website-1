@@ -5,6 +5,7 @@ lat: '60.38169740385778'
 lng: '5.329737442092892'
 location: "VilFinne, Thormøhlens gate, Møhlenpris, Bergenhus, Bergen, Vestland,\
   \ 5058, Norge"
+external_url: https://www.vilvite.no/en
 title: VilVite
 ---
 

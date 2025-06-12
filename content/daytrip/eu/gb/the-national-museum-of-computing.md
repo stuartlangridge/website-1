@@ -6,5 +6,6 @@ lng: '-0.743578'
 location: 'The National Museum of Computing, Block H, Bletchley Park, Milton Keynes MK3 6DS'
 title: 'The National Museum of Computing'
 external_url: https://www.tnmoc.org/
+poster: "Neil"
 ---
 Collection of computers, calculators and similar technology throughout the ages, including rebuilds of WWII era codebreaking machines.

@@ -6,7 +6,7 @@ poster: LadeeNerd
 date: '2011-09-23T14:10:00'
 lat: '52.27276480850918'
 lng: '-3.5651650256347693'
-external_url: null
+external_url: https://elanvalley.org.uk/visit/visitor-centre/
 ---
 
 The natural area is beautiful - but the built environment is too - dams and reservoirs, built to supply Birmingham with water. In 1904 the

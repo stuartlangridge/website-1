@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/eu/gb/the-hunterian-museum"
 title: The Hunterian Museum
-location: London, United Kingdom, WC2A 3PE
+location: Hunterian Museum, The Royal College of Surgeons of England 38, 43 Lincoln's Inn Fields, London WC2A 3PE
 poster: Gotan
 date: '2012-02-18T07:33:00'
 lat: '51.5152839'
 lng: '-0.1158997'
-external_url: null
+external_url: https://hunterianmuseum.org
 ---
 
 The Royal College of Surgeons of England, 35-43 Lincoln's Inn Fields, London, WC2A 3PE

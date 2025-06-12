@@ -5,6 +5,7 @@ lat: '50.263532824752076'
 lng: '-5.054588315529827'
 location: 14, River Street, Ferris Town, Truro, Cornwall, England, TR1 2SQ, United
   Kingdom
+external_url: https://cornwallmuseum.org
 title: Royal Cornwall Museum
 ---
 

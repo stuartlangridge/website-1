@@ -1,11 +1,10 @@
 ---
 slug: "daytrip/na/us/casey-jones-village"
 date: '2001-01-30T04:37:00'
-lat: '35.6145169'
-lng: '-88.8139469'
-location: 476, East Main Street, Jackson, Madison County, West Tennessee, Tennessee,
-  38301, United States
-title: casey jones village
+lat: 35.660221
+lng: -88.855233
+location: Casey Jones Lane, Jackson, TN 38305, United States
+title: Casey Jones Village
 ---
 
 

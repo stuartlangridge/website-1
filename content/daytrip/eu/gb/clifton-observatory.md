@@ -6,6 +6,7 @@ lng: '-2.626483'
 location: 'Litfield Place, Clifton, Bristol BS8 3LT'
 title: 'Clifton Observatory'
 external_url: https://cliftonobservatory.com
+poster: "Hugo"
 ---
 A camera obscura with views across the Bristol skyline, built in the tower of the old Bristol Observatory. Has displays of the history of the observatory, and a rooftop cafe with a spectacular view over Bristol and the Clifton Suspension Bridge.
 
