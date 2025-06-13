@@ -1,9 +1,10 @@
 ---
 slug: "daytrip/na/us/fort-ligonier"
 date: '2001-01-30T04:37:00'
-lat: '40.2431278'
-lng: '-79.2375325'
-location: PA 711, Ligonier, Westmoreland County, Pennsylvania, 15658, United States
+lat: 40.240876
+lng: -79.237931
+location: 200 South Market Street, Ligonier, Pennsylvania 15658, United States
+external_url: https://www.fortligonier.org
 title: Fort Ligonier
 ---
 

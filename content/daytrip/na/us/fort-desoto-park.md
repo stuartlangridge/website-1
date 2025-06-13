@@ -1,19 +1,15 @@
 ---
 slug: "daytrip/na/us/fort-desoto-park"
 title: Fort Desoto Park
-location: Tierra Verde, Pinellas, USA, 33715
+location: 3500 Pinellas Bayway South, Tierra Verde, FL 33715, USA
 poster: lpbreakfast
 date: '2012-05-17T21:19:00'
-lat: '27.639066'
-lng: '-82.737510'
-external_url: null
+lat: 27.613585
+lng: -82.734956
+external_url: https://pinellas.gov/parks/fort-de-soto-park/
 ---
 
-3500 Pinellas Bayway S.
-
- Tierra Verde, FL 33715
-
-Your going to need some change for tolls.
+You're going to need some change for tolls.
 
 <em>lpbreakfast said:</em>
 
