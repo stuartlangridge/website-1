@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/us/fort-vancouver-national-historic-site"
 title: Fort Vancouver National Historic Site
-location: Vancouver, WA, USA, 98661
+location: East 5th Street, Vancouver, WA 98661, USA
 poster: pberry2112
 date: '2012-05-01T06:10:00'
-lat: '45.62424779567907'
-lng: '-122.66153698386836'
-external_url: null
+lat: 45.622584
+lng: -122.662439
+external_url: https://www.nps.gov/fova/index.htm
 ---
 
 "Grand Emporium of the West"
