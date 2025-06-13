@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/us/florida-holocaust-museum"
 title: Florida Holocaust Museum
-location: St. Petersburg, Pinellas, USA, 33701
+location: 55 Fifth Street South, St. Petersburg, FL 33701
 poster: lpbreakfast
 date: '2012-05-17T21:05:00'
 lat: '27.770518'
 lng: '-82.640538'
-external_url: null
+external_url: https://www.thefhm.org
 ---
 
 55 5th Street South
