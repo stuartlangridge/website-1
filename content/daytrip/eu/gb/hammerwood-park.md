@@ -1,12 +1,12 @@
 ---
-slug: "daytrip/na/us/hammerwood-park"
+slug: daytrip/eu/gb/hammerwood-park
 title: Hammerwood Park
-location: East Grinstead, East Sussex, UK, RH19 3QE
+location: Hammerwood, East Grinstead, East Sussex, UK, RH19 3QE
 poster: TomP
 date: '2012-11-29T12:46:00'
 lat: '51.13077099743184'
 lng: '0.05950212478637695'
-external_url: null
+external_url: https://www.hammerwoodpark.co.uk
 ---
 
 Historic house - first work of architect B.H. Latrobe, also well known for the White House and Capitol Building in Washington D.C.
