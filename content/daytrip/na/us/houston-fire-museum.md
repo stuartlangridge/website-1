@@ -1,15 +1,14 @@
 ---
 slug: "daytrip/na/us/houston-fire-museum"
 title: Houston Fire Museum
-location: Houston, TX, USA, 77006
+location: 2403 Milam Street, Houston, TX 77006, USA
 poster: bkzimm
 date: '2011-10-03T12:17:00'
-lat: '29.747425616428927'
-lng: '-95.37480362149046'
-external_url: null
+lat: 29.747425616428927
+lng: -95.37480362149046
+external_url: https://www.houstonfiremuseum.org
 ---
-
-The HOUSTON Fire Museum was originally Fire Station No. 7, the first fire station built by the Houston Fire Department after it went fully paid in 1895. 
+The HOUSTON Fire Museum was originally Fire Station No. 7, the first fire station built by the Houston Fire Department after it went fully paid in 1895.
 
 Preservation of old Fire Station No. 7 as a fire museum began in 1980.  Today, the Houston Fire Museum has been completely renovated and is listed on the National Register of Historic Places.
 
