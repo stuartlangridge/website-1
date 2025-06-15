@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/us/historic-oakland-cemetery"
 title: Historic Oakland Cemetery
-location: Atlanta, GA, USA, 30312
+location: 374 Martin Luther King, Jr. Dr. SE, Atlanta, GA 30312, USA
 poster: nonmodernist
 date: '2012-02-14T20:57:00'
 lat: '33.7480003284417'
 lng: '-84.37210957903744'
-external_url: null
+external_url: https://www.oaklandcemetery.com
 ---
 
 City fathers purchased six acres in 1850 to be a public burial ground for a young but fast-growing town that already had a population of more than 2,500. It was designed as a rural garden cemetery, a 19th Century innovation conceived as an alternative to traditional graveyards which often were crowded and aesthetically unappealing. 
