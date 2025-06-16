@@ -1,12 +1,12 @@
 ---
 slug: "daytrip/na/us/integratron"
 title: Integratron
-location: Landers, Joshua Tree National Park, USA, 92285
+location: 2477 Belfield Blvd., Landers, CA 92285, USA
 poster: Bigmyrn
 date: '2013-01-16T07:40:00'
-lat: '34.3350492'
-lng: '-116.5373923'
-external_url: null
+lat: 34.294315
+lng: -116.403730
+external_url: https://www.integratron.com
 ---
 
 The Integratron is an acoustically perfect tabernacle and energy machine sited on a powerful geomagnetic vortex in the magical Mojave Desert.
