@@ -8,7 +8,7 @@ location: '2 Willow Road, Downshire Hill, London NW3'
 title: '2 Willow Road'
 external_url: https://www.nationaltrust.org.uk/visit/london/2-willow-road
 ---
-Designed and lived in by influential architect Ernő Goldfinger.
+Designed and lived in by influential architect [Ernő Goldfinger](https://en.wikipedia.org/wiki/Ern%C5%91_Goldfinger).
 
 This is a National Trust venue. Tickets for 2 Willow Road are released two weeks in advance on Thursdays. It's only available for tours from March to October.
 
