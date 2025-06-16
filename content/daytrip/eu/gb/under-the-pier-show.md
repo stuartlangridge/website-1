@@ -8,4 +8,4 @@ location: 'Southwold Pier, Southwold'
 title: 'Under the Pier Show'
 external_url: https://www.underthepier.com/
 ---
-Satirical and entertaining coin-operated arcade machines by Tim Hunkin.  
+Satirical and entertaining coin-operated arcade machines by [Tim Hunkin](https://www.timhunkin.com/).  
