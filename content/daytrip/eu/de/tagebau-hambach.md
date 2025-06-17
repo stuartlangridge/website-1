@@ -4,7 +4,7 @@ date: "2025-06-17T06:01:57.616Z"
 poster: "clonejo"
 lat: "50.882582"
 lng: "6.508657"
-location: "Aussichtspunkt "Haus am See" Tagebau Hambach, Bürgeweg, Niederzier, Kreis Düren, 52382, Deutschland"
+location: "Aussichtspunkt 'Haus am See' Tagebau Hambach, Bürgeweg, Niederzier, Kreis Düren, 52382, Deutschland"
 title: "Tagebau Hambach"
 external_url: https://www.rwe.com/der-konzern/laender-und-standorte/tagebau-hambach/
 ---
