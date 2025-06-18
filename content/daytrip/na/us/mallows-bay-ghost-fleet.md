@@ -5,6 +5,7 @@ lat: '38.47023747445298'
 lng: '-77.26677559082032'
 location: Wilson Landing Road, Green Manor Estates, Charles County, Maryland, United
   States
+external_url: https://sanctuaries.noaa.gov/mallows-potomac/education/shipwrecks.html
 title: Mallows Bay Ghost Fleet
 ---
 
