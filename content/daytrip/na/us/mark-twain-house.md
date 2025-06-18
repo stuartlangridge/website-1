@@ -1,10 +1,10 @@
 ---
 slug: "daytrip/na/us/mark-twain-house"
 date: '2001-01-30T04:37:00'
-lat: '41.77093075922991'
-lng: '-72.65958129257814'
-location: Marshall Street, East Hartford, Capitol Planning Region, Connecticut, 06108,
-  United States
+lat: 41.767058
+lng: -72.701377
+location: 351 Farmington Avenue, Hartford, Connecticut 06105, United States
+external_url: https://marktwainhouse.org
 title: Mark Twain House
 ---
 
