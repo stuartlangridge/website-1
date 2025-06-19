@@ -5,6 +5,7 @@ lat: '39.69413611867005'
 lng: '-78.88047510302738'
 location: 15900, Foundry Row Northwest, Mount Savage, Allegany County, Maryland, 21545,
   United States
+external_url: http://www.mountsavagehistoricalsociety.org
 title: Mt. Savage Museum
 ---
 
