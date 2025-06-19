@@ -1,5 +1,5 @@
 ---
-slug: "daytrip/eu/gb/chepstow-castle.md"
+slug: "daytrip/eu/gb/chepstow-castle"
 title: Chepstow Castle
 location: Chepstow Castle, Bridge Street, Chepstow, Monmouthshire, Cymru / Wales, NP16 5EZ, United Kingdom
 poster: popey
