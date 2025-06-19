@@ -5,6 +5,7 @@ lat: '41.09985177821115'
 lng: '-76.66279040042878'
 location: Visitors' Center, Goose Woods Trail, Danville, Montour County, Pennsylvania,
   17821, United States
+external_url: https://montourpreserve.org/
 title: Montour Preserve
 ---
 
