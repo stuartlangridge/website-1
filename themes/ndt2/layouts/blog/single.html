@@ -13,26 +13,7 @@
                 <a href="https://www.openstreetmap.org/?mlat={{ .Params.lat }}&mlon={{ .Params.lng }}#map=19/{{ .Params.lat }}/{{ .Params.lng }}" target="_blank" class="external-link" title="OpenStreetMap"><i class="fa-solid fa-globe"></i></a>
             {{ end }}
         </h1>
-        <div>
-            <!-- Created Date -->
-            {{- $pubdate := .PublishDate.Format "January 2, 2006" }}
-            Created: 
-            <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
-                {{ $pubdate }}
-            </time>
-            <!-- Last Updated Date -->
-            {{- if .Lastmod }}
-                {{- $lastmod := .Lastmod.Format "January 2, 2006" }}
-                {{- if ne $lastmod $pubdate }}
-                    <div class="post-info-last-mod">
-                        (Updated: 
-                        <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
-                            {{ $lastmod }}
-                        </time>)
-                    </div>
-                {{- end }}
-            {{- end }}
-        </div>
+            {{ partial "post_meta.html" . }}
     </header>
     <hr>
     {{ .Content }}
