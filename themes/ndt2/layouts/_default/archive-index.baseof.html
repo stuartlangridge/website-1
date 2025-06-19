@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "bloghead.html" . -}}
+    <body>
+        {{- partial "blogheader.html" . -}}
+        <main id="content">
+            {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "blogfooter.html" . -}}
+    </body>
+    <script src="https://kit.fontawesome.com/06412a75a5.js" crossorigin="anonymous"></script>
+</html>
