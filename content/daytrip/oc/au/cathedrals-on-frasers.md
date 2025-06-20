@@ -1,12 +1,12 @@
 ---
-slug: "daytrip/na/us/nomads-cathedrals-on-frasers"
-title: Nomads Cathedrals On Frasers
-location: Rainbow Beach Road, Rainbow Beach QLD, Australia, 4581
+slug: daytrip/oc/au/cathedrals-on-frasers
+title: Cathedrals On Frasers
+location: 53 Fraser Island Road, K’gari 4581, Australia
 poster: Nomads Fraser Island
 date: '2013-08-02T08:15:00'
 lat: '-25.25090646432787'
 lng: '153.16932678222656'
-external_url: null
+external_url: https://www.cathedralsonfraser.com.au
 ---
 
 The only campsite and certainly the best campsite on Fraser Island. Cathedral is not just your ordinary tent, if there is a five start rating for tent accommodation then this is your 5 star ultimate camping tent.
