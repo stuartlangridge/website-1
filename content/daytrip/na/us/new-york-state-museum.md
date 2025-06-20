@@ -1,10 +1,10 @@
 ---
 slug: "daytrip/na/us/new-york-state-museum"
 date: '2001-01-30T04:37:00'
-lat: '42.6500000'
-lng: '-73.7600000'
-location: Empire State Plaza, Chestnut Street, Center Square, City of Albany, Albany
-  County, New York, 12210, United States
+lat: 42.648385
+lng: -73.761596
+location: 222 Madison Avenue, Albany, NY 12230, United States
+external_url: https://www.nysm.nysed.gov/visit
 title: New York State Museum
 ---
 
