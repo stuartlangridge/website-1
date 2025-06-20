@@ -9,7 +9,7 @@ description: "Complete hierarchical index of all content on the site for archiva
 noindex: true
 ---
 
-This page contains links to all content on the site to facilitate comprehensive archiving.
+This page contains links to all content on the site to facilitate comprehensive archiving by the wayback machine.
 
 Human readers probably want [Nerdy Day Trips](/) or the [Nerdy Day Trips Blog](/blog).
 
