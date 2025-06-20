@@ -1,0 +1,102 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div id="archive-index">
+  {{ $sectionGroups := dict }}
+  
+  {{ range where site.RegularPages "Section" "daytrip" }}
+    {{ $path := split .RelPermalink "/" }}
+    {{ $section := index $path 1 }}
+    {{ $continent := index $path 2 | default "" }}
+    {{ $country := index $path 3 | default "" }}
+    
+    {{ if not (isset $sectionGroups $section) }}
+      {{ $sectionGroups = merge $sectionGroups (dict $section (dict)) }}
+    {{ end }}
+    
+    {{ $continentMap := index $sectionGroups $section }}
+    {{ if not (isset $continentMap $continent) }}
+      {{ $continentMap = merge $continentMap (dict $continent (dict)) }}
+      {{ $sectionGroups = merge $sectionGroups (dict $section $continentMap) }}
+    {{ end }}
+    
+    {{ $countryMap := index (index $sectionGroups $section) $continent }}
+    {{ if not (isset $countryMap $country) }}
+      {{ $countryMap = merge $countryMap (dict $country slice) }}
+      {{ $continentMap = merge $continentMap (dict $continent $countryMap) }}
+      {{ $sectionGroups = merge $sectionGroups (dict $section $continentMap) }}
+    {{ end }}
+    
+    {{ $pages := index (index (index $sectionGroups $section) $continent) $country | append . }}
+    {{ $countryMap = merge $countryMap (dict $country $pages) }}
+    {{ $continentMap = merge $continentMap (dict $continent $countryMap) }}
+    {{ $sectionGroups = merge $sectionGroups (dict $section $continentMap) }}
+  {{ end }}
+  
+  <ul class="archive-tree">
+    {{ range $section, $continents := $sectionGroups }}
+      <li><strong>{{ $section }}</strong>
+        <ul>
+          {{ range $continent, $countries := $continents }}
+            {{ if ne $continent "" }}
+              <li><strong>{{ $continent }}</strong>
+                <ul>
+                  {{ range $country, $pages := $countries }}
+                    {{ if ne $country "" }}
+                      <li><strong>{{ $country }}</strong>
+                        <ul>
+                          {{ range $pages }}
+                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                          {{ end }}
+                        </ul>
+                      </li>
+                    {{ else }}
+                      {{ range $pages }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              </li>
+            {{ else }}
+              {{ range $country, $pages := $countries }}
+                {{ if ne $country "" }}
+                  <li><strong>{{ $country }}</strong>
+                    <ul>
+                      {{ range $pages }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                {{ else }}
+                  {{ range $pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
+
+  <h2>Blog Posts</h2>
+  <ul class="archive-tree">
+    {{ range where site.RegularPages "Section" "blog" }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 02, 2006" }}</li>
+    {{ end }}
+  </ul>
+</div>
+
+<style>
+  #archive-index ul {
+    margin-left: 1.5em;
+  }
+  .archive-tree {
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+</style>
+{{ end }}
