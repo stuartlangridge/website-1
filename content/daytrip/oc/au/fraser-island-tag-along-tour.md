@@ -1,11 +1,11 @@
 ---
-slug: "daytrip/na/us/nomads-fraser-island-tag-along-2-day-departs-noosa"
-title: Nomads Fraser Island- Tag Along 2 Day - Departs Noosa
-location: Noosa, Noosa, Australia, 4562
+slug: daytrip/oc/au/fraser-island-tag-along-tour
+title: Fraser Island Tag Along Tour
+location: 44 Noosa Drive, Noosa Heads, Queensland, 4667
 poster: Madtravelshop
 date: '2013-05-06T10:58:00'
-lat: '-26.500072915744372'
-lng: '153.006591796875'
+lat: -26.395848
+lng: 153.089172
 external_url: null
 ---
 
