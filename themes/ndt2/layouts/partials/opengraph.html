@@ -28,53 +28,24 @@
     {{ $logo := resources.Get "images/og_logo.png" }}
     {{ $boldFont := resources.Get "fonts/Ubuntu-B.ttf"}}
     {{ $mediumFont := resources.Get "fonts/Ubuntu-R.ttf"}}
-    {{ if or (not $boldFont) (not $mediumFont) }}
-      {{ warnf "OG fonts not found!" }}
-    {{ else }}
-      {{ $img := $base }}
-      
-      {{/* Add map tile if lat/lng are available */}}
-      {{ if and .Params.lat .Params.lng }}
-        {{/* Convert lat/lng to tile coordinates */}}
-        {{ $lat := .Params.lat | float }}
-        {{ $lng := .Params.lng | float }}
-        {{ $zoom := 3 }}
-        
-        {{/* Simple tile calculation - convert lat/lng to tile x,y */}}
-        {{ $latRad := mul $lat 0.017453292519943295 }}
-        {{ $n := math.Pow 2 $zoom }}
-        {{ $tileX := math.Floor (mul (div (add $lng 180) 360) $n) }}
-        {{ $tileY := math.Floor (mul (div (sub 1 (div (math.Log (add (math.Tan $latRad) (div 1 (math.Cos $latRad)))) 6.283185307179586)) 2) $n) }}
-        
-        {{/* Fetch OpenStreetMap tile - maybe get a bunch of them?*/}}
-        {{ $tileUrl := printf "https://a.tile.openstreetmap.org/%d/%.0f/%.0f.png" $zoom $tileX $tileY }}
-        
-        {{/* Try to get the tile using simpler error handling */}}
-        {{ $tileImg := resources.GetRemote $tileUrl }}
-        {{ if $tileImg }}
-          {{ $resizedTile := $tileImg.Resize "250x250" }}
-          {{ $img = $img.Filter (images.Overlay $resizedTile 900 330) }}
-        {{ else }}
-          {{ warnf "Could not fetch map tile from: %s" $tileUrl }}
-        {{ end }}
-        {{ $img = $img.Filter (images.Overlay $logo 50 452) }}
-      {{ end }}
-      
+    {{ $img := $base }}
+      {{/* Always add the logo */}}
+      {{ $img = $img.Filter (images.Overlay $logo 1062 472) }}
       {{/* Add text overlays */}}
       {{ $img = $img.Filter (images.Text .Site.Title (dict
         "color" "#202020"
         "size" 72
         "linespacing" 2
-        "x" 220
-        "y" 472
+        "x" 470
+        "y" 492
         "font" $boldFont
       ))}}
       {{ $img = $img.Filter (images.Text .Site.Title (dict
         "color" "#e0e0e0"
         "size" 72
         "linespacing" 2
-        "x" 218
-        "y" 470
+        "x" 468
+        "y" 490
         "font" $boldFont
       ))}}
       {{ $img = $img.Filter (images.Text .Page.Title (dict
@@ -92,24 +63,22 @@
         "x" 50
         "y" 50
         "font" $boldFont
-      ))}}    
+      ))}}
+
+
+      <!-- Not strictly necessary because the base image is 1200x630 -->
       {{ $img = $img.Resize "1200x" }}
       
-      <!-- Generate a unique name for this image -->
       {{ $imageName := printf "og-%s" (md5 .RelPermalink) }}
-      
-      <!-- Process and store the image -->
+
       {{ $processedImg := $img.Process (printf "png %s" $imageName) }}
-      
+      {{ warnf "Processed image: %s" $processedImg.Permalink }}
       <meta property="og:image" content="{{ $processedImg.Permalink }}" />
       <meta property="og:image:width" content="{{ $processedImg.Width }}" />
       <meta property="og:image:height" content="{{ $processedImg.Height }}" />
-
-      <!-- Twitter metadata (used by other websites as well) -->
+      
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="{{ .Title }}" />
       <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-      <meta name="twitter:image" content="{{ $processedImg.Permalink }}" />
-    {{ end }}
+      <meta name="twitter:image" content="{{ $processedImg.Permalink }}" />    {{ end }}
   {{ end }}
-{{ end }}
