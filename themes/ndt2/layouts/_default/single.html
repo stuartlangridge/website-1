@@ -1,17 +1,7 @@
 {{ define "main" }}
 <article>
     <header id="post-header">
-        <h1>{{ if .Params.lat }}
-                    &nbsp;
-                    <a href="/#{{ .Params.slug }}" title="Show {{ .Title }} on the map"><i class="fa-solid fa-map-location-dot"></i></a>{{ end }}&nbsp;{{ .Title }}
-            {{ if .Params.external_url }}
-                &nbsp;
-                <a href="{{ .Params.external_url }}" target="_blank" class="external-link" title="Website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            {{ end }}
-            &nbsp;
-                <a href="javascript:void(0);" onclick="copyToClipboard(window.location.href)" class="external-link" title="Copy link to clipboard"><i class="fa-solid fa-share-nodes"></i></a>
-                <span id="copy-notification" class="copy-notification">Link copied<br>to clipboard!</span>
-        </h1>
+        <h1>{{ .Title }}</h1>
             <div>
                 <!-- Created Date -->
                 <span class="post-info-pubdate"></span>
@@ -36,9 +26,16 @@
                     {{- end }}
                     </span>
                 {{- end }}
-
-                </span>
-            </div>
+                </div><hr><center>
+                {{ if .Params.lat }}
+                    <a class="external-link" href="/#{{ .Params.slug }}" title="Show {{ .Title }} on the main map"><i class="fa-solid fa-map-location-dot">&nbsp;</i>Show on map</a>{{ end }}&nbsp;
+                    {{ if .Params.external_url }}
+                &nbsp;
+                <a href="{{ .Params.external_url }}" target="_blank" class="external-link" title="Website"><i class="fa-solid fa-arrow-up-right-from-square">&nbsp;</i>Visit website</a>
+            {{ end }}&nbsp;
+                <a href="javascript:void(0);" onclick="copyToClipboard(window.location.href)" class="external-link" title="Copy link to clipboard"><i class="fa-solid fa-share-nodes">&nbsp;</i>Share page</a>
+                <span id="copy-notification" class="copy-notification">Link copied<br>to clipboard!</span>
+                </span></center>
     </header>
     <hr>
     {{- if and .Params.lat .Params.lng }}
@@ -87,14 +84,14 @@
     {{- end }}
     {{- .Content -}}
 </article>
-<hr>
+<hr><center>
 {{ if .Params.lat }}
-    <a href="https://www.google.com/maps?ll={{ .Params.lat }},{{ .Params.lng }}&q={{ .Params.lat }},{{ .Params.lng }}&hl=en&t=m&z=15" target="_blank" class="external-link" title="Google Maps"><i class="fa-solid fa-map"></i> Open in Google Maps</a>
-    <br>
-    <a href="https://www.openstreetmap.org/?mlat={{ .Params.lat }}&mlon={{ .Params.lng }}#map=19/{{ .Params.lat }}/{{ .Params.lng }}" target="_blank" class="external-link" title="OpenStreetMap"><i class="fa-solid fa-globe"></i> Open in OpenStreetMap</a>
-{{ end }}
-{{ partial "repository-link.html" (dict "action" "edit" "page" .) }}
+    <a class="external-link" href="https://www.google.com/maps?ll={{ .Params.lat }},{{ .Params.lng }}&q={{ .Params.lat }},{{ .Params.lng }}&hl=en&t=m&z=15" target="_blank" class="external-link" title="Google Maps"><i class="fa-solid fa-map">&nbsp;</i>Google&nbsp;Maps</a>&nbsp;
+    <a class="external-link" href="https://www.openstreetmap.org/?mlat={{ .Params.lat }}&mlon={{ .Params.lng }}#map=19/{{ .Params.lat }}/{{ .Params.lng }}" target="_blank" class="external-link" title="OpenStreetMap"><i class="fa-solid fa-globe">&nbsp;</i>OpenStreetMap</a>
+{{ end }}&nbsp;
+{{ partial "repository-link.html" (dict "action" "edit" "page" .) }}&nbsp;
 {{ partial "repository-link.html" (dict "action" "view" "page" .) }}
+</center><hr>
 
 <style>
 .copy-notification {
