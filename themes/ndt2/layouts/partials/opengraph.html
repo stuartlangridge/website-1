@@ -48,7 +48,13 @@
         "y" 490
         "font" $boldFont
       ))}}
-      {{ $img = $img.Filter (images.Text .Page.Title (dict
+      
+      {{ $truncatedTitle := .Page.Title }}
+      {{ if gt (len .Page.Title) 50 }}
+        {{ $truncatedTitle = printf "%s..." (substr .Page.Title 0 47) }}
+      {{ end }}
+      
+      {{ $img = $img.Filter (images.Text $truncatedTitle (dict
         "color" "#202020"
         "size" 122
         "linespacing" 2
@@ -56,7 +62,7 @@
         "y" 52
         "font" $boldFont
       ))}}
-      {{ $img = $img.Filter (images.Text .Page.Title (dict
+      {{ $img = $img.Filter (images.Text $truncatedTitle (dict
         "color" "#e0e0e0"
         "size" 122
         "linespacing" 2
