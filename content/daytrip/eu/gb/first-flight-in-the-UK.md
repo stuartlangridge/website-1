@@ -7,7 +7,6 @@ lng: "-0.754888"
 location: "Farnborough Road, Farnborough. England. United Kingdom"
 title: "First Flight in the UK"
 external_url: https://www.airsciences.org.uk/codyflyerproject/history.html
-OSMNode: https://www.openstreetmap.org/node/6580338739
 ---
 Memorial to the first flight by SF Cody in 1908. 
 
