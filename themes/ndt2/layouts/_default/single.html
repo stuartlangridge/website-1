@@ -8,6 +8,9 @@
                 &nbsp;
                 <a href="{{ .Params.external_url }}" target="_blank" class="external-link" title="Website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             {{ end }}
+            &nbsp;
+                <a href="javascript:void(0);" onclick="copyToClipboard(window.location.href)" class="external-link" title="Copy link to clipboard"><i class="fa-solid fa-share-nodes"></i></a>
+                <span id="copy-notification" class="copy-notification">Link copied<br>to clipboard!</span>
         </h1>
             <div>
                 <!-- Created Date -->
@@ -93,4 +96,40 @@
 {{ end }}
 {{ partial "repository-link.html" (dict "action" "edit" "page" .) }}
 {{ partial "repository-link.html" (dict "action" "view" "page" .) }}
+
+<style>
+.copy-notification {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 10px;
+}
+.copy-notification.show {
+    display: inline;
+    opacity: 1;
+}
+</style>
+
+<script>
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        // Show notification
+        const notification = document.getElementById('copy-notification');
+        notification.classList.add('show');
+        
+        // Hide notification after 3 seconds
+        setTimeout(function() {
+            notification.classList.remove('show');
+        }, 3000);
+    }).catch(function(err) {
+        console.error('Failed to copy: ', err);
+    });
+}
+</script>
 {{ end }}
