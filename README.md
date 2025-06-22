@@ -37,10 +37,11 @@ We need help adding locations and improving the site.
 
 ### Ways to contribute
 
-1. **Add a location**: Use our [web form](https://add.nerdydaytrips.org) or create a markdown file in `/content/daytrips/`
+1. **Add a location**: Use our [web form](https://add.nerdydaytrips.org) or create a markdown file in `/content/daytrip/` (organized by continent/country)
 2. **Fix data**: Edit existing markdown files and submit a PR
 3. **Improve code**: Check our [issues](https://github.com/nerdydaytrips/website/issues) for tasks
 4. **Enhance design**: CSS and UX improvements welcome
+5. **Join discussions**: Participate in our [GitHub Discussions](https://github.com/nerdydaytrips/website/discussions) or [Discord server](https://discord.gg/VJKJ5EzgXA)
 
 ### Development setup
 
