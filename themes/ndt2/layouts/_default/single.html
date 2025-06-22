@@ -28,8 +28,7 @@
                         {{- if ne $lastmod $created }}
                                 (Updated: 
                                 <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
-                                    {{ $lastmod }}
-                                </time>)
+                                    {{ $lastmod }}</time>)
                         {{- end }}
                     {{- end }}
                     {{- if .Params.poster }}
