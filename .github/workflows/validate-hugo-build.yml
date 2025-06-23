@@ -1,0 +1,181 @@
+name: Hugo PR Preview
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'content/**'
+    types: [opened, synchronize, reopened, closed]
+    
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-22.04
+    if: github.event.action != 'closed'
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.2'
+          extended: true
+
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HUGO_CACHEDIR }} 
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build with PR-specific base URL
+        run: |
+          PR_NUMBER=${{ github.event.number }}
+          REPO_NAME=${{ github.event.repository.name }}
+          GITHUB_USERNAME=${{ github.repository_owner }}
+          BASE_URL="https://${GITHUB_USERNAME}.github.io/${REPO_NAME}/pr-${PR_NUMBER}/"
+          
+          hugo --minify --baseURL="${BASE_URL}"
+
+      - name: Deploy to GitHub Pages (PR Preview)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          destination_dir: pr-${{ github.event.number }}
+          keep_files: true
+
+      - name: Comment PR with preview link
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.number;
+            const repoName = context.repo.repo;
+            const repoOwner = context.repo.owner;
+            const previewUrl = `https://${repoOwner}.github.io/${repoName}/pr-${prNumber}/`;
+            
+            // Find existing comment
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            
+            const botComment = comments.data.find(comment => 
+              comment.user.type === 'Bot' && comment.body.includes('🚀 Preview deployed')
+            );
+            
+            const commentBody = `🚀 Preview deployed to: ${previewUrl}
+            
+            This preview will be automatically cleaned up when the PR is closed.`;
+            
+            if (botComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: commentBody
+              });
+            }
+
+  cleanup-preview:
+    runs-on: ubuntu-22.04
+    if: github.event.action == 'closed'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Remove PR preview directory
+        run: |
+          PR_NUMBER=${{ github.event.number }}
+          if [ -d "pr-${PR_NUMBER}" ]; then
+            rm -rf "pr-${PR_NUMBER}"
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Remove preview for PR #${PR_NUMBER}" || exit 0
+            git push
+          fi
+
+      - name: Update PR with cleanup message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.number;
+            
+            // Find existing preview comment
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            
+            const botComment = comments.data.find(comment => 
+              comment.user.type === 'Bot' && comment.body.includes('🚀 Preview deployed')
+            );
+            
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: `✅ Preview was deployed and has been cleaned up after PR closure.`
+              });
+            }
+
+  deploy-main:
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/main'
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.2'
+          extended: true
+
+      - uses: actions/cache@v4
+        with:
+          path: ${{ env.HUGO_CACHEDIR }} 
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build for main branch
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages (main)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
