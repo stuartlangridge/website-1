@@ -20,7 +20,7 @@
     {{ if .Params.tags }}
       <div class="blog-tags">
         {{ range .Params.tags }}
-          <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+          <a href="{{ relURL (printf "%s/tags/%s/" $.Site.LanguagePrefix (. | urlize)) }}">{{ . }}</a>&nbsp;
         {{ end }}
       </div>
     {{ end }}
@@ -33,14 +33,14 @@
         </section>
     {{ end }}
     {{ if .Site.Params.showRelatedPosts }}
-      {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+      {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "RelPermalink" "!=" .RelPermalink) }}
         {{ $.Scratch.Set "has_related" true }}
       {{ end }}
       {{ if $.Scratch.Get "has_related" }}
         <h4 class="see-also">{{ i18n "seeAlso" }}</h4>
         <ul>
           {{ $num_to_show := .Site.Params.related_content_limit | default 5 }}
-          {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+          {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "RelPermalink" "!=" .RelPermalink) }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
@@ -54,12 +54,12 @@
   <ul class="pager blog-pager">
     {{ if .PrevInSection }}
       <li class="previous">
-        <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; {{ i18n "previousPost" }}</a>
+        <a href="{{ .PrevInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; {{ i18n "previousPost" }}</a>
       </li>
     {{ end }}
     {{ if .NextInSection }}
       <li class="next">
-        <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ i18n "nextPost" }} &rarr;</a>
+        <a href="{{ .NextInSection.RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ i18n "nextPost" }} &rarr;</a>
       </li>
     {{ end }}
   </ul>
