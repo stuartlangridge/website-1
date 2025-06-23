@@ -54,7 +54,7 @@ jobs:
       - name: Deploy to GitHub Pages (PR Preview)
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_BOT_TOKEN }}
           publish_dir: ./public
           destination_dir: pr-${{ github.event.number }}
           keep_files: true
@@ -109,7 +109,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_BOT_TOKEN }}
 
       - name: Remove PR preview directory
         run: |
@@ -179,5 +179,5 @@ jobs:
       - name: Deploy to GitHub Pages (main)
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_BOT_TOKEN }}
           publish_dir: ./public
