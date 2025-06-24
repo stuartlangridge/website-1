@@ -1,5 +1,5 @@
 ---
-slug: lug: "daytrip/na/us/sunset-cliffs"
+slug: "daytrip/na/us/sunset-cliffs"
 date: '2001-01-30T04:37:00'
 lat: 32.717643
 lng: -117.255095
