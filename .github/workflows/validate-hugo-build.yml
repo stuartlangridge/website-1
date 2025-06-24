@@ -13,6 +13,7 @@ permissions:
   pages: write
   id-token: write
   issues: write # Needed for commenting on PRs
+  pull-requests: write
 
 jobs:
   deploy-preview:
