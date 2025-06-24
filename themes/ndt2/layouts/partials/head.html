@@ -6,7 +6,7 @@
     {{ end }}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | relURL) | safeHTML }}
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | relURL }}" />
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -38,7 +38,7 @@
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
 
     <!-- Our site CSS loaded after external CSS -->
-    <link rel="stylesheet" href="{{ $css.RelPermalink | relURL }}">
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
     <title>{{ .Title }}</title>
     {{ partial "opengraph.html" . }}
