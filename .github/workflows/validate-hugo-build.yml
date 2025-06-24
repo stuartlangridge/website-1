@@ -52,7 +52,7 @@ jobs:
           hugo --minify --baseURL="${BASE_URL}"
 
       - name: Deploy to GitHub Pages (PR Preview)
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -177,7 +177,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy to GitHub Pages (main)
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # <-- CORRECTED: Changed GH_BOT_TOKEN to GITHUB_TOKEN
           publish_dir: ./public
