@@ -58,7 +58,7 @@ async function loadMarkers(L, map) {
         .then(venues => {
             // jump to a place on the map if there's one in the document fragment, part 1
             let jumpToSlug;
-            if (location.hash && location.hash.match(/#daytrip/)) {
+            if (location.hash && location.hash.match(/#\/?daytrip/)) {
                 jumpToSlug = decodeURIComponent(location.hash).substr(1); // remove #
             }
 
