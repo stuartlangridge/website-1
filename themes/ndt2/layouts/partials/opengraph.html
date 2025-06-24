@@ -54,12 +54,12 @@
 
       {{ $processedImg := $img.Process (printf "png %s" $imageName) }}
       {{/* warnf "Processed image: %s for %s" $processedImg.Permalink $truncatedTitle */}}
-      <meta property="og:image" content="{{ $processedImg.RelPermalink }}" />
+      <meta property="og:image" content="{{ $processedImg.Permalink | relURL }}" />
       <meta property="og:image:width" content="{{ $processedImg.Width }}" />
       <meta property="og:image:height" content="{{ $processedImg.Height }}" />
       
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="{{ $processedImg.Permalink | relURL }}" />
       <meta name="twitter:title" content="{{ .Title }}" />
       <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-      <meta name="twitter:image" content="{{ $processedImg.RelPermalink }}" />    {{ end }}
+      <meta name="twitter:image" content="{{ $processedImg.Permalink | relURL }}" />    {{ end }}
   {{ end }}

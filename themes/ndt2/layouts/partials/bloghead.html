@@ -21,7 +21,7 @@
 
     {{ $css := $resources | resources.Concat "css/blogstyle.css" | minify }}
 
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $css.Permalink | absURL }}">
 
     <title>{{ .Title }}</title>
     <link rel="me" href="https://mastodon.social/@nerdydaytrips">
