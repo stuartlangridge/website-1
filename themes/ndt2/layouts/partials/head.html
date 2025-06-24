@@ -6,7 +6,7 @@
     {{ end }}
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | relURL }}" />
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -30,22 +30,23 @@
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
 
+
+    <!-- External CSS loaded first -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
 
-    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+    <link rel="stylesheet" href="{{ $css.Permalink | absURL }}">
 
     <title>{{ .Title }}</title>
     {{ partial "opengraph.html" . }}
     <link rel="me" href="https://mastodon.social/@nerdydaytrips">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="{{ "/favicon-96x96.png" | relURL }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relURL }}" />
     <meta name="apple-mobile-web-app-title" content="Nerdy Trips" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="{{ "/site.webmanifest" | relURL }}" />
 
 </head>

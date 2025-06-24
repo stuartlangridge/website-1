@@ -1,10 +1,10 @@
 ---
 slug: "daytrip/na/us/suitland-bog"
 date: '2001-01-30T04:37:00'
-lat: '38.837439199567825'
-lng: '-76.9014419442139'
-location: Suitland Parkway, Forest Manor, Forestville, Prince George's County, Maryland,
-  20746, United States
+lat: 38.838504
+lng: -76.902135
+location: 5904 Suitland Rd, Hillcrest Heights, MD 20746, United States
+external_url: https://www.pgparks.com/parks_trails/suitland-bog-natural-area
 title: Suitland Bog
 ---
 

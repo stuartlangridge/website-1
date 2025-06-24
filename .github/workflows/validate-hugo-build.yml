@@ -13,6 +13,7 @@ permissions:
   pages: write
   id-token: write
   issues: write # Needed for commenting on PRs
+  pull-requests: write
 
 jobs:
   deploy-preview:
@@ -52,9 +53,9 @@ jobs:
           hugo --minify --baseURL="${BASE_URL}"
 
       - name: Deploy to GitHub Pages (PR Preview)
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # This is correct now
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           destination_dir: pr-${{ github.event.number }}
           keep_files: true
@@ -62,7 +63,7 @@ jobs:
       - name: Comment PR with preview link
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }} # <-- CORRECTED: Changed GiTHUB_TOKEN to GITHUB_TOKEN
+          github-token: ${{ secrets.BOT_GITHUB_TOKEN }}
           script: |
             const prNumber = context.payload.number;
             const repoName = context.repo.repo;
@@ -148,36 +149,36 @@ jobs:
                 body: `✅ Preview was deployed and has been cleaned up after PR closure.`
               });
             }
+  # Not needed (at the moment) due to us deploying main to cloudflare automagically
+  # deploy-main:
+  #   runs-on: ubuntu-22.04
+  #   if: github.ref == 'refs/heads/main'
+  #   env:
+  #     HUGO_CACHEDIR: /tmp/hugo_cache
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #       with:
+  #         submodules: true
+  #         fetch-depth: 0
 
-  deploy-main:
-    runs-on: ubuntu-22.04
-    if: github.ref == 'refs/heads/main'
-    env:
-      HUGO_CACHEDIR: /tmp/hugo_cache
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
+  #     - name: Setup Hugo
+  #       uses: peaceiris/actions-hugo@v3
+  #       with:
+  #         hugo-version: '0.147.2'
+  #         extended: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.147.2'
-          extended: true
+  #     - uses: actions/cache@v4
+  #       with:
+  #         path: ${{ env.HUGO_CACHEDIR }}
+  #         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-hugomod-
 
-      - uses: actions/cache@v4
-        with:
-          path: ${{ env.HUGO_CACHEDIR }}
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+  #     - name: Build for main branch
+  #       run: hugo --minify
 
-      - name: Build for main branch
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages (main)
-        uses: peaceiris/actions-gh-pages@v3
-        with:
+  #     - name: Deploy to GitHub Pages (main)
+  #       uses: peaceiris/actions-gh-pages@v4
+  #       with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # <-- CORRECTED: Changed GH_BOT_TOKEN to GITHUB_TOKEN
           publish_dir: ./public
