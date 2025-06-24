@@ -10,4 +10,4 @@ external_url: https://historicengland.org.uk/listing/the-list/list-entry/1393074
 ---
 Portable airship shed built in 1912; the frame was reassembled in this location in 2004. It's now in a commercial office park on the edge of Farnborough Airport.
 
-The construction forms a quiet space, often popular with photographers, especially at sunset.
+The construction forms a quiet space, often popular with office workers eating lunch and photographers, especially at sunset.
