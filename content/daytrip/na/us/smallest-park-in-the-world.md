@@ -1,11 +1,11 @@
 ---
 slug: "daytrip/na/us/smallest-park-in-the-world"
 title: Smallest Park in the World
-location: Portland, Oregon, Pacific Northwest, U.S.A., 97201
+location: 833 Southwest Naito Parkway, Portland, Oregon 97201, U.S.A.
 poster: rainwriter
 date: '2012-09-01T06:37:00'
-lat: '45.516242'
-lng: '-122.673517'
+lat: 45.516211
+lng: -122.673251
 external_url: null
 ---
 
@@ -14,3 +14,6 @@ The Mill Ends Park has been designated the smallest park in the world by the Gui
 <em>rainwriter said:</em>
 
         The photo is of the park in summer. In the autumn the flowers die back and occasionally a brightly colored leaf from a nearby tree will drop into the park.
+
+<em>NDT says:</em>
+No longer the record-holder: this has been taken by [Nagaizumi in Japan](https://www.guinnessworldrecords.com/news/2025/2/japanese-park-thats-not-even-one-square-metre-is-smallest-in-the-world).
