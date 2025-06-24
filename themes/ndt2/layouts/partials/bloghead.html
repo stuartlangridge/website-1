@@ -19,9 +19,9 @@
 
     {{ $resources = $resources | append (resources.Get "css/blog.css") -}}
 
-    {{ $css := $resources | resources.Concat "/css/blogstyle.css" | minify }}
+    {{ $css := $resources | resources.Concat "css/blogstyle.css" | minify }}
 
-    <link rel="stylesheet" href="{{ $css | relURL }}">
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
     <title>{{ .Title }}</title>
     <link rel="me" href="https://mastodon.social/@nerdydaytrips">
