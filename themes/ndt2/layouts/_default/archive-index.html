@@ -47,13 +47,13 @@
                       <li><strong>{{ $country }}</strong>
                         <ul>
                           {{ range $pages }}
-                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                           {{ end }}
                         </ul>
                       </li>
                     {{ else }}
                       {{ range $pages }}
-                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
                     {{ end }}
                   {{ end }}
@@ -65,13 +65,13 @@
                   <li><strong>{{ $country }}</strong>
                     <ul>
                       {{ range $pages }}
-                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
                     </ul>
                   </li>
                 {{ else }}
                   {{ range $pages }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                   {{ end }}
                 {{ end }}
               {{ end }}
@@ -85,7 +85,7 @@
   <h2>Blog Posts</h2>
   <ul class="archive-tree">
     {{ range where site.RegularPages "Section" "blog" }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 02, 2006" }}</li>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 02, 2006" }}</li>
     {{ end }}
   </ul>
 </div>

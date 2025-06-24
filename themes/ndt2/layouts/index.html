@@ -58,7 +58,7 @@ async function loadMarkers(L, map) {
         .then(venues => {
             // jump to a place on the map if there's one in the document fragment, part 1
             let jumpToSlug;
-            if (location.hash && location.hash.match(/#daytrip/)) {
+            if (location.hash && location.hash.match(/#\/?daytrip/)) {
                 jumpToSlug = decodeURIComponent(location.hash).substr(1); // remove #
             }
 
@@ -81,9 +81,9 @@ async function loadMarkers(L, map) {
                 marker.addTo(cluster);
                 allMarkers.push(marker); // Store marker reference
                 
-                console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
+                //console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
                 if (jumpToSlug && jumpToSlug == v.permalink) {
-                    console.log("Fly, my pretties")
+                    //console.log("Fly, my pretties")
                     map.flyTo([v.lat, v.lng], 19);
                 }
             })
