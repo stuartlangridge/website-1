@@ -81,9 +81,9 @@ async function loadMarkers(L, map) {
                 marker.addTo(cluster);
                 allMarkers.push(marker); // Store marker reference
                 
-                console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
+                //console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
                 if (jumpToSlug && jumpToSlug == v.permalink) {
-                    console.log("Fly, my pretties")
+                    //console.log("Fly, my pretties")
                     map.flyTo([v.lat, v.lng], 19);
                 }
             })
