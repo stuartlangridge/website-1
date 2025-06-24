@@ -149,36 +149,36 @@ jobs:
                 body: `✅ Preview was deployed and has been cleaned up after PR closure.`
               });
             }
+  # Not needed (at the moment) due to us deploying main to cloudflare automagically
+  # deploy-main:
+  #   runs-on: ubuntu-22.04
+  #   if: github.ref == 'refs/heads/main'
+  #   env:
+  #     HUGO_CACHEDIR: /tmp/hugo_cache
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #       with:
+  #         submodules: true
+  #         fetch-depth: 0
 
-  deploy-main:
-    runs-on: ubuntu-22.04
-    if: github.ref == 'refs/heads/main'
-    env:
-      HUGO_CACHEDIR: /tmp/hugo_cache
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
+  #     - name: Setup Hugo
+  #       uses: peaceiris/actions-hugo@v3
+  #       with:
+  #         hugo-version: '0.147.2'
+  #         extended: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.147.2'
-          extended: true
+  #     - uses: actions/cache@v4
+  #       with:
+  #         path: ${{ env.HUGO_CACHEDIR }}
+  #         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-hugomod-
 
-      - uses: actions/cache@v4
-        with:
-          path: ${{ env.HUGO_CACHEDIR }}
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+  #     - name: Build for main branch
+  #       run: hugo --minify
 
-      - name: Build for main branch
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages (main)
-        uses: peaceiris/actions-gh-pages@v4
-        with:
+  #     - name: Deploy to GitHub Pages (main)
+  #       uses: peaceiris/actions-gh-pages@v4
+  #       with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # <-- CORRECTED: Changed GH_BOT_TOKEN to GITHUB_TOKEN
           publish_dir: ./public
