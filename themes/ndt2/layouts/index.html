@@ -81,7 +81,7 @@ async function loadMarkers(L, map) {
                 marker.addTo(cluster);
                 allMarkers.push(marker); // Store marker reference
                 
-                console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
+                //console.log({jumpToSlug, p: v.permalink, eq: jumpToSlug == v.permalink})
                 if (jumpToSlug && jumpToSlug == v.permalink) {
                     console.log("Fly, my pretties")
                     map.flyTo([v.lat, v.lng], 19);
@@ -169,7 +169,27 @@ document.addEventListener('DOMContentLoaded', function() {
         icon.className = "fa-solid fa-map-location-dot";
         button.append(icon);
         a.parentNode.insertBefore(button, a.nextElementSibling);
-    })
+    });
+
+
+    /* Update the Add button on this page to take you to the add screen
+       with the map location in the URL, so the add screen can show
+       the same place on the add map that you were looking at on the
+       main map. */
+    const header_add_link = document.querySelector('header#banner a[href*="add."]');
+    if (header_add_link) {
+        header_add_link.onclick = e => {
+            const u = new URL(header_add_link.href);
+            const usp = new URLSearchParams(u.search);
+            const c = map.getCenter();
+            usp.set("lat", c.lat);
+            usp.set("lon", c.lng);
+            usp.set("zoom", map.getZoom());
+            u.search = "?" + usp;
+            header_add_link.href = u;
+        }
+    }
+
 });
 
 // Locate button functionality
